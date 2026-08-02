@@ -1,6 +1,6 @@
 # Competitive Programming Portfolio
 
-Automatically maintained by [CP-Agent](https://github.com/) -- solving
+Automatically maintained by [CP-Agent](https://github.com/narasingapranav/cp-agent) -- solving
 problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
