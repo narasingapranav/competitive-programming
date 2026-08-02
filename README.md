@@ -7,8 +7,8 @@ problems and committing here is fully hands-off.
 
 ## 📊 Statistics
 
-- **Total solved:** 18
-- **Solved today:** 18
+- **Total solved:** 19
+- **Solved today:** 19
 - **Current streak:** 1 day(s)
 
 ### By platform
@@ -16,18 +16,19 @@ problems and committing here is fully hands-off.
 | Platform | Solved |
 |----------|--------|
 | Codeforces | 3 |
-| LeetCode | 15 |
+| LeetCode | 16 |
 
 ### By language
 
 | Language | Solved |
 |----------|--------|
-| Python | 18 |
+| Python | 19 |
 
 ### Recent submissions
 
 | Date | Platform | Problem | File |
 |------|----------|---------|------|
+| 2026-08-02 | LeetCode | number-of-unique-xor-triplets-ii | `LeetCode\number-of-unique-xor-triplets-ii.py` |
 | 2026-08-02 | LeetCode | number-of-unique-xor-triplets-i | `LeetCode\number-of-unique-xor-triplets-i.py` |
 | 2026-08-02 | LeetCode | reduce-array-size-to-the-half | `LeetCode\reduce-array-size-to-the-half.py` |
 | 2026-08-02 | LeetCode | maximum-product-of-three-numbers | `LeetCode\maximum-product-of-three-numbers.py` |
@@ -37,6 +38,5 @@ problems and committing here is fully hands-off.
 | 2026-08-02 | LeetCode | minimum-number-of-pushes-to-type-word-i | `LeetCode\minimum-number-of-pushes-to-type-word-i.py` |
 | 2026-08-02 | LeetCode | minimum-number-of-pushes-to-type-word-ii | `LeetCode\minimum-number-of-pushes-to-type-word-ii.py` |
 | 2026-08-02 | LeetCode | predict-the-winner | `LeetCode\predict-the-winner.py` |
-| 2026-08-02 | LeetCode | maximize-pair-strength-using-gcd | `LeetCode\maximize-pair-strength-using-gcd.py` |
 
 <!-- CP-AGENT:END -->
