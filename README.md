@@ -7,8 +7,8 @@ problems and committing here is fully hands-off.
 
 ## 📊 Statistics
 
-- **Total solved:** 22
-- **Solved today:** 22
+- **Total solved:** 23
+- **Solved today:** 23
 - **Current streak:** 1 day(s)
 
 ### By platform
@@ -16,18 +16,19 @@ problems and committing here is fully hands-off.
 | Platform | Solved |
 |----------|--------|
 | Codeforces | 3 |
-| LeetCode | 19 |
+| LeetCode | 20 |
 
 ### By language
 
 | Language | Solved |
 |----------|--------|
-| Python | 22 |
+| Python | 23 |
 
 ### Recent submissions
 
 | Date | Platform | Problem | File |
 |------|----------|---------|------|
+| 2026-08-02 | LeetCode | maximum-product-of-two-digits | `LeetCode\maximum-product-of-two-digits.py` |
 | 2026-08-02 | LeetCode | add-digits | `LeetCode\add-digits.py` |
 | 2026-08-02 | LeetCode | number-of-common-factors | `LeetCode\number-of-common-factors.py` |
 | 2026-08-02 | LeetCode | smallest-even-multiple | `LeetCode\smallest-even-multiple.py` |
@@ -37,6 +38,5 @@ problems and committing here is fully hands-off.
 | 2026-08-02 | LeetCode | maximum-product-of-three-numbers | `LeetCode\maximum-product-of-three-numbers.py` |
 | 2026-08-02 | LeetCode | largest-integer-with-given-digit-sum | `LeetCode\largest-integer-with-given-digit-sum.py` |
 | 2026-08-02 | LeetCode | maximum-product-of-two-elements-in-an-array | `LeetCode\maximum-product-of-two-elements-in-an-array.py` |
-| 2026-08-02 | LeetCode | smallest-palindromic-rearrangement-i | `LeetCode\smallest-palindromic-rearrangement-i.py` |
 
 <!-- CP-AGENT:END -->
