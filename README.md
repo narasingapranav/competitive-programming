@@ -7,8 +7,8 @@ problems and committing here is fully hands-off.
 
 ## 📊 Statistics
 
-- **Total solved:** 10
-- **Solved today:** 10
+- **Total solved:** 11
+- **Solved today:** 11
 - **Current streak:** 1 day(s)
 
 ### By platform
@@ -16,18 +16,19 @@ problems and committing here is fully hands-off.
 | Platform | Solved |
 |----------|--------|
 | Codeforces | 3 |
-| LeetCode | 7 |
+| LeetCode | 8 |
 
 ### By language
 
 | Language | Solved |
 |----------|--------|
-| Python | 10 |
+| Python | 11 |
 
 ### Recent submissions
 
 | Date | Platform | Problem | File |
 |------|----------|---------|------|
+| 2026-08-02 | LeetCode | minimum-number-of-pushes-to-type-word-ii | `LeetCode\minimum-number-of-pushes-to-type-word-ii.py` |
 | 2026-08-02 | LeetCode | predict-the-winner | `LeetCode\predict-the-winner.py` |
 | 2026-08-02 | LeetCode | maximize-pair-strength-using-gcd | `LeetCode\maximize-pair-strength-using-gcd.py` |
 | 2026-08-02 | LeetCode | count-subarrays-with-even-odd-ratio-i | `LeetCode\count-subarrays-with-even-odd-ratio-i.py` |
@@ -37,6 +38,5 @@ problems and committing here is fully hands-off.
 | 2026-08-02 | LeetCode | teemo-attacking | `LeetCode\teemo-attacking.py` |
 | 2026-08-02 | Codeforces | 268A | `Codeforces\268\A.py` |
 | 2026-08-02 | Codeforces | 2244A | `Codeforces\2244\A.py` |
-| 2026-08-02 | Codeforces | 1594A | `Codeforces\1594\A.py` |
 
 <!-- CP-AGENT:END -->
