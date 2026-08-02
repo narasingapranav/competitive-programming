@@ -7,8 +7,8 @@ problems and committing here is fully hands-off.
 
 ## 📊 Statistics
 
-- **Total solved:** 3
-- **Solved today:** 3
+- **Total solved:** 4
+- **Solved today:** 4
 - **Current streak:** 1 day(s)
 
 ### By platform
@@ -16,18 +16,19 @@ problems and committing here is fully hands-off.
 | Platform | Solved |
 |----------|--------|
 | Codeforces | 3 |
-| LeetCode | 0 |
+| LeetCode | 1 |
 
 ### By language
 
 | Language | Solved |
 |----------|--------|
-| Python | 3 |
+| Python | 4 |
 
 ### Recent submissions
 
 | Date | Platform | Problem | File |
 |------|----------|---------|------|
+| 2026-08-02 | LeetCode | teemo-attacking | `LeetCode\teemo-attacking.py` |
 | 2026-08-02 | Codeforces | 268A | `Codeforces\268\A.py` |
 | 2026-08-02 | Codeforces | 2244A | `Codeforces\2244\A.py` |
 | 2026-08-02 | Codeforces | 1594A | `Codeforces\1594\A.py` |
