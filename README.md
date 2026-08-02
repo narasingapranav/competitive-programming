@@ -7,8 +7,8 @@ problems and committing here is fully hands-off.
 
 ## 📊 Statistics
 
-- **Total solved:** 20
-- **Solved today:** 20
+- **Total solved:** 21
+- **Solved today:** 21
 - **Current streak:** 1 day(s)
 
 ### By platform
@@ -16,18 +16,19 @@ problems and committing here is fully hands-off.
 | Platform | Solved |
 |----------|--------|
 | Codeforces | 3 |
-| LeetCode | 17 |
+| LeetCode | 18 |
 
 ### By language
 
 | Language | Solved |
 |----------|--------|
-| Python | 20 |
+| Python | 21 |
 
 ### Recent submissions
 
 | Date | Platform | Problem | File |
 |------|----------|---------|------|
+| 2026-08-02 | LeetCode | number-of-common-factors | `LeetCode\number-of-common-factors.py` |
 | 2026-08-02 | LeetCode | smallest-even-multiple | `LeetCode\smallest-even-multiple.py` |
 | 2026-08-02 | LeetCode | number-of-unique-xor-triplets-ii | `LeetCode\number-of-unique-xor-triplets-ii.py` |
 | 2026-08-02 | LeetCode | number-of-unique-xor-triplets-i | `LeetCode\number-of-unique-xor-triplets-i.py` |
@@ -37,6 +38,5 @@ problems and committing here is fully hands-off.
 | 2026-08-02 | LeetCode | maximum-product-of-two-elements-in-an-array | `LeetCode\maximum-product-of-two-elements-in-an-array.py` |
 | 2026-08-02 | LeetCode | smallest-palindromic-rearrangement-i | `LeetCode\smallest-palindromic-rearrangement-i.py` |
 | 2026-08-02 | LeetCode | minimum-number-of-pushes-to-type-word-i | `LeetCode\minimum-number-of-pushes-to-type-word-i.py` |
-| 2026-08-02 | LeetCode | minimum-number-of-pushes-to-type-word-ii | `LeetCode\minimum-number-of-pushes-to-type-word-ii.py` |
 
 <!-- CP-AGENT:END -->
