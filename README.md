@@ -7,8 +7,8 @@ problems and committing here is fully hands-off.
 
 ## 📊 Statistics
 
-- **Total solved:** 7
-- **Solved today:** 7
+- **Total solved:** 8
+- **Solved today:** 8
 - **Current streak:** 1 day(s)
 
 ### By platform
@@ -16,18 +16,19 @@ problems and committing here is fully hands-off.
 | Platform | Solved |
 |----------|--------|
 | Codeforces | 3 |
-| LeetCode | 4 |
+| LeetCode | 5 |
 
 ### By language
 
 | Language | Solved |
 |----------|--------|
-| Python | 7 |
+| Python | 8 |
 
 ### Recent submissions
 
 | Date | Platform | Problem | File |
 |------|----------|---------|------|
+| 2026-08-02 | LeetCode | count-subarrays-with-even-odd-ratio-i | `LeetCode\count-subarrays-with-even-odd-ratio-i.py` |
 | 2026-08-02 | LeetCode | count-of-unfinished-tasks-after-each-shift | `LeetCode\count-of-unfinished-tasks-after-each-shift.py` |
 | 2026-08-02 | LeetCode | stone-game | `LeetCode\stone-game.py` |
 | 2026-08-02 | LeetCode | reverse-string-ii | `LeetCode\reverse-string-ii.py` |
