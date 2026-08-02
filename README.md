@@ -7,8 +7,8 @@ problems and committing here is fully hands-off.
 
 ## 📊 Statistics
 
-- **Total solved:** 13
-- **Solved today:** 13
+- **Total solved:** 14
+- **Solved today:** 14
 - **Current streak:** 1 day(s)
 
 ### By platform
@@ -16,18 +16,19 @@ problems and committing here is fully hands-off.
 | Platform | Solved |
 |----------|--------|
 | Codeforces | 3 |
-| LeetCode | 10 |
+| LeetCode | 11 |
 
 ### By language
 
 | Language | Solved |
 |----------|--------|
-| Python | 13 |
+| Python | 14 |
 
 ### Recent submissions
 
 | Date | Platform | Problem | File |
 |------|----------|---------|------|
+| 2026-08-02 | LeetCode | maximum-product-of-two-elements-in-an-array | `LeetCode\maximum-product-of-two-elements-in-an-array.py` |
 | 2026-08-02 | LeetCode | smallest-palindromic-rearrangement-i | `LeetCode\smallest-palindromic-rearrangement-i.py` |
 | 2026-08-02 | LeetCode | minimum-number-of-pushes-to-type-word-i | `LeetCode\minimum-number-of-pushes-to-type-word-i.py` |
 | 2026-08-02 | LeetCode | minimum-number-of-pushes-to-type-word-ii | `LeetCode\minimum-number-of-pushes-to-type-word-ii.py` |
@@ -37,6 +38,5 @@ problems and committing here is fully hands-off.
 | 2026-08-02 | LeetCode | count-of-unfinished-tasks-after-each-shift | `LeetCode\count-of-unfinished-tasks-after-each-shift.py` |
 | 2026-08-02 | LeetCode | stone-game | `LeetCode\stone-game.py` |
 | 2026-08-02 | LeetCode | reverse-string-ii | `LeetCode\reverse-string-ii.py` |
-| 2026-08-02 | LeetCode | teemo-attacking | `LeetCode\teemo-attacking.py` |
 
 <!-- CP-AGENT:END -->
