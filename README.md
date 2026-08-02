@@ -7,8 +7,8 @@ problems and committing here is fully hands-off.
 
 ## 📊 Statistics
 
-- **Total solved:** 4
-- **Solved today:** 4
+- **Total solved:** 5
+- **Solved today:** 5
 - **Current streak:** 1 day(s)
 
 ### By platform
@@ -16,18 +16,19 @@ problems and committing here is fully hands-off.
 | Platform | Solved |
 |----------|--------|
 | Codeforces | 3 |
-| LeetCode | 1 |
+| LeetCode | 2 |
 
 ### By language
 
 | Language | Solved |
 |----------|--------|
-| Python | 4 |
+| Python | 5 |
 
 ### Recent submissions
 
 | Date | Platform | Problem | File |
 |------|----------|---------|------|
+| 2026-08-02 | LeetCode | reverse-string-ii | `LeetCode\reverse-string-ii.py` |
 | 2026-08-02 | LeetCode | teemo-attacking | `LeetCode\teemo-attacking.py` |
 | 2026-08-02 | Codeforces | 268A | `Codeforces\268\A.py` |
 | 2026-08-02 | Codeforces | 2244A | `Codeforces\2244\A.py` |
