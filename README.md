@@ -7,8 +7,8 @@ problems and committing here is fully hands-off.
 
 ## 📊 Statistics
 
-- **Total solved:** 9
-- **Solved today:** 9
+- **Total solved:** 10
+- **Solved today:** 10
 - **Current streak:** 1 day(s)
 
 ### By platform
@@ -16,18 +16,19 @@ problems and committing here is fully hands-off.
 | Platform | Solved |
 |----------|--------|
 | Codeforces | 3 |
-| LeetCode | 6 |
+| LeetCode | 7 |
 
 ### By language
 
 | Language | Solved |
 |----------|--------|
-| Python | 9 |
+| Python | 10 |
 
 ### Recent submissions
 
 | Date | Platform | Problem | File |
 |------|----------|---------|------|
+| 2026-08-02 | LeetCode | predict-the-winner | `LeetCode\predict-the-winner.py` |
 | 2026-08-02 | LeetCode | maximize-pair-strength-using-gcd | `LeetCode\maximize-pair-strength-using-gcd.py` |
 | 2026-08-02 | LeetCode | count-subarrays-with-even-odd-ratio-i | `LeetCode\count-subarrays-with-even-odd-ratio-i.py` |
 | 2026-08-02 | LeetCode | count-of-unfinished-tasks-after-each-shift | `LeetCode\count-of-unfinished-tasks-after-each-shift.py` |
