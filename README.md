@@ -5,9 +5,9 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-36-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-8-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-3%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-14-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-22-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-37-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-1-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-4%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-15-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-22-FFA116?style=flat-square)
 
-_Last updated: 2026-08-04 22:39 UTC_
+_Last updated: 2026-08-05 13:53 UTC_
 
 ---
 
@@ -17,17 +17,18 @@ _Last updated: 2026-08-04 22:39 UTC_
 
 | Platform | Solved |
 |:--|--:|
-| 🔵 Codeforces | **14** |
+| 🔵 Codeforces | **15** |
 | 🟠 LeetCode | **22** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-36-3776AB?style=flat-square)
+![Python](https://img.shields.io/badge/Python-37-3776AB?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-08-05 | 🔵 Codeforces | [25A](https://codeforces.com/problemset/problem/25/A) | [`A.py`](./Codeforces/25/A.py) |
 | 2026-08-04 | 🔵 Codeforces | [131A](https://codeforces.com/problemset/problem/131/A) | [`A.py`](./Codeforces/131/A.py) |
 | 2026-08-04 | 🔵 Codeforces | [158B](https://codeforces.com/problemset/problem/158/B) | [`B.py`](./Codeforces/158/B.py) |
 | 2026-08-04 | 🔵 Codeforces | [723A](https://codeforces.com/problemset/problem/723/A) | [`A.py`](./Codeforces/723/A.py) |
@@ -37,6 +38,5 @@ _Last updated: 2026-08-04 22:39 UTC_
 | 2026-08-04 | 🔵 Codeforces | [141A](https://codeforces.com/problemset/problem/141/A) | [`A.py`](./Codeforces/141/A.py) |
 | 2026-08-04 | 🟠 LeetCode | [find-missing-elements](https://leetcode.com/problems/find-missing-elements/) | [`find-missing-elements.py`](./LeetCode/find-missing-elements.py) |
 | 2026-08-03 | 🟠 LeetCode | [find-mode-in-binary-search-tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/) | [`find-mode-in-binary-search-tree.py`](./LeetCode/find-mode-in-binary-search-tree.py) |
-| 2026-08-03 | 🔵 Codeforces | [318A](https://codeforces.com/problemset/problem/318/A) | [`A.py`](./Codeforces/318/A.py) |
 
 <!-- CP-AGENT:END -->
