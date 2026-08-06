@@ -5,9 +5,9 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-43-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-3-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-5%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-18-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-25-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-44-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-4-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-5%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-18-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-26-FFA116?style=flat-square)
 
-_Last updated: 2026-08-06 09:45 UTC_
+_Last updated: 2026-08-06 09:46 UTC_
 
 ---
 
@@ -18,16 +18,17 @@ _Last updated: 2026-08-06 09:45 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **18** |
-| 🟠 LeetCode | **25** |
+| 🟠 LeetCode | **26** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-43-3776AB?style=flat-square)
+![Python](https://img.shields.io/badge/Python-44-3776AB?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-08-06 | 🟠 LeetCode | [remove-methods-from-project](https://leetcode.com/problems/remove-methods-from-project/) | [`remove-methods-from-project.py`](./LeetCode/remove-methods-from-project.py) |
 | 2026-08-06 | 🟠 LeetCode | [stone-game-iii](https://leetcode.com/problems/stone-game-iii/) | [`stone-game-iii.py`](./LeetCode/stone-game-iii.py) |
 | 2026-08-06 | 🟠 LeetCode | [number-of-1-bits](https://leetcode.com/problems/number-of-1-bits/) | [`number-of-1-bits.py`](./LeetCode/number-of-1-bits.py) |
 | 2026-08-06 | 🟠 LeetCode | [smallest-divisible-digit-product-i](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | [`smallest-divisible-digit-product-i.py`](./LeetCode/smallest-divisible-digit-product-i.py) |
@@ -37,6 +38,5 @@ _Last updated: 2026-08-06 09:45 UTC_
 | 2026-08-05 | 🔵 Codeforces | [25A](https://codeforces.com/problemset/problem/25/A) | [`A.py`](./Codeforces/25/A.py) |
 | 2026-08-04 | 🔵 Codeforces | [131A](https://codeforces.com/problemset/problem/131/A) | [`A.py`](./Codeforces/131/A.py) |
 | 2026-08-04 | 🔵 Codeforces | [158B](https://codeforces.com/problemset/problem/158/B) | [`B.py`](./Codeforces/158/B.py) |
-| 2026-08-04 | 🔵 Codeforces | [723A](https://codeforces.com/problemset/problem/723/A) | [`A.py`](./Codeforces/723/A.py) |
 
 <!-- CP-AGENT:END -->
