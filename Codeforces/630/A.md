@@ -33,7 +33,7 @@ For any integer n >= 2, the number 5^n always ends with the digits 25.
 
 ```python
 n=int(input())
-print(5**n)
+print(25)
 ```
 
 </details>
