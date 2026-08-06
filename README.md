@@ -5,7 +5,7 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-50-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-10-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-5%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-21-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-29-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-51-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-11-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-5%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-22-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-29-FFA116?style=flat-square)
 
 _Last updated: 2026-08-06 15:21 UTC_
 
@@ -17,17 +17,18 @@ _Last updated: 2026-08-06 15:21 UTC_
 
 | Platform | Solved |
 |:--|--:|
-| 🔵 Codeforces | **21** |
+| 🔵 Codeforces | **22** |
 | 🟠 LeetCode | **29** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-50-3776AB?style=flat-square)
+![Python](https://img.shields.io/badge/Python-51-3776AB?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-08-06 | 🔵 Codeforces | [1669A](https://codeforces.com/problemset/problem/1669/A) | [`A.py`](./Codeforces/1669/A.py) |
 | 2026-08-06 | 🔵 Codeforces | [381A](https://codeforces.com/problemset/problem/381/A) | [`A.py`](./Codeforces/381/A.py) |
 | 2026-08-06 | 🔵 Codeforces | [1475A](https://codeforces.com/problemset/problem/1475/A) | [`A.py`](./Codeforces/1475/A.py) |
 | 2026-08-06 | 🔵 Codeforces | [630A](https://codeforces.com/problemset/problem/630/A) | [`A.py`](./Codeforces/630/A.py) |
@@ -37,6 +38,5 @@ _Last updated: 2026-08-06 15:21 UTC_
 | 2026-08-06 | 🟠 LeetCode | [remove-methods-from-project](https://leetcode.com/problems/remove-methods-from-project/) | [`remove-methods-from-project.py`](./LeetCode/remove-methods-from-project.py) |
 | 2026-08-06 | 🟠 LeetCode | [stone-game-iii](https://leetcode.com/problems/stone-game-iii/) | [`stone-game-iii.py`](./LeetCode/stone-game-iii.py) |
 | 2026-08-06 | 🟠 LeetCode | [number-of-1-bits](https://leetcode.com/problems/number-of-1-bits/) | [`number-of-1-bits.py`](./LeetCode/number-of-1-bits.py) |
-| 2026-08-06 | 🟠 LeetCode | [smallest-divisible-digit-product-i](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | [`smallest-divisible-digit-product-i.py`](./LeetCode/smallest-divisible-digit-product-i.py) |
 
 <!-- CP-AGENT:END -->
