@@ -1,6 +1,6 @@
 # 🟠 find-the-duplicate-number — Find the Duplicate Number
 
-![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-java-007396?style=flat-square)
+![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
 **Problem link:** [View on LeetCode](https://leetcode.com/problems/find-the-duplicate-number/) &nbsp;|&nbsp; **Solved:** 2026-08-07
 
@@ -8,11 +8,11 @@
 
 ## 📝 Summary
 
-Given an array of integers containing n + 1 numbers in the range [1, n], find and return the duplicate number.
+Given an array of n + 1 integers where each integer is in the range [1, n], find the single duplicate number.
 
 ## 🔍 Key Observation
 
-Iterating through the array while storing seen elements in a hash set allows immediate detection of the duplicate when an element is encountered a second time.
+By storing visited elements in a hash set, the duplicate element can be immediately identified when it is encountered a second time.
 
 ## ⚙️ Algorithm
 
@@ -31,17 +31,14 @@ Iterating through the array while storing seen elements in a hash set allows imm
 <details>
 <summary>💻 View solution</summary>
 
-```java
-class Solution {
-    public int findDuplicate(int[] nums) {
-        HashSet<Integer> set = new HashSet<>();
-        for (int i:nums){
-            if (set.contains(i)) return i;
-            set.add(i);
-        }
-        return 0;
-    }
-}
+```python
+class Solution:
+    def findDuplicate(self, nums: List[int]) -> int:
+        s=set()
+        for i in nums:
+            if i in s:
+                return i
+            s.add(i)
 ```
 
 </details>
