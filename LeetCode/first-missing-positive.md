@@ -1,6 +1,6 @@
 # 🟠 first-missing-positive — First Missing Positive
 
-![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-java-007396?style=flat-square)
+![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
 **Problem link:** [View on LeetCode](https://leetcode.com/problems/first-missing-positive/) &nbsp;|&nbsp; **Solved:** 2026-08-07
 
@@ -8,15 +8,15 @@
 
 ## 📝 Summary
 
-Find the smallest missing positive integer from an unsorted array of integers.
+Find the smallest missing positive integer in an unsorted array of integers.
 
 ## 🔍 Key Observation
 
-The smallest missing positive integer must fall within the range [1, n + 1], where n is the length of the array.
+The smallest missing positive integer must lie within the range 1 to n + 1, where n is the length of the array.
 
 ## ⚙️ Algorithm
 
-**Hash Set Lookup**
+**Hash set lookup**
 
 ## ⏱️ Complexity
 
@@ -31,22 +31,14 @@ The smallest missing positive integer must fall within the range [1, n + 1], whe
 <details>
 <summary>💻 View solution</summary>
 
-```java
-class Solution {
-    public int firstMissingPositive(int[] nums) {
-      int n=nums.length;
-      HashSet<Integer> set = new HashSet<>();
-      for(int i:nums){
-        set.add(i);
-      }
-      for(int i=1;i<=n+1;i++){
-        if(!set.contains(i)){
-            return i;
-        }
-      }  
-      return 0;
-    }
-}
+```python
+class Solution:
+    def firstMissingPositive(self, nums: List[int]) -> int:
+        n = len(nums)
+        se = set(nums)
+        for i in range(1, n+2):
+            if i not in se:
+                return i
 ```
 
 </details>
