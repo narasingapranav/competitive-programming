@@ -1,6 +1,6 @@
 # 🟠 magnetic-force-between-two-balls — Magnetic Force Between Two Balls
 
-![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-java-007396?style=flat-square)
+![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
 **Problem link:** [View on LeetCode](https://leetcode.com/problems/magnetic-force-between-two-balls/) &nbsp;|&nbsp; **Solved:** 2026-08-08
 
@@ -8,21 +8,21 @@
 
 ## 📝 Summary
 
-Given an array of basket positions and $m$ balls, place all balls into baskets such that the minimum magnetic force (distance) between any two balls is maximized.
+Given an array of basket positions and a number of balls m, place all m balls into distinct baskets such that the minimum magnetic force (distance) between any two balls is maximized.
 
 ## 🔍 Key Observation
 
-The check for whether it is possible to place $m$ balls with at least a target minimum distance between them is monotonic, allowing the use of binary search on the distance value combined with a greedy check.
+The feasibility of placing m balls with a guaranteed minimum distance d is monotonic, allowing us to binary search for the maximum possible minimum distance.
 
 ## ⚙️ Algorithm
 
-**Binary search + greedy**
+**Binary search on answer + Greedy check**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `O(n log n + n log(max_pos - min_pos))` | `O(1)` |
+| `O(n log n + n log(max_pos - min_pos))` | `O(n)` |
 
 ## 🏷️ Tags
 
@@ -31,38 +31,30 @@ The check for whether it is possible to place $m$ balls with at least a target m
 <details>
 <summary>💻 View solution</summary>
 
-```java
-class Solution {
-    public int maxDistance(int[] position, int m) {
-        Arrays.sort(position);
-        int l=1;
-        int h=position[position.length-1]-position[0];
-        while (l<=h){
-            int mid=l+(h-l)/2;
-            if(solve(mid,position,m)){
-                l=mid+1;
-            }
-            else{
-                h=mid-1;
-            }
-        }
-        return h+1;
-    }
-    public boolean solve(int distance,int[] position,int m){
-        int c=1;
-        int last = position[0];
-        for(int i=1;i<position.length;i++){
-            if(position[i]-last >distance){
-                c++;
-                last = position[i];
-                if(c==m){
-                    return true;
-                }
-            }
-        }
-        return false;
-    }
-}
+```python
+import math
+class Solution:
+    def maxDistance(self, position: List[int], m: int) -> int:
+        def solve(dist):
+            c=1
+            last=position[0]
+            for i in position[1:]:
+                if i-last>=dist:
+                    c+=1
+                    last=i
+                    if c==m:
+                        return True
+            return False
+        position.sort()
+        l=1
+        h=position[-1]-position[0]
+        while l<=h:
+            mid=l+(h-l)//2
+            if solve(mid):
+                l=mid+1
+            else:
+                h=mid-1
+        return h
 ```
 
 </details>
