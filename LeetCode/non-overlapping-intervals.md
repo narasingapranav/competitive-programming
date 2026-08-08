@@ -8,15 +8,15 @@
 
 ## 📝 Summary
 
-Find the minimum number of intervals that must be removed from a given array of intervals to ensure the remaining intervals do not overlap.
+Find the minimum number of intervals to remove from a list so that the remaining intervals do not overlap.
 
 ## 🔍 Key Observation
 
-To maximize the number of non-overlapping intervals retained, always greedily choose the interval that finishes earliest.
+Maximizing the number of kept non-overlapping intervals is equivalent to the classic Activity Selection Problem, which can be solved by greedily picking intervals that end earliest.
 
 ## ⚙️ Algorithm
 
-**Greedy interval scheduling**
+**Greedy (Interval Scheduling)**
 
 ## ⏱️ Complexity
 
@@ -26,7 +26,7 @@ To maximize the number of non-overlapping intervals retained, always greedily ch
 
 ## 🏷️ Tags
 
-`greedy` `sorting` `intervals`
+`greedy` `intervals` `sorting`
 
 <details>
 <summary>💻 View solution</summary>
