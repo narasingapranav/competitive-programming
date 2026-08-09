@@ -5,7 +5,7 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-86-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-1-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-8%20days%20%F0%9F%94%A5-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-29-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-57-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-87-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-2-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-8%20days%20%F0%9F%94%A5-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-29-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-58-FFA116?style=flat-square)
 
 _Last updated: 2026-08-09 23:03 UTC_
 
@@ -18,16 +18,17 @@ _Last updated: 2026-08-09 23:03 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **29** |
-| 🟠 LeetCode | **57** |
+| 🟠 LeetCode | **58** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-78-3776AB?style=flat-square) ![Java](https://img.shields.io/badge/Java-8-007396?style=flat-square)
+![Python](https://img.shields.io/badge/Python-79-3776AB?style=flat-square) ![Java](https://img.shields.io/badge/Java-8-007396?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-08-09 | 🟠 LeetCode | [stone-game-ii](https://leetcode.com/problems/stone-game-ii/) | [`stone-game-ii.py`](./LeetCode/stone-game-ii.py) |
 | 2026-08-09 | 🔵 Codeforces | [1692A](https://codeforces.com/problemset/problem/1692/A) | [`A.py`](./Codeforces/1692/A.py) |
 | 2026-08-08 | 🟠 LeetCode | [subarray-sum-equals-k](https://leetcode.com/problems/subarray-sum-equals-k/) | [`subarray-sum-equals-k.java`](./LeetCode/subarray-sum-equals-k.java) |
 | 2026-08-08 | 🟠 LeetCode | [find-if-path-exists-in-graph](https://leetcode.com/problems/find-if-path-exists-in-graph/) | [`find-if-path-exists-in-graph.py`](./LeetCode/find-if-path-exists-in-graph.py) |
@@ -37,6 +38,5 @@ _Last updated: 2026-08-09 23:03 UTC_
 | 2026-08-08 | 🟠 LeetCode | [minimum-time-to-complete-trips](https://leetcode.com/problems/minimum-time-to-complete-trips/) | [`minimum-time-to-complete-trips.java`](./LeetCode/minimum-time-to-complete-trips.java) |
 | 2026-08-08 | 🟠 LeetCode | [accounts-merge](https://leetcode.com/problems/accounts-merge/) | [`accounts-merge.py`](./LeetCode/accounts-merge.py) |
 | 2026-08-08 | 🟠 LeetCode | [non-overlapping-intervals](https://leetcode.com/problems/non-overlapping-intervals/) | [`non-overlapping-intervals.py`](./LeetCode/non-overlapping-intervals.py) |
-| 2026-08-08 | 🟠 LeetCode | [magnetic-force-between-two-balls](https://leetcode.com/problems/magnetic-force-between-two-balls/) | [`magnetic-force-between-two-balls.py`](./LeetCode/magnetic-force-between-two-balls.py) |
 
 <!-- CP-AGENT:END -->
