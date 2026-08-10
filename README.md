@@ -5,7 +5,7 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-96-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-7-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-9%20days%20%F0%9F%94%A5-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-30-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-66-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-97-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-8-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-9%20days%20%F0%9F%94%A5-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-30-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-67-FFA116?style=flat-square)
 
 _Last updated: 2026-08-10 22:40 UTC_
 
@@ -18,16 +18,17 @@ _Last updated: 2026-08-10 22:40 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **30** |
-| 🟠 LeetCode | **66** |
+| 🟠 LeetCode | **67** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-86-3776AB?style=flat-square) ![Java](https://img.shields.io/badge/Java-10-007396?style=flat-square)
+![Python](https://img.shields.io/badge/Python-87-3776AB?style=flat-square) ![Java](https://img.shields.io/badge/Java-10-007396?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-08-10 | 🟠 LeetCode | [bag-of-tokens](https://leetcode.com/problems/bag-of-tokens/) | [`bag-of-tokens.py`](./LeetCode/bag-of-tokens.py) |
 | 2026-08-10 | 🟠 LeetCode | [queue-reconstruction-by-height](https://leetcode.com/problems/queue-reconstruction-by-height/) | [`queue-reconstruction-by-height.py`](./LeetCode/queue-reconstruction-by-height.py) |
 | 2026-08-10 | 🟠 LeetCode | [word-pattern](https://leetcode.com/problems/word-pattern/) | [`word-pattern.java`](./LeetCode/word-pattern.java) |
 | 2026-08-10 | 🟠 LeetCode | [bulls-and-cows](https://leetcode.com/problems/bulls-and-cows/) | [`bulls-and-cows.py`](./LeetCode/bulls-and-cows.py) |
@@ -37,6 +38,5 @@ _Last updated: 2026-08-10 22:40 UTC_
 | 2026-08-10 | 🔵 Codeforces | [1999A](https://codeforces.com/problemset/problem/1999/A) | [`A.py`](./Codeforces/1999/A.py) |
 | 2026-08-09 | 🟠 LeetCode | [find-the-lexicographically-smallest-valid-sequence](https://leetcode.com/problems/find-the-lexicographically-smallest-valid-sequence/) | [`find-the-lexicographically-smallest-valid-sequence.java`](./LeetCode/find-the-lexicographically-smallest-valid-sequence.java) |
 | 2026-08-09 | 🟠 LeetCode | [weighted-sum-of-a-tree](https://leetcode.com/problems/weighted-sum-of-a-tree/) | [`weighted-sum-of-a-tree.py`](./LeetCode/weighted-sum-of-a-tree.py) |
-| 2026-08-09 | 🟠 LeetCode | [stone-game-ii](https://leetcode.com/problems/stone-game-ii/) | [`stone-game-ii.py`](./LeetCode/stone-game-ii.py) |
 
 <!-- CP-AGENT:END -->
