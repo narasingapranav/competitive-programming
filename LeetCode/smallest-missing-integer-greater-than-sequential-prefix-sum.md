@@ -8,25 +8,25 @@
 
 ## 📝 Summary
 
-Find the sum of the longest sequential prefix starting at index 0, then identify the smallest integer greater than or equal to this sum that is missing from the array.
+Calculate the sum of the longest sequential prefix in the array, then find the smallest integer greater than or equal to this sum that is absent from the array.
 
 ## 🔍 Key Observation
 
-The sequential prefix ends at the first index where nums[i] != nums[i-1] + 1; starting from the sum of this prefix, we continuously increment by 1 until reaching a value not present in the array.
+The sequential prefix ends at the first index where an element is not equal to its predecessor plus one; after calculating its sum, we can use a hash set to efficiently increment to the smallest missing integer.
 
 ## ⚙️ Algorithm
 
-**Prefix Scan + HashSet/Linear Search**
+**Hash set + Linear scan**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `O(n^2)` | `O(1)` |
+| `O(n)` | `O(n)` |
 
 ## 🏷️ Tags
 
-`array` `hash-table` `simulation`
+`array` `hash-table` `prefix-sum`
 
 <details>
 <summary>💻 View solution</summary>
@@ -40,7 +40,8 @@ class Solution:
                 su+=nums[i]
             else:
                 break
-        while su in nums:
+        s=set(nums)
+        while su in s:
             su+=1
         return su
 ```

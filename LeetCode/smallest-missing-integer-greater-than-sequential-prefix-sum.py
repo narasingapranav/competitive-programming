@@ -6,6 +6,7 @@ class Solution:
                 su+=nums[i]
             else:
                 break
-        while su in nums:
+        s=set(nums)
+        while su in s:
             su+=1
         return su
