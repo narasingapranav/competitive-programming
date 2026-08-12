@@ -5,7 +5,7 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-124-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-9-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-11%20days%20%F0%9F%94%A5-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-35-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-89-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-125-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-10-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-11%20days%20%F0%9F%94%A5-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-35-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-90-FFA116?style=flat-square)
 
 _Last updated: 2026-08-12 21:16 UTC_
 
@@ -18,16 +18,17 @@ _Last updated: 2026-08-12 21:16 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **35** |
-| 🟠 LeetCode | **89** |
+| 🟠 LeetCode | **90** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-108-3776AB?style=flat-square) ![Java](https://img.shields.io/badge/Java-16-007396?style=flat-square)
+![Python](https://img.shields.io/badge/Python-108-3776AB?style=flat-square) ![Java](https://img.shields.io/badge/Java-16-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-1-00599C?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-08-12 | 🟠 LeetCode | [rotate-array](https://leetcode.com/problems/rotate-array/) | [`rotate-array.cpp`](./LeetCode/rotate-array.cpp) |
 | 2026-08-12 | 🟠 LeetCode | [sort-colors](https://leetcode.com/problems/sort-colors/) | [`sort-colors.py`](./LeetCode/sort-colors.py) |
 | 2026-08-12 | 🟠 LeetCode | [frequency-of-the-most-frequent-element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/) | [`frequency-of-the-most-frequent-element.py`](./LeetCode/frequency-of-the-most-frequent-element.py) |
 | 2026-08-12 | 🟠 LeetCode | [maximum-binary-tree](https://leetcode.com/problems/maximum-binary-tree/) | [`maximum-binary-tree.py`](./LeetCode/maximum-binary-tree.py) |
@@ -37,6 +38,5 @@ _Last updated: 2026-08-12 21:16 UTC_
 | 2026-08-12 | 🔵 Codeforces | [1807A](https://codeforces.com/problemset/problem/1807/A) | [`A.py`](./Codeforces/1807/A.py) |
 | 2026-08-12 | 🔵 Codeforces | [581A](https://codeforces.com/problemset/problem/581/A) | [`A.py`](./Codeforces/581/A.py) |
 | 2026-08-12 | 🟠 LeetCode | [length-of-longest-subarray-with-at-most-k-frequency](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/) | [`length-of-longest-subarray-with-at-most-k-frequency.py`](./LeetCode/length-of-longest-subarray-with-at-most-k-frequency.py) |
-| 2026-08-11 | 🟠 LeetCode | [smallest-string-with-swaps](https://leetcode.com/problems/smallest-string-with-swaps/) | [`smallest-string-with-swaps.py`](./LeetCode/smallest-string-with-swaps.py) |
 
 <!-- CP-AGENT:END -->
