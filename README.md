@@ -5,7 +5,7 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-136-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-1-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-13%20days%20%F0%9F%94%A5-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-41-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-95-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-137-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-2-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-13%20days%20%F0%9F%94%A5-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-42-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-95-FFA116?style=flat-square)
 
 _Last updated: 2026-08-14 21:23 UTC_
 
@@ -17,17 +17,18 @@ _Last updated: 2026-08-14 21:23 UTC_
 
 | Platform | Solved |
 |:--|--:|
-| 🔵 Codeforces | **41** |
+| 🔵 Codeforces | **42** |
 | 🟠 LeetCode | **95** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-119-3776AB?style=flat-square) ![Java](https://img.shields.io/badge/Java-16-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-1-00599C?style=flat-square)
+![Python](https://img.shields.io/badge/Python-120-3776AB?style=flat-square) ![Java](https://img.shields.io/badge/Java-16-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-1-00599C?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-08-14 | 🔵 Codeforces | [1858A](https://codeforces.com/problemset/problem/1858/A) | [`A.py`](./Codeforces/1858/A.py) |
 | 2026-08-14 | 🔵 Codeforces | [1788A](https://codeforces.com/problemset/problem/1788/A) | [`A.py`](./Codeforces/1788/A.py) |
 | 2026-08-13 | 🟠 LeetCode | [next-greater-element-ii](https://leetcode.com/problems/next-greater-element-ii/) | [`next-greater-element-ii.py`](./LeetCode/next-greater-element-ii.py) |
 | 2026-08-13 | 🟠 LeetCode | [remove-k-digits](https://leetcode.com/problems/remove-k-digits/) | [`remove-k-digits.py`](./LeetCode/remove-k-digits.py) |
@@ -37,6 +38,5 @@ _Last updated: 2026-08-14 21:23 UTC_
 | 2026-08-13 | 🔵 Codeforces | [1594D](https://codeforces.com/problemset/problem/1594/D) | [`D.py`](./Codeforces/1594/D.py) |
 | 2026-08-13 | 🔵 Codeforces | [1594E1](https://codeforces.com/problemset/problem/1594/E1) | [`E1.py`](./Codeforces/1594/E1.py) |
 | 2026-08-12 | 🔵 Codeforces | [1352A](https://codeforces.com/problemset/problem/1352/A) | [`A.py`](./Codeforces/1352/A.py) |
-| 2026-08-12 | 🔵 Codeforces | [1335A](https://codeforces.com/problemset/problem/1335/A) | [`A.py`](./Codeforces/1335/A.py) |
 
 <!-- CP-AGENT:END -->
