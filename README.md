@@ -5,7 +5,7 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-146-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-11-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-13%20days%20%F0%9F%94%A5-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-46-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-100-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-147-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-12-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-13%20days%20%F0%9F%94%A5-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-46-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-101-FFA116?style=flat-square)
 
 _Last updated: 2026-08-14 21:26 UTC_
 
@@ -18,16 +18,17 @@ _Last updated: 2026-08-14 21:26 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **46** |
-| 🟠 LeetCode | **100** |
+| 🟠 LeetCode | **101** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-129-3776AB?style=flat-square) ![Java](https://img.shields.io/badge/Java-16-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-1-00599C?style=flat-square)
+![Python](https://img.shields.io/badge/Python-130-3776AB?style=flat-square) ![Java](https://img.shields.io/badge/Java-16-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-1-00599C?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-08-14 | 🟠 LeetCode | [car-fleet](https://leetcode.com/problems/car-fleet/) | [`car-fleet.py`](./LeetCode/car-fleet.py) |
 | 2026-08-14 | 🟠 LeetCode | [subarrays-distinct-element-sum-of-squares-i](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/) | [`subarrays-distinct-element-sum-of-squares-i.py`](./LeetCode/subarrays-distinct-element-sum-of-squares-i.py) |
 | 2026-08-14 | 🟠 LeetCode | [fruits-into-baskets-ii](https://leetcode.com/problems/fruits-into-baskets-ii/) | [`fruits-into-baskets-ii.py`](./LeetCode/fruits-into-baskets-ii.py) |
 | 2026-08-14 | 🟠 LeetCode | [reveal-cards-in-increasing-order](https://leetcode.com/problems/reveal-cards-in-increasing-order/) | [`reveal-cards-in-increasing-order.py`](./LeetCode/reveal-cards-in-increasing-order.py) |
@@ -37,6 +38,5 @@ _Last updated: 2026-08-14 21:26 UTC_
 | 2026-08-14 | 🔵 Codeforces | [1829B](https://codeforces.com/problemset/problem/1829/B) | [`B.py`](./Codeforces/1829/B.py) |
 | 2026-08-14 | 🔵 Codeforces | [1805A](https://codeforces.com/problemset/problem/1805/A) | [`A.py`](./Codeforces/1805/A.py) |
 | 2026-08-14 | 🔵 Codeforces | [1814A](https://codeforces.com/problemset/problem/1814/A) | [`A.py`](./Codeforces/1814/A.py) |
-| 2026-08-14 | 🔵 Codeforces | [1858A](https://codeforces.com/problemset/problem/1858/A) | [`A.py`](./Codeforces/1858/A.py) |
 
 <!-- CP-AGENT:END -->
