@@ -5,7 +5,7 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-141-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-6-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-13%20days%20%F0%9F%94%A5-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-46-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-95-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-142-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-7-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-13%20days%20%F0%9F%94%A5-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-46-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-96-FFA116?style=flat-square)
 
 _Last updated: 2026-08-14 21:24 UTC_
 
@@ -18,16 +18,17 @@ _Last updated: 2026-08-14 21:24 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **46** |
-| 🟠 LeetCode | **95** |
+| 🟠 LeetCode | **96** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-124-3776AB?style=flat-square) ![Java](https://img.shields.io/badge/Java-16-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-1-00599C?style=flat-square)
+![Python](https://img.shields.io/badge/Python-125-3776AB?style=flat-square) ![Java](https://img.shields.io/badge/Java-16-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-1-00599C?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-08-14 | 🟠 LeetCode | [jump-game-vi](https://leetcode.com/problems/jump-game-vi/) | [`jump-game-vi.py`](./LeetCode/jump-game-vi.py) |
 | 2026-08-14 | 🔵 Codeforces | [1903A](https://codeforces.com/problemset/problem/1903/A) | [`A.py`](./Codeforces/1903/A.py) |
 | 2026-08-14 | 🔵 Codeforces | [1829B](https://codeforces.com/problemset/problem/1829/B) | [`B.py`](./Codeforces/1829/B.py) |
 | 2026-08-14 | 🔵 Codeforces | [1805A](https://codeforces.com/problemset/problem/1805/A) | [`A.py`](./Codeforces/1805/A.py) |
@@ -37,6 +38,5 @@ _Last updated: 2026-08-14 21:24 UTC_
 | 2026-08-13 | 🟠 LeetCode | [next-greater-element-ii](https://leetcode.com/problems/next-greater-element-ii/) | [`next-greater-element-ii.py`](./LeetCode/next-greater-element-ii.py) |
 | 2026-08-13 | 🟠 LeetCode | [remove-k-digits](https://leetcode.com/problems/remove-k-digits/) | [`remove-k-digits.py`](./LeetCode/remove-k-digits.py) |
 | 2026-08-13 | 🟠 LeetCode | [sum-of-subarray-minimums](https://leetcode.com/problems/sum-of-subarray-minimums/) | [`sum-of-subarray-minimums.py`](./LeetCode/sum-of-subarray-minimums.py) |
-| 2026-08-13 | 🟠 LeetCode | [largest-rectangle-in-histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [`largest-rectangle-in-histogram.py`](./LeetCode/largest-rectangle-in-histogram.py) |
 
 <!-- CP-AGENT:END -->
