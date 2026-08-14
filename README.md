@@ -5,7 +5,7 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-151-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-16-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-13%20days%20%F0%9F%94%A5-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-46-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-105-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-152-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-17-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-13%20days%20%F0%9F%94%A5-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-46-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-106-FFA116?style=flat-square)
 
 _Last updated: 2026-08-14 21:27 UTC_
 
@@ -18,16 +18,17 @@ _Last updated: 2026-08-14 21:27 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **46** |
-| 🟠 LeetCode | **105** |
+| 🟠 LeetCode | **106** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-134-3776AB?style=flat-square) ![Java](https://img.shields.io/badge/Java-16-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-1-00599C?style=flat-square)
+![Python](https://img.shields.io/badge/Python-135-3776AB?style=flat-square) ![Java](https://img.shields.io/badge/Java-16-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-1-00599C?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-08-14 | 🟠 LeetCode | [longest-substring-of-one-repeating-character](https://leetcode.com/problems/longest-substring-of-one-repeating-character/) | [`longest-substring-of-one-repeating-character.py`](./LeetCode/longest-substring-of-one-repeating-character.py) |
 | 2026-08-14 | 🟠 LeetCode | [maximum-length-substring-with-two-occurrences](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/) | [`maximum-length-substring-with-two-occurrences.py`](./LeetCode/maximum-length-substring-with-two-occurrences.py) |
 | 2026-08-14 | 🟠 LeetCode | [dota2-senate](https://leetcode.com/problems/dota2-senate/) | [`dota2-senate.py`](./LeetCode/dota2-senate.py) |
 | 2026-08-14 | 🟠 LeetCode | [range-sum-query-mutable](https://leetcode.com/problems/range-sum-query-mutable/) | [`range-sum-query-mutable.py`](./LeetCode/range-sum-query-mutable.py) |
@@ -37,6 +38,5 @@ _Last updated: 2026-08-14 21:27 UTC_
 | 2026-08-14 | 🟠 LeetCode | [fruits-into-baskets-ii](https://leetcode.com/problems/fruits-into-baskets-ii/) | [`fruits-into-baskets-ii.py`](./LeetCode/fruits-into-baskets-ii.py) |
 | 2026-08-14 | 🟠 LeetCode | [reveal-cards-in-increasing-order](https://leetcode.com/problems/reveal-cards-in-increasing-order/) | [`reveal-cards-in-increasing-order.py`](./LeetCode/reveal-cards-in-increasing-order.py) |
 | 2026-08-14 | 🟠 LeetCode | [insert-interval](https://leetcode.com/problems/insert-interval/) | [`insert-interval.py`](./LeetCode/insert-interval.py) |
-| 2026-08-14 | 🟠 LeetCode | [jump-game-vi](https://leetcode.com/problems/jump-game-vi/) | [`jump-game-vi.py`](./LeetCode/jump-game-vi.py) |
 
 <!-- CP-AGENT:END -->
