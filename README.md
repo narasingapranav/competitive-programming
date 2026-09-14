@@ -5,7 +5,7 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-825-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-631-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-764-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-826-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-632-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-765-FFA116?style=flat-square)
 
 _Last updated: 2026-09-14 15:40 UTC_
 
@@ -18,16 +18,17 @@ _Last updated: 2026-09-14 15:40 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **61** |
-| 🟠 LeetCode | **764** |
+| 🟠 LeetCode | **765** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-673-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-126-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-22-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
+![Python](https://img.shields.io/badge/Python-674-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-126-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-22-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-09-14 | 🟠 LeetCode | [maximum-number-of-darts-inside-of-a-circular-dartboard](https://leetcode.com/problems/maximum-number-of-darts-inside-of-a-circular-dartboard/) | [`maximum-number-of-darts-inside-of-a-circular-dartboard.py`](./LeetCode/maximum-number-of-darts-inside-of-a-circular-dartboard.py) |
 | 2026-09-14 | 🟠 LeetCode | [minimum-lines-to-represent-a-line-chart](https://leetcode.com/problems/minimum-lines-to-represent-a-line-chart/) | [`minimum-lines-to-represent-a-line-chart.py`](./LeetCode/minimum-lines-to-represent-a-line-chart.py) |
 | 2026-09-14 | 🟠 LeetCode | [smallest-even-multiple](https://leetcode.com/problems/smallest-even-multiple/) | [`smallest-even-multiple.py`](./LeetCode/smallest-even-multiple.py) |
 | 2026-09-14 | 🟠 LeetCode | [number-of-common-factors](https://leetcode.com/problems/number-of-common-factors/) | [`number-of-common-factors.py`](./LeetCode/number-of-common-factors.py) |
@@ -37,6 +38,5 @@ _Last updated: 2026-09-14 15:40 UTC_
 | 2026-09-14 | 🟠 LeetCode | [sort-integers-by-the-number-of-1-bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/) | [`sort-integers-by-the-number-of-1-bits.py`](./LeetCode/sort-integers-by-the-number-of-1-bits.py) |
 | 2026-09-14 | 🟠 LeetCode | [split-array-largest-sum](https://leetcode.com/problems/split-array-largest-sum/) | [`split-array-largest-sum.py`](./LeetCode/split-array-largest-sum.py) |
 | 2026-09-14 | 🟠 LeetCode | [split-array-largest-sum](https://leetcode.com/problems/split-array-largest-sum/) | [`split-array-largest-sum.py`](./LeetCode/split-array-largest-sum.py) |
-| 2026-09-14 | 🟠 LeetCode | [koko-eating-bananas](https://leetcode.com/problems/koko-eating-bananas/) | [`koko-eating-bananas.py`](./LeetCode/koko-eating-bananas.py) |
 
 <!-- CP-AGENT:END -->
