@@ -1,3 +1,5 @@
 class Solution:
     def findGCD(self, nums: List[int]) -> int:
-        return gcd(max(nums),min(nums))
+        mini=min(nums)
+        maxi=max(nums)
+        return math.gcd(mini,maxi)

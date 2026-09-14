@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) &nbsp;|&nbsp; **Solved:** 2026-07-18
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) &nbsp;|&nbsp; **Solved:** 2025-10-11
 
 ---
 
@@ -34,7 +34,9 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def findGCD(self, nums: List[int]) -> int:
-        return gcd(max(nums),min(nums))
+        mini=min(nums)
+        maxi=max(nums)
+        return math.gcd(mini,maxi)
 ```
 
 </details>
