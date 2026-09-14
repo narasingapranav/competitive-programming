@@ -34,10 +34,8 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def sortedSquares(self, nums: List[int]) -> List[int]:
-        new = []
-        for i in nums:
-            new.append(i*i)
-        return sorted(new)
+        l=[i*i for i in nums]
+        return sorted(l)
 ```
 
 </details>
