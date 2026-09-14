@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-unknown-555555?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/department-highest-salary/) &nbsp;|&nbsp; **Solved:** 2026-07-22
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/department-highest-salary/) &nbsp;|&nbsp; **Solved:** 2026-06-03
 
 ---
 
@@ -33,9 +33,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ```
 # Write your MySQL query statement below
-select department,employee,salary from (
-    select d.name as department,e.name as employee,e.salary as salary,dense_rank() over(partition by d.id  order by e.salary desc ) as rnk from Employee e join Department d on e.departmentid=d.id
-)t where t.rnk=1
+select d.name as Department , e.name as Employee, e.salary as Salary  from Employee e , Department d where e.departmentId=d.id and (e.departmentId,salary) in (select departmentId , max(salary) from Employee group by departmentId)
 ```
 
 </details>
