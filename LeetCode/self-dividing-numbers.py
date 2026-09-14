@@ -1,13 +1,15 @@
 class Solution:
     def selfDividingNumbers(self, left: int, right: int) -> List[int]:
-        def isself(n):
-            a=str(n)
-            for i in a:
-                if i=='0' or  n%int(i)!=0:
-                    return False
-            return True
-        res=[]
-        for i in range(left,right+1):
-            if isself(i):
-                res.append(i)
-        return res
+        result = []
+        for num in range(left, right + 1):
+            n = num
+            flag = True
+            while n > 0:
+                rem = n % 10
+                if rem == 0 or num % rem != 0:
+                    flag = False
+                    break
+                n //= 10
+            if flag:
+                result.append(num)
+        return result
