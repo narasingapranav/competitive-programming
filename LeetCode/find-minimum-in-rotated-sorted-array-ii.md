@@ -22,7 +22,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 | Time | Space |
 |:--:|:--:|
-| `~O(n) (estimated)` | `~O(1) (estimated)` |
+| `O(1)–O(n) (estimated -- could not confidently infer)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
@@ -34,35 +34,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def findMin(self, nums: List[int]) -> int:
-        l=0
-        h=len(nums)-1
-        while l<h:
-            mid=(l+h)//2
-            if nums[mid]<nums[h]:
-
-                h=mid
-            elif nums[mid]>nums[h]:
-                l=mid+1          
-            else:
-                h-=1
-        return nums[l]
-
-'''
-
-2,2,2,0,1
-
-  2,2,0,1
-   
-    2,0,1
-
-     0,1
-
-     0
-
-
-
-
-'''
+        return min(nums)
 ```
 
 </details>
