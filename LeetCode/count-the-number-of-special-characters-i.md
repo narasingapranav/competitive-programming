@@ -16,17 +16,17 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ## ⚙️ Algorithm
 
-**Direct simulation / brute force**
+**Hash map/set lookup**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `~O(n) (estimated)` | `~O(1) (estimated)` |
+| `~O(n) (estimated)` | `~O(n) (estimated)` |
 
 ## 🏷️ Tags
 
-`untagged`
+`hash-map`
 
 <details>
 <summary>💻 View solution</summary>
@@ -34,15 +34,14 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def numberOfSpecialChars(self, word: str) -> int:
-        a = "abcdefghijklmnopqrstuvwxyz"
-        d = {}
+        a="abcdefghijklmnopqrstuvwxyz"
+        s=set(word)
+        count=0
         for i in a:
-            d[i] = i.upper()
-        count = 0
-        for i in a:
-            if i in word and d[i] in word:
-                count += 1
+            if i in s and i.upper() in s:
+                count+=1
         return count
+
 ```
 
 </details>

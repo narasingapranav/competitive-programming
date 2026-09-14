@@ -1,11 +1,9 @@
 class Solution:
     def numberOfSpecialChars(self, word: str) -> int:
-        a = "abcdefghijklmnopqrstuvwxyz"
-        d = {}
+        a="abcdefghijklmnopqrstuvwxyz"
+        s=set(word)
+        count=0
         for i in a:
-            d[i] = i.upper()
-        count = 0
-        for i in a:
-            if i in word and d[i] in word:
-                count += 1
+            if i in s and i.upper() in s:
+                count+=1
         return count
