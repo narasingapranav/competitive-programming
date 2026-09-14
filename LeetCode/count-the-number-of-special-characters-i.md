@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/count-the-number-of-special-characters-i/) &nbsp;|&nbsp; **Solved:** 2026-05-27
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/count-the-number-of-special-characters-i/) &nbsp;|&nbsp; **Solved:** 2026-05-26
 
 ---
 
@@ -34,12 +34,15 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def numberOfSpecialChars(self, word: str) -> int:
-        count=0
-        for i in "abcdefghijklmnopqrstuvwxyz":
-            if i in word and i.upper() in word:
-                count+=1
+        a = "abcdefghijklmnopqrstuvwxyz"
+        d = {}
+        for i in a:
+            d[i] = i.upper()
+        count = 0
+        for i in a:
+            if i in word and d[i] in word:
+                count += 1
         return count
-
 ```
 
 </details>
