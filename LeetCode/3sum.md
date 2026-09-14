@@ -2,31 +2,31 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/3sum/) &nbsp;|&nbsp; **Solved:** 2026-08-12
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/3sum/) &nbsp;|&nbsp; **Solved:** 2025-08-15
 
 ---
 
 ## 📝 Summary
 
-Find all unique triplets in an integer array that sum up to zero.
+Accepted solution for 3Sum on LeetCode.
 
 ## 🔍 Key Observation
 
-Sorting the array allows skipping duplicate values to ensure unique triplets, while a hash map mapping each number to its last index enables checking for the third element in O(1) time.
+Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set one in .env for LLM-authored insight, or edit this section manually.
 
 ## ⚙️ Algorithm
 
-**Sorting + Hash Map**
+**Recursion + Sorting**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `O(n^2)` | `O(n)` |
+| `~O(n^4) (estimated -- 4 nested loops)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
-`array` `hash-table` `sorting` `two-pointers`
+`recursion` `sorting`
 
 <details>
 <summary>💻 View solution</summary>
@@ -34,24 +34,34 @@ Sorting the array allows skipping duplicate values to ensure unique triplets, wh
 ```python
 class Solution:
     def threeSum(self, nums: list[int]) -> list[list[int]]:
-        res=[]
+        res = []
         nums.sort()
-        if nums[0]>0 :
-            return res
-        n=len(nums)
-        d={}
-        for i in range(len(nums)):
-            d[nums[i]]=i
-        for i in range(n-2):
-            if i!=0 and nums[i]==nums[i-1]:
+
+        for i, a in enumerate(nums):
+            if a > 0:
+                break
+
+            if i > 0 and a == nums[i - 1]:
                 continue
-            for j in range(i+1,n-1):
-                if j!=i+1 and nums[j]==nums[j-1]:
-                    continue
-                k=-(nums[i]+nums[j])
-                if k in d and d[k]>j:
-                    res.append([nums[i],nums[j],k])
+
+            l, r = i + 1, len(nums) - 1
+            while l < r:
+                threeSum = a + nums[l] + nums[r]
+
+                if threeSum > 0:
+                    r -= 1
+                elif threeSum < 0:
+                    l += 1
+                else:
+                    res.append([a, nums[l], nums[r]])
+                    l += 1
+                    r -= 1
+                    while nums[l] == nums[l - 1] and l < r:
+                        l += 1
+                    while nums[r] == nums[r + 1] and l < r:
+                        r -= 1
         return res
+
 ```
 
 </details>
