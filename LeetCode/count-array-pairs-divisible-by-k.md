@@ -41,9 +41,9 @@ class Solution:
         count = Counter()
         for num in nums:
             g = gcd(num, k)
-            for i in count:
-                if (g * i) % k == 0:
-                    ans += count[i]
+            for prev_g in count:
+                if (g * prev_g) % k == 0:
+                    ans += count[prev_g]
             count[g] += 1
         return ans
 ```

@@ -5,7 +5,7 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-834-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-640-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-773-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-835-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-641-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-774-FFA116?style=flat-square)
 
 _Last updated: 2026-09-14 15:41 UTC_
 
@@ -18,16 +18,17 @@ _Last updated: 2026-09-14 15:41 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **61** |
-| 🟠 LeetCode | **773** |
+| 🟠 LeetCode | **774** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-682-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-126-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-22-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
+![Python](https://img.shields.io/badge/Python-683-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-126-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-22-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-09-14 | 🟠 LeetCode | [count-array-pairs-divisible-by-k](https://leetcode.com/problems/count-array-pairs-divisible-by-k/) | [`count-array-pairs-divisible-by-k.py`](./LeetCode/count-array-pairs-divisible-by-k.py) |
 | 2026-09-14 | 🟠 LeetCode | [count-array-pairs-divisible-by-k](https://leetcode.com/problems/count-array-pairs-divisible-by-k/) | [`count-array-pairs-divisible-by-k.py`](./LeetCode/count-array-pairs-divisible-by-k.py) |
 | 2026-09-14 | 🟠 LeetCode | [number-of-different-subsequences-gcds](https://leetcode.com/problems/number-of-different-subsequences-gcds/) | [`number-of-different-subsequences-gcds.py`](./LeetCode/number-of-different-subsequences-gcds.py) |
 | 2026-09-14 | 🟠 LeetCode | [number-of-different-subsequences-gcds](https://leetcode.com/problems/number-of-different-subsequences-gcds/) | [`number-of-different-subsequences-gcds.py`](./LeetCode/number-of-different-subsequences-gcds.py) |
@@ -37,6 +38,5 @@ _Last updated: 2026-09-14 15:41 UTC_
 | 2026-09-14 | 🟠 LeetCode | [k-closest-points-to-origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [`k-closest-points-to-origin.py`](./LeetCode/k-closest-points-to-origin.py) |
 | 2026-09-14 | 🟠 LeetCode | [asteroid-collision](https://leetcode.com/problems/asteroid-collision/) | [`asteroid-collision.py`](./LeetCode/asteroid-collision.py) |
 | 2026-09-14 | 🟠 LeetCode | [maximum-number-of-darts-inside-of-a-circular-dartboard](https://leetcode.com/problems/maximum-number-of-darts-inside-of-a-circular-dartboard/) | [`maximum-number-of-darts-inside-of-a-circular-dartboard.py`](./LeetCode/maximum-number-of-darts-inside-of-a-circular-dartboard.py) |
-| 2026-09-14 | 🟠 LeetCode | [minimum-lines-to-represent-a-line-chart](https://leetcode.com/problems/minimum-lines-to-represent-a-line-chart/) | [`minimum-lines-to-represent-a-line-chart.py`](./LeetCode/minimum-lines-to-represent-a-line-chart.py) |
 
 <!-- CP-AGENT:END -->
