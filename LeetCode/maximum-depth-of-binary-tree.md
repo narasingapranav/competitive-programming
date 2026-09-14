@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/maximum-depth-of-binary-tree/) &nbsp;|&nbsp; **Solved:** 2026-07-22
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/maximum-depth-of-binary-tree/) &nbsp;|&nbsp; **Solved:** 2026-07-07
 
 ---
 
@@ -40,9 +40,9 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 #         self.right = right
 class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:
-        if not root :
+        if not root:
             return 0
-        return max(self.maxDepth(root.right),self.maxDepth(root.left))+1
+        return 1+ max(self.maxDepth(root.left),self.maxDepth(root.right))
 ```
 
 </details>
