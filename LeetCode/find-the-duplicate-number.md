@@ -2,31 +2,31 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/find-the-duplicate-number/) &nbsp;|&nbsp; **Solved:** 2026-08-07
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/find-the-duplicate-number/) &nbsp;|&nbsp; **Solved:** 2025-07-08
 
 ---
 
 ## 📝 Summary
 
-Given an array of n + 1 integers where each integer is in the range [1, n], find the single duplicate number.
+Accepted solution for Find the Duplicate Number on LeetCode.
 
 ## 🔍 Key Observation
 
-By storing visited elements in a hash set, the duplicate element can be immediately identified when it is encountered a second time.
+Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set one in .env for LLM-authored insight, or edit this section manually.
 
 ## ⚙️ Algorithm
 
-**Hash Set Lookup**
+**Hash map/set lookup**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `O(n)` | `O(n)` |
+| `~O(n) (estimated)` | `~O(n) (estimated)` |
 
 ## 🏷️ Tags
 
-`array` `hash-table`
+`hash-map`
 
 <details>
 <summary>💻 View solution</summary>
