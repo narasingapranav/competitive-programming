@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-unknown-555555?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/customers-who-never-order/) &nbsp;|&nbsp; **Solved:** 2026-07-22
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/customers-who-never-order/) &nbsp;|&nbsp; **Solved:** 2026-06-03
 
 ---
 
@@ -33,7 +33,12 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ```
 # Write your MySQL query statement below
-select name as Customers from Customers where id not in (select customerid from Orders);
+SELECT name as Customers
+from Customers
+where id not in (
+    select customerId
+    from Orders
+);
 ```
 
 </details>
