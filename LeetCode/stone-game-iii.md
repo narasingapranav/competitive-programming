@@ -2,31 +2,31 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/stone-game-iii/) &nbsp;|&nbsp; **Solved:** 2026-08-05
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/stone-game-iii/) &nbsp;|&nbsp; **Solved:** 2026-08-29
 
 ---
 
 ## 📝 Summary
 
-Determine the winner ('Alice', 'Bob', or 'Tie') of a game where two players alternate taking 1, 2, or 3 stones from the front of an array, both playing optimally to maximize their total score.
+Accepted solution for Stone Game III on LeetCode.
 
 ## 🔍 Key Observation
 
-The problem can be modeled as finding the maximum score difference (current player minus opponent); from index i, taking k stones yields a net gain of the sum of those k stones minus the optimal score difference achievable by the opponent starting from index i + k.
+Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set one in .env for LLM-authored insight, or edit this section manually.
 
 ## ⚙️ Algorithm
 
-**Dynamic programming / Minimax**
+**Dynamic programming**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `O(n)` | `O(n)` |
+| `~O(n²) (estimated -- DP table detected)` | `~O(n) (estimated)` |
 
 ## 🏷️ Tags
 
-`dynamic-programming` `game-theory` `memoization`
+`dp`
 
 <details>
 <summary>💻 View solution</summary>
