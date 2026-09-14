@@ -5,7 +5,7 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-407-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-213-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-346-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-408-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-214-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-347-FFA116?style=flat-square)
 
 _Last updated: 2026-09-14 15:04 UTC_
 
@@ -18,16 +18,17 @@ _Last updated: 2026-09-14 15:04 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **61** |
-| 🟠 LeetCode | **346** |
+| 🟠 LeetCode | **347** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-367-3776AB?style=flat-square) ![Java](https://img.shields.io/badge/Java-21-007396?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-16-555555?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square)
+![Python](https://img.shields.io/badge/Python-368-3776AB?style=flat-square) ![Java](https://img.shields.io/badge/Java-21-007396?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-16-555555?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-09-14 | 🟠 LeetCode | [daily-temperatures](https://leetcode.com/problems/daily-temperatures/) | [`daily-temperatures.py`](./LeetCode/daily-temperatures.py) |
 | 2026-09-14 | 🟠 LeetCode | [next-greater-element-ii](https://leetcode.com/problems/next-greater-element-ii/) | [`next-greater-element-ii.py`](./LeetCode/next-greater-element-ii.py) |
 | 2026-09-14 | 🟠 LeetCode | [next-greater-element-ii](https://leetcode.com/problems/next-greater-element-ii/) | [`next-greater-element-ii.py`](./LeetCode/next-greater-element-ii.py) |
 | 2026-09-14 | 🟠 LeetCode | [longest-substring-without-repeating-characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [`longest-substring-without-repeating-characters.py`](./LeetCode/longest-substring-without-repeating-characters.py) |
@@ -37,6 +38,5 @@ _Last updated: 2026-09-14 15:04 UTC_
 | 2026-09-14 | 🟠 LeetCode | [jump-game](https://leetcode.com/problems/jump-game/) | [`jump-game.py`](./LeetCode/jump-game.py) |
 | 2026-09-14 | 🟠 LeetCode | [gas-station](https://leetcode.com/problems/gas-station/) | [`gas-station.py`](./LeetCode/gas-station.py) |
 | 2026-09-14 | 🟠 LeetCode | [house-robber](https://leetcode.com/problems/house-robber/) | [`house-robber.py`](./LeetCode/house-robber.py) |
-| 2026-09-14 | 🟠 LeetCode | [valid-palindrome](https://leetcode.com/problems/valid-palindrome/) | [`valid-palindrome.py`](./LeetCode/valid-palindrome.py) |
 
 <!-- CP-AGENT:END -->
