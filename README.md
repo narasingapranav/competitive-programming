@@ -5,7 +5,7 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-924-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-730-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-863-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-925-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-731-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-864-FFA116?style=flat-square)
 
 _Last updated: 2026-09-14 15:48 UTC_
 
@@ -18,16 +18,17 @@ _Last updated: 2026-09-14 15:48 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **61** |
-| 🟠 LeetCode | **863** |
+| 🟠 LeetCode | **864** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-769-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-129-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-22-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
+![Python](https://img.shields.io/badge/Python-770-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-129-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-22-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-09-14 | 🟠 LeetCode | [divisor-game](https://leetcode.com/problems/divisor-game/) | [`divisor-game.py`](./LeetCode/divisor-game.py) |
 | 2026-09-14 | 🟠 LeetCode | [valid-boomerang](https://leetcode.com/problems/valid-boomerang/) | [`valid-boomerang.py`](./LeetCode/valid-boomerang.py) |
 | 2026-09-14 | 🟠 LeetCode | [concatenation-of-array](https://leetcode.com/problems/concatenation-of-array/) | [`concatenation-of-array.py`](./LeetCode/concatenation-of-array.py) |
 | 2026-09-14 | 🟠 LeetCode | [max-consecutive-ones](https://leetcode.com/problems/max-consecutive-ones/) | [`max-consecutive-ones.py`](./LeetCode/max-consecutive-ones.py) |
@@ -36,7 +37,6 @@ _Last updated: 2026-09-14 15:48 UTC_
 | 2026-09-14 | 🟠 LeetCode | [how-many-numbers-are-smaller-than-the-current-number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | [`how-many-numbers-are-smaller-than-the-current-number.py`](./LeetCode/how-many-numbers-are-smaller-than-the-current-number.py) |
 | 2026-09-14 | 🟠 LeetCode | [how-many-numbers-are-smaller-than-the-current-number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | [`how-many-numbers-are-smaller-than-the-current-number.py`](./LeetCode/how-many-numbers-are-smaller-than-the-current-number.py) |
 | 2026-09-14 | 🟠 LeetCode | [find-all-numbers-disappeared-in-an-array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [`find-all-numbers-disappeared-in-an-array.py`](./LeetCode/find-all-numbers-disappeared-in-an-array.py) |
-| 2026-09-14 | 🟠 LeetCode | [delete-columns-to-make-sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | [`delete-columns-to-make-sorted.py`](./LeetCode/delete-columns-to-make-sorted.py) |
 | 2026-09-14 | 🟠 LeetCode | [delete-columns-to-make-sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | [`delete-columns-to-make-sorted.py`](./LeetCode/delete-columns-to-make-sorted.py) |
 
 <!-- CP-AGENT:END -->
