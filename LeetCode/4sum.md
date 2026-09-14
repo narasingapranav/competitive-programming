@@ -59,7 +59,6 @@ class Solution:
                     else:
                         r-=1
         return a
-__import__("atexit").register(lambda: open("display_runtime.txt", "w").write("0"))
 ```
 
 </details>
