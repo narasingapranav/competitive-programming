@@ -1,6 +1,6 @@
 # 🟠 rotate-array — Rotate Array
 
-![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-cpp-00599C?style=flat-square)
+![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
 **Problem link:** [View on LeetCode](https://leetcode.com/problems/rotate-array/) &nbsp;|&nbsp; **Solved:** 2026-08-12
 
@@ -31,17 +31,16 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 <details>
 <summary>💻 View solution</summary>
 
-```cpp
-class Solution {
-public:
-    void rotate(vector<int>& nums, int k) {
-        int n=nums.size();
-        k=k%n;
-        reverse(nums.begin(),nums.end());
-        reverse(nums.begin(),nums.begin()+k);
-        reverse(nums.begin()+k,nums.end());
-    }
-};
+```python
+class Solution:
+    def rotate(self, nums: List[int], k: int) -> None:
+        n=len(nums)
+        k%=n
+        nums[:]=nums[(n-k):]+nums[:(n-k)]
+        """
+        Do not return anything, modify nums in-place instead.
+        """
+        
 ```
 
 </details>
