@@ -16,17 +16,17 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ## ⚙️ Algorithm
 
-**Hash map/set lookup**
+**Direct simulation / brute force**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `O(1)–O(n) (estimated -- could not confidently infer)` | `~O(n) (estimated)` |
+| `~O(n) (estimated)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
-`hash-map`
+`untagged`
 
 <details>
 <summary>💻 View solution</summary>
@@ -34,7 +34,19 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
-        return len(set(s)) == len(set(t)) == len(set(zip(s,t)))
+        d={}
+        if len(s)!=len(t):
+            return False
+        ms={}
+        mt={}
+        for i,j in zip(s,t):
+            if i in ms and ms[i]!=j:
+                return False
+            if j in mt and mt[j]!=i:
+                return False
+            ms[i]=j
+            mt[j]=i
+        return True
 ```
 
 </details>
