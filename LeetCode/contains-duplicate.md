@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/contains-duplicate/) &nbsp;|&nbsp; **Solved:** 2026-06-01
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/contains-duplicate/) &nbsp;|&nbsp; **Solved:** 2025-08-15
 
 ---
 
@@ -34,7 +34,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
-        return not len(set(nums))==len(nums)
+        return not len(set(nums)) == len(nums)
 ```
 
 </details>
