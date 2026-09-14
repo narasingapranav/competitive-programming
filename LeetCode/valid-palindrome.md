@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/valid-palindrome/) &nbsp;|&nbsp; **Solved:** 2026-07-22
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/valid-palindrome/) &nbsp;|&nbsp; **Solved:** 2026-07-09
 
 ---
 
@@ -22,7 +22,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 | Time | Space |
 |:--:|:--:|
-| `~O(n^2) (estimated -- 2 nested loops)` | `~O(1) (estimated)` |
+| `~O(n) (estimated)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
@@ -34,18 +34,8 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-        st=""
-        for i in s:
-            if i.isalnum():
-                st+=i.lower()
-        low=0
-        high=len(st)-1
-        while low<=high:
-            if st[low]!=st[high]:
-                return False
-            low+=1
-            high-=1
-        return True
+        s="".join(i for i in s if i.isalnum()).lower()
+        return s==s[::-1]
 ```
 
 </details>
