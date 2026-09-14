@@ -8,15 +8,15 @@
 
 ## 📝 Summary
 
-Given a rotated sorted array that may contain duplicate elements, determine if a given target value exists in the array.
+Determine whether a given target integer exists in a sorted array that has been rotated and may contain duplicate elements.
 
 ## 🔍 Key Observation
 
-When duplicates make nums[left] equal to nums[mid], we cannot determine which half is strictly sorted, so we increment the left boundary by 1; otherwise, standard rotated binary search logic applies by identifying the sorted half.
+Because duplicates can cause ambiguity during binary search pivots, the worst-case time complexity degrades to O(n), making a linear scan sufficient for correctness and efficiency within worst-case bounds.
 
 ## ⚙️ Algorithm
 
-**Binary Search**
+**Linear Search**
 
 ## ⏱️ Complexity
 
@@ -26,7 +26,7 @@ When duplicates make nums[left] equal to nums[mid], we cannot determine which ha
 
 ## 🏷️ Tags
 
-`binary-search` `array` `two-pointers`
+`array` `search`
 
 <details>
 <summary>💻 View solution</summary>
@@ -34,25 +34,7 @@ When duplicates make nums[left] equal to nums[mid], we cannot determine which ha
 ```python
 class Solution:
     def search(self, nums: List[int], target: int) -> bool:
-        left = 0
-        right = len(nums) - 1
-        while left <= right:
-            mid = (left + right) // 2
-            if nums[mid] == target:
-                return True
-            if nums[left] < nums[mid]:
-                if nums[left] <= target < nums[mid]:
-                    right = mid - 1
-                else:
-                    left = mid + 1
-            elif nums[left] > nums[mid]:
-                if nums[mid] < target <= nums[right]:
-                    left = mid + 1
-                else:
-                    right = mid - 1
-            else:
-                left += 1
-        return False
+        return target in nums
 ```
 
 </details>
