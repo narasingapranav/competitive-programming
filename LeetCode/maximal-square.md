@@ -41,14 +41,12 @@ class Solution:
             for j in range(n):
                 if i==0 or j==0:
                     dp[i][j]=int(matrix[i][j])
-                    if dp[i][j]>mx:
-                        mx=dp[i][j]
+                    mx=max(dp[i][j],mx)
                 elif matrix[i][j]=="0":
                     dp[i][j]=0
                 else:
                     dp[i][j]=1+ min(dp[i-1][j],dp[i][j-1],dp[i-1][j-1])
-                    if dp[i][j]>mx:
-                        mx=dp[i][j]
+                    mx=max(dp[i][j],mx)
         return mx*mx
 ```
 
