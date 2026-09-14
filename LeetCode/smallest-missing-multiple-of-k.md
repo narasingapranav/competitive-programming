@@ -1,6 +1,6 @@
 # 🟠 smallest-missing-multiple-of-k — Smallest Missing Multiple of K
 
-![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-java-007396?style=flat-square)
+![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
 **Problem link:** [View on LeetCode](https://leetcode.com/problems/smallest-missing-multiple-of-k/) &nbsp;|&nbsp; **Solved:** 2026-08-25
 
@@ -31,22 +31,14 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 <details>
 <summary>💻 View solution</summary>
 
-```java
-class Solution {
-    public int missingMultiple(int[] nums, int k) {
-        HashSet<Integer> s= new HashSet<>();
-        for (int i:nums){
-            s.add(i);
-        }
-        int m=Arrays.stream(nums).max().getAsInt();;
-        for(int i=k;i<=m+k;i+=k){
-            if (!s.contains(i)){
-                return i;
-            }
-        }
-        return 0;
-    }
-}
+```python
+class Solution:
+    def missingMultiple(self, nums: List[int], k: int) -> int:
+        s=set(nums)
+        m=max(nums)
+        for i in range(k,m+k+1,k):
+            if i not in s:
+                return i
 ```
 
 </details>
