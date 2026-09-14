@@ -8,59 +8,88 @@
 
 ## 📝 Summary
 
-Find a path from the top-left to the bottom-right of a grid that maximizes the minimum Manhattan distance from any cell on the path to the nearest thief.
+Accepted solution for Find the Safest Path in a Grid on LeetCode.
 
 ## 🔍 Key Observation
 
-Precompute the distance to the nearest thief for all grid cells using multi-source BFS, then use Dijkstra's algorithm to find a path that maximizes the bottleneck cell distance.
+Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set one in .env for LLM-authored insight, or edit this section manually.
 
 ## ⚙️ Algorithm
 
-**Multi-source BFS + Dijkstra's algorithm**
+**Binary search + Graph/tree traversal (BFS/DFS)**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `O(n^2 log n)` | `O(n^2)` |
+| `~O(n^5) (estimated -- 5 nested loops)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
-`multi-source-bfs` `dijkstra` `grid` `graph` `priority-queue`
+`binary-search` `graph`
 
 <details>
 <summary>💻 View solution</summary>
 
 ```python
+from typing import List
+from collections import deque
 class Solution:
-    dirs = [[1, 0], [0, 1], [-1, 0], [0, -1]]
-    def maximumSafenessFactor(self, A: List[List[int]]) -> int:
-        if A[0][0] or A[-1][-1]: return 0
-        n, q = len(A), deque()
-        for i in range(n):
+    def maximumSafenessFactor(self, grid: List[List[int]]) -> int:
+        m = len(grid)
+        n = len(grid[0])
+        if grid[0][0] == 1 or grid[m-1][n-1] == 1:
+            return 0
+        dist = self.getDistance(grid, m, n)
+        lo = 0
+        hi = m + n
+        ans = 0
+        while lo <= hi:
+            mid = (lo + hi) // 2
+            if self.canReach(dist, m, n, mid):
+                ans = mid
+                lo = mid + 1
+            else:
+                hi = mid - 1
+        return ans
+    def getDistance(self, grid, m, n):
+        dist = [[-1] * n for _ in range(m)]
+        q = deque()
+        for i in range(m):
             for j in range(n):
-                if A[i][j]:
+                if grid[i][j] == 1:
+                    dist[i][j] = 0
                     q.append((i, j))
+        dirs = [(1,0), (-1,0), (0,1), (0,-1)]
         while q:
             i, j = q.popleft()
-            v = A[i][j]
-            for dx, dy in self.dirs:
-                x, y = i + dx, j + dy
-                if min(x, y) >= 0 and max(x, y) < n and not A[x][y]:
-                    A[x][y] = v + 1
-                    q.append((x, y))
-        pq = [(-A[0][0], 0, 0)]
-        while pq:
-            sf, i, j = heapq.heappop(pq)
-            sf = -sf
-            if i == n - 1 and j == n - 1:
-                return sf - 1
-            for dx, dy in self.dirs:
-                x, y = i + dx, j + dy
-                if min(x, y) >= 0 and max(x, y) < n and A[x][y] > 0:
-                    heapq.heappush(pq, (-min(sf, A[x][y]), x, y))
-                    A[x][y] *= -1
-        return A[n - 1][n - 1] - 1
+            for di, dj in dirs:
+                ni = i + di
+                nj = j + dj
+                if 0 <= ni < m and 0 <= nj < n:
+                    if dist[ni][nj] == -1:
+                        dist[ni][nj] = dist[i][j] + 1
+                        q.append((ni, nj))
+        return dist
+    def canReach(self, dist, m, n, k):
+        vis = [[False] * n for _ in range(m)]
+        return self.dfs(0, 0, dist, vis, m, n, k)
+    def dfs(self, i, j, dist, vis, m, n, k):
+        if i < 0 or i >= m or j < 0 or j >= n:
+            return False
+        if vis[i][j]:
+            return False
+        if dist[i][j] < k:
+            return False
+        if i == m - 1 and j == n - 1:
+            return True
+        vis[i][j] = True
+        return (
+            self.dfs(i + 1, j, dist, vis, m, n, k) or
+            self.dfs(i - 1, j, dist, vis, m, n, k) or
+            self.dfs(i, j + 1, dist, vis, m, n, k) or
+            self.dfs(i, j - 1, dist, vis, m, n, k)
+        )
 ```
 
 </details>
