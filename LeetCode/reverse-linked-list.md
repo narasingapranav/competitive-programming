@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/reverse-linked-list/) &nbsp;|&nbsp; **Solved:** 2026-07-22
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/reverse-linked-list/) &nbsp;|&nbsp; **Solved:** 2026-07-02
 
 ---
 
@@ -40,12 +40,12 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
         prev=None
-        cur=head
-        while cur:
-            nxt=cur.next
-            cur.next=prev
-            prev=cur
-            cur=nxt
+        curr=head
+        while curr:
+            nxt=curr.next
+            curr.next=prev
+            prev=curr
+            curr=nxt
         return prev
 ```
 
