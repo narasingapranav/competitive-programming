@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-unknown-555555?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/classes-with-at-least-5-students/) &nbsp;|&nbsp; **Solved:** 2026-05-24
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/classes-with-at-least-5-students/) &nbsp;|&nbsp; **Solved:** 2026-05-23
 
 ---
 
