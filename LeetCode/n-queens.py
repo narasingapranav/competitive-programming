@@ -1,25 +1,29 @@
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
-        board=[['.']*n for _ in range(n)]
-        l=[]
-        def issafe(r,c,b):
-            for i in range(n):
-                for j in range(n):
-                    if b[i][j]=='Q':
-                        if abs(r-i)==abs(c-j) or r==i or c==j:
-                            return False
-            return True
-        def place(r,c):
-            board[r][c]='Q'
-        def remove(r,c):
-            board[r][c]='.'
-        def solve(r):
-            if r==n:
-                l.append(["".join(r) for r in board])
-            for c in range(n):
-                if issafe(r,c,board):
-                    place(r,c)
-                    solve(r+1)
-                    remove(r,c)
-        solve(0)
-        return l
+        def backtrack(row, diagonals, anti_diagonals, cols, state):
+            if row == n:
+                board = [''.join(r) for r in state]
+                result.append(board)
+                return
+            for col in range(n):
+                curr_diag = row - col
+                curr_anti_diag = row + col
+                if (col in cols or
+                    curr_diag in diagonals or
+                    curr_anti_diag in anti_diagonals):
+                    continue
+                state[row][col] = 'Q'
+                cols.add(col)
+                diagonals.add(curr_diag)
+                anti_diagonals.add(curr_anti_diag)
+
+                backtrack(row + 1, diagonals, anti_diagonals, cols, state)
+                state[row][col] = '.'
+                cols.remove(col)
+                diagonals.remove(curr_diag)
+                anti_diagonals.remove(curr_anti_diag)
+
+        result = []
+        empty_board = [['.'] * n for _ in range(n)]
+        backtrack(0, set(), set(), set(), empty_board)
+        return result
