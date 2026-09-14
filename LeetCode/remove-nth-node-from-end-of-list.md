@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) &nbsp;|&nbsp; **Solved:** 2025-12-19
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) &nbsp;|&nbsp; **Solved:** 2025-12-06
 
 ---
 
@@ -46,8 +46,9 @@ class Solution:
             c+=1
             temp=temp.next
         pos=c-n-1
+        x=1
         temp=dummy
-        for _ in range(pos):
+        for i in range(pos):
             temp=temp.next
         temp.next=temp.next.next
         return dummy.next

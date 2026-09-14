@@ -12,8 +12,9 @@ class Solution:
             c+=1
             temp=temp.next
         pos=c-n-1
+        x=1
         temp=dummy
-        for _ in range(pos):
+        for i in range(pos):
             temp=temp.next
         temp.next=temp.next.next
         return dummy.next
