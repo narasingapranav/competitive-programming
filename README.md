@@ -5,7 +5,7 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-531-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-337-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-470-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-532-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-338-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-471-FFA116?style=flat-square)
 
 _Last updated: 2026-09-14 15:15 UTC_
 
@@ -18,16 +18,17 @@ _Last updated: 2026-09-14 15:15 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **61** |
-| 🟠 LeetCode | **470** |
+| 🟠 LeetCode | **471** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-479-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-27-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-21-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
+![Python](https://img.shields.io/badge/Python-480-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-27-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-21-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-09-14 | 🟠 LeetCode | [detect-capital](https://leetcode.com/problems/detect-capital/) | [`detect-capital.py`](./LeetCode/detect-capital.py) |
 | 2026-09-14 | 🟠 LeetCode | [largest-number](https://leetcode.com/problems/largest-number/) | [`largest-number.py`](./LeetCode/largest-number.py) |
 | 2026-09-14 | 🟠 LeetCode | [valid-sudoku](https://leetcode.com/problems/valid-sudoku/) | [`valid-sudoku.py`](./LeetCode/valid-sudoku.py) |
 | 2026-09-14 | 🟠 LeetCode | [spiral-matrix-ii](https://leetcode.com/problems/spiral-matrix-ii/) | [`spiral-matrix-ii.py`](./LeetCode/spiral-matrix-ii.py) |
@@ -37,6 +38,5 @@ _Last updated: 2026-09-14 15:15 UTC_
 | 2026-09-14 | 🟠 LeetCode | [longest-common-suffix-queries](https://leetcode.com/problems/longest-common-suffix-queries/) | [`longest-common-suffix-queries.py`](./LeetCode/longest-common-suffix-queries.py) |
 | 2026-09-14 | 🟠 LeetCode | [minimum-element-after-replacement-with-digit-sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/) | [`minimum-element-after-replacement-with-digit-sum.py`](./LeetCode/minimum-element-after-replacement-with-digit-sum.py) |
 | 2026-09-14 | 🟠 LeetCode | [block-placement-queries](https://leetcode.com/problems/block-placement-queries/) | [`block-placement-queries.py`](./LeetCode/block-placement-queries.py) |
-| 2026-09-14 | 🟠 LeetCode | [gas-station](https://leetcode.com/problems/gas-station/) | [`gas-station.py`](./LeetCode/gas-station.py) |
 
 <!-- CP-AGENT:END -->
