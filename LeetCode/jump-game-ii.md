@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/jump-game-ii/) &nbsp;|&nbsp; **Solved:** 2026-07-11
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/jump-game-ii/) &nbsp;|&nbsp; **Solved:** 2026-02-26
 
 ---
 
@@ -33,16 +33,16 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ```python
 class Solution:
-    def jump(self, nums: List[int]) -> int: # [2,3,1,1,4]
-        jumps=0 
+    def jump(self, nums: List[int]) -> int:
+        jumps=0
         curEnd=0
         far=0
-        n=len(nums)  # 5
-        for i in range(n-1): #           0 | 1     | 2     | 3
-            far=max(far,i+nums[i]) #     2 |     4 | 4     | 4
-            if i==curEnd: #           true | false | true  | false
-                jumps+=1 #               1 | skip  | 2     | skip
-                curEnd=far #             2 | skip  | 4     | skip
+        n=len(nums)
+        for i in range(n-1):
+            far=max(far,i+nums[i])
+            if i==curEnd:
+                jumps+=1
+                curEnd=far
         return jumps
 ```
 
