@@ -12,7 +12,7 @@ class Solution:
                         return True
             return False
         position.sort()
-        l=1
+        l=0
         h=position[-1]-position[0]
         while l<=h:
             mid=l+(h-l)//2

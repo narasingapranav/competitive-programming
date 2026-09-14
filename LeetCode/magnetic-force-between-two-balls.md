@@ -8,25 +8,25 @@
 
 ## 📝 Summary
 
-Given an array of basket positions and a number of balls m, place all m balls into distinct baskets such that the minimum magnetic force (distance) between any two balls is maximized.
+Accepted solution for Magnetic Force Between Two Balls on LeetCode.
 
 ## 🔍 Key Observation
 
-The feasibility of placing m balls with a guaranteed minimum distance d is monotonic, allowing us to binary search for the maximum possible minimum distance.
+Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set one in .env for LLM-authored insight, or edit this section manually.
 
 ## ⚙️ Algorithm
 
-**Binary search on answer + Greedy check**
+**Sorting**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `O(n log n + n log(max_pos - min_pos))` | `O(n)` |
+| `~O(n^2) (estimated -- 2 nested loops)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
-`binary-search` `greedy` `sorting` `array`
+`sorting`
 
 <details>
 <summary>💻 View solution</summary>
@@ -46,7 +46,7 @@ class Solution:
                         return True
             return False
         position.sort()
-        l=1
+        l=0
         h=position[-1]-position[0]
         while l<=h:
             mid=l+(h-l)//2
