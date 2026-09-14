@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/power-of-four/) &nbsp;|&nbsp; **Solved:** 2025-08-16
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/power-of-four/) &nbsp;|&nbsp; **Solved:** 2025-08-15
 
 ---
 
@@ -22,7 +22,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 | Time | Space |
 |:--:|:--:|
-| `~O(n) (estimated)` | `~O(1) (estimated)` |
+| `O(1)–O(n) (estimated -- could not confidently infer)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
@@ -34,11 +34,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def isPowerOfFour(self, n: int) -> bool:
-        if n <= 0:
-            return False
-        while n % 4 == 0:
-            n //= 4
-        return n == 1
+        return n>0 and (n & (n-1))==0 and (n & 0xAAAAAAAA) == 0
 ```
 
 </details>
