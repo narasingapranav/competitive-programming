@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/powx-n/) &nbsp;|&nbsp; **Solved:** 2026-07-22
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/powx-n/) &nbsp;|&nbsp; **Solved:** 2025-08-15
 
 ---
 
@@ -16,17 +16,17 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ## ⚙️ Algorithm
 
-**Recursion**
+**Direct simulation / brute force**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `~O(n) (estimated)` | `~O(1) (estimated)` |
+| `O(1)–O(n) (estimated -- could not confidently infer)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
-`recursion`
+`untagged`
 
 <details>
 <summary>💻 View solution</summary>
@@ -34,13 +34,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def myPow(self, x: float, n: int) -> float:
-        if n==0:
-            return 1
-        if n<0:
-            return 1/self.myPow(x,-n)
-        if n&1:
-            return x*self.myPow(x*x,n//2)
-        return self.myPow(x*x,n//2)
+        return pow(x,n)
 ```
 
 </details>
