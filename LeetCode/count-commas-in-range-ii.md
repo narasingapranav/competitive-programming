@@ -8,15 +8,15 @@
 
 ## 📝 Summary
 
-Calculate the total number of commas used when formatting all integers from 1 to n with thousand separators.
+Calculate the total number of commas used when writing all integers from 1 to n with standard three-digit comma formatting.
 
 ## 🔍 Key Observation
 
-Numbers within specific digit count ranges (e.g., 4 to 6 digits, 7 to 9 digits) each contain a constant number of commas, allowing direct O(1) mathematical computation based on magnitude ranges.
+The number of commas in an integer x depends only on its range interval defined by powers of 1000; thus, the total count can be computed in constant time by aggregating full ranges and the partial current range.
 
 ## ⚙️ Algorithm
 
-**Math / Case Analysis**
+**Math / Range partitioning**
 
 ## ⏱️ Complexity
 
@@ -26,7 +26,7 @@ Numbers within specific digit count ranges (e.g., 4 to 6 digits, 7 to 9 digits) 
 
 ## 🏷️ Tags
 
-`math`
+`math` `implementation`
 
 <details>
 <summary>💻 View solution</summary>
@@ -34,19 +34,29 @@ Numbers within specific digit count ranges (e.g., 4 to 6 digits, 7 to 9 digits) 
 ```python
 class Solution:
     def countCommas(self, n: int) -> int:
+
         if n < 1000:
             return 0
+
         if 1000 <= n <= 999999:
             return 1 + (n - 1000)
+
         if 1000000 <= n <= 999999999:
             return 2 + 999000 + (n - 1000000) * 2
+
         if 1000000000 <= n <= 999999999999:
             return 3 + 999000 + 1998000000 + (n - 1000000000) * 3
-        if 1000000000000 <= n <= 999999999999999:
-            return 4 + 999000 + 1998000000 + 2997000000000 + (n - 1000000000000) * 4
-        if n == 1000000000000000:
-            return 5 + 999000 + 1998000000 + 2997000000000 + 3996000000000000 
 
+        if 1000000000000 <= n <= 999999999999999:
+            return (4 + 999000 + 1998000000 + 2997000000000
+                    + (n - 1000000000000) * 4)
+
+        if n == 1000000000000000:
+            return (999000
+                    + 1998000000
+                    + 2997000000000
+                    + 3996000000000000
+                    + 5)
 ```
 
 </details>
