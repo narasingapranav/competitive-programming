@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/reverse-string/) &nbsp;|&nbsp; **Solved:** 2026-07-22
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/reverse-string/) &nbsp;|&nbsp; **Solved:** 2025-12-09
 
 ---
 
@@ -34,15 +34,12 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def reverseString(self, s: List[str]) -> None:
+        for i in range(len(s)//2):
+            s[i],s[len(s)-i-1]=s[len(s)-i-1],s[i]
         """
         Do not return anything, modify s in-place instead.
         """
-        l=0
-        h=len(s)-1
-        while l<=h:
-            s[l],s[h]=s[h],s[l]
-            l+=1
-            h-=1
+        
 ```
 
 </details>
