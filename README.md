@@ -5,7 +5,7 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-947-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-753-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-886-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-948-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-754-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-887-FFA116?style=flat-square)
 
 _Last updated: 2026-09-14 15:50 UTC_
 
@@ -18,16 +18,17 @@ _Last updated: 2026-09-14 15:50 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **61** |
-| 🟠 LeetCode | **886** |
+| 🟠 LeetCode | **887** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-792-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-129-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-22-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
+![Python](https://img.shields.io/badge/Python-792-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-130-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-22-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-09-14 | 🟠 LeetCode | [rising-temperature](https://leetcode.com/problems/rising-temperature/) | [`rising-temperature.txt`](./LeetCode/rising-temperature.txt) |
 | 2026-09-14 | 🟠 LeetCode | [odd-even-linked-list](https://leetcode.com/problems/odd-even-linked-list/) | [`odd-even-linked-list.py`](./LeetCode/odd-even-linked-list.py) |
 | 2026-09-14 | 🟠 LeetCode | [delete-node-in-a-linked-list](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [`delete-node-in-a-linked-list.py`](./LeetCode/delete-node-in-a-linked-list.py) |
 | 2026-09-14 | 🟠 LeetCode | [sort-list](https://leetcode.com/problems/sort-list/) | [`sort-list.py`](./LeetCode/sort-list.py) |
@@ -37,6 +38,5 @@ _Last updated: 2026-09-14 15:50 UTC_
 | 2026-09-14 | 🟠 LeetCode | [delete-nodes-from-linked-list-present-in-array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/) | [`delete-nodes-from-linked-list-present-in-array.py`](./LeetCode/delete-nodes-from-linked-list-present-in-array.py) |
 | 2026-09-14 | 🟠 LeetCode | [convert-the-temperature](https://leetcode.com/problems/convert-the-temperature/) | [`convert-the-temperature.py`](./LeetCode/convert-the-temperature.py) |
 | 2026-09-14 | 🟠 LeetCode | [lowest-common-ancestor-of-a-binary-tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [`lowest-common-ancestor-of-a-binary-tree.py`](./LeetCode/lowest-common-ancestor-of-a-binary-tree.py) |
-| 2026-09-14 | 🟠 LeetCode | [unique-binary-search-trees](https://leetcode.com/problems/unique-binary-search-trees/) | [`unique-binary-search-trees.py`](./LeetCode/unique-binary-search-trees.py) |
 
 <!-- CP-AGENT:END -->
