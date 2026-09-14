@@ -16,13 +16,13 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ## ⚙️ Algorithm
 
-**Two pointers**
+**Direct simulation / brute force**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `~O(n) (estimated)` | `~O(1) (estimated)` |
+| `O(1)–O(n) (estimated -- could not confidently infer)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
@@ -32,22 +32,11 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 <summary>💻 View solution</summary>
 
 ```python
+import math
 class Solution:
     def mySqrt(self, x: int) -> int:
-        if x < 2:
-            return x
-        left = 1
-        right = x
-        while left <= right:
-            mid = (left + right) // 2
-
-            if mid * mid == x:
-                return mid
-            elif mid * mid < x:
-                left = mid + 1
-            else:
-                right = mid - 1
-        return right
+        a=floor(math.sqrt(x))
+        return a
 ```
 
 </details>
