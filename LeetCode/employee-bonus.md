@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-unknown-555555?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/employee-bonus/) &nbsp;|&nbsp; **Solved:** 2026-07-22
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/employee-bonus/) &nbsp;|&nbsp; **Solved:** 2026-05-20
 
 ---
 
@@ -33,7 +33,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ```
 # Write your MySQL query statement below
-select e.name , b.bonus from Employee e left join Bonus b on e.empid=b.empid where b.bonus<1000 or b.bonus is null
+select Employee.name,Bonus.bonus from Employee Left join Bonus on Employee.empId=Bonus.empId where Bonus.bonus<1000 or Bonus.bonus is null
 ```
 
 </details>
