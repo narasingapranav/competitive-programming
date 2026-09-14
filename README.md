@@ -5,7 +5,7 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-1136-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-942-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-1075-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-1137-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-943-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-1076-FFA116?style=flat-square)
 
 _Last updated: 2026-09-14 16:07 UTC_
 
@@ -18,16 +18,17 @@ _Last updated: 2026-09-14 16:07 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **61** |
-| 🟠 LeetCode | **1075** |
+| 🟠 LeetCode | **1076** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-965-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-136-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-31-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
+![Python](https://img.shields.io/badge/Python-966-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-136-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-31-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-09-14 | 🟠 LeetCode | [maximum-k-to-sort-a-permutation](https://leetcode.com/problems/maximum-k-to-sort-a-permutation/) | [`maximum-k-to-sort-a-permutation.py`](./LeetCode/maximum-k-to-sort-a-permutation.py) |
 | 2026-09-14 | 🟠 LeetCode | [3sum](https://leetcode.com/problems/3sum/) | [`3sum.py`](./LeetCode/3sum.py) |
 | 2026-09-14 | 🟠 LeetCode | [powx-n](https://leetcode.com/problems/powx-n/) | [`powx-n.py`](./LeetCode/powx-n.py) |
 | 2026-09-14 | 🟠 LeetCode | [add-binary](https://leetcode.com/problems/add-binary/) | [`add-binary.py`](./LeetCode/add-binary.py) |
@@ -37,6 +38,5 @@ _Last updated: 2026-09-14 16:07 UTC_
 | 2026-09-14 | 🟠 LeetCode | [power-of-three](https://leetcode.com/problems/power-of-three/) | [`power-of-three.py`](./LeetCode/power-of-three.py) |
 | 2026-09-14 | 🟠 LeetCode | [counting-bits](https://leetcode.com/problems/counting-bits/) | [`counting-bits.py`](./LeetCode/counting-bits.py) |
 | 2026-09-14 | 🟠 LeetCode | [intersection-of-two-arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | [`intersection-of-two-arrays.py`](./LeetCode/intersection-of-two-arrays.py) |
-| 2026-09-14 | 🟠 LeetCode | [first-unique-character-in-a-string](https://leetcode.com/problems/first-unique-character-in-a-string/) | [`first-unique-character-in-a-string.py`](./LeetCode/first-unique-character-in-a-string.py) |
 
 <!-- CP-AGENT:END -->
