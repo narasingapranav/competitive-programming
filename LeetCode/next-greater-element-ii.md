@@ -16,7 +16,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ## ⚙️ Algorithm
 
-**Graph/tree traversal (BFS/DFS)**
+**Direct simulation / brute force**
 
 ## ⏱️ Complexity
 
@@ -26,7 +26,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ## 🏷️ Tags
 
-`graph`
+`untagged`
 
 <details>
 <summary>💻 View solution</summary>
@@ -37,14 +37,11 @@ class Solution:
         temp=nums+nums
         n=len(nums)
         res=[-1]*n
-        stack=[]
-        for i in range(2 * n - 1, -1, -1):
-            while stack and stack[-1] <= nums[i % n]:
-                stack.pop()
-            if i < n:
-                if stack:
-                    res[i] = stack[-1]
-            stack.append(nums[i % n])
+        for i in range(n):
+            for j in range(i+1,2*n):
+                if nums[i]<nums[j%n]:
+                    res[i]=nums[j%n]
+                    break
         return res
 ```
 
