@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/assign-cookies/) &nbsp;|&nbsp; **Solved:** 2026-07-08
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/assign-cookies/) &nbsp;|&nbsp; **Solved:** 2026-03-18
 
 ---
 
@@ -34,8 +34,8 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def findContentChildren(self, g: List[int], s: List[int]) -> int:
-        g.sort() # sort based upon gree factor
-        s.sort() 
+        g.sort()
+        s.sort()
         i = j = 0
         while i < len(g) and j < len(s):
             if s[j] >= g[i]:

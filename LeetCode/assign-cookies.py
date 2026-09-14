@@ -1,7 +1,7 @@
 class Solution:
     def findContentChildren(self, g: List[int], s: List[int]) -> int:
-        g.sort() # sort based upon gree factor
-        s.sort() 
+        g.sort()
+        s.sort()
         i = j = 0
         while i < len(g) and j < len(s):
             if s[j] >= g[i]:
