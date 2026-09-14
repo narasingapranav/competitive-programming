@@ -1,15 +1,15 @@
 class Solution:
     def findCircleNum(self, graph: List[List[int]]) -> int:
         n=len(graph)
-        def dfs(graph,vi,v):
-            vi[v]=True
+        def dfs(graph,va,v):
+            va[v]=True
             for i in range(n):
-                if graph[v][i]==1 and not vi[i]:
-                    dfs(graph,vi,i)
+                if graph[v][i]==1 and not va[i]:
+                    dfs(graph,va,i)
         cnt=0
-        vi=[False]*n
+        va=[False]*n
         for i in range(n):
-            if not vi[i]:
-                dfs(graph,vi,i)
+            if not va[i]:
+                dfs(graph,va,i)
                 cnt+=1
         return cnt
