@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/longest-palindromic-substring/) &nbsp;|&nbsp; **Solved:** 2026-07-08
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/longest-palindromic-substring/) &nbsp;|&nbsp; **Solved:** 2025-12-03
 
 ---
 
@@ -37,6 +37,7 @@ class Solution:
         if s==s[::-1]:
             return s
         start, max_len = 0, 1
+
         def expand(left, right):
             nonlocal start, max_len
             while left >= 0 and right < len(s) and s[left] == s[right]:
@@ -45,9 +46,11 @@ class Solution:
                     start = left
                 left -= 1
                 right += 1
+
         for i in range(len(s)):
             expand(i, i)
             expand(i, i + 1)
+
         return s[start:start + max_len]
 ```
 
