@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/ugly-number/) &nbsp;|&nbsp; **Solved:** 2026-05-27
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/ugly-number/) &nbsp;|&nbsp; **Solved:** 2025-08-14
 
 ---
 
@@ -34,11 +34,11 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def isUgly(self, n: int) -> bool:
-        if  n<=0:
+        if n <= 0:
             return False
-        for prime in [2,3,5]:
-            while n%prime==0:
-                n//=prime
+        for pf in [2,3,5]:
+            while n%pf ==0:
+                n//=pf
         return n==1
 ```
 
