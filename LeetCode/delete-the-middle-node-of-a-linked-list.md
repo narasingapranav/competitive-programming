@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) &nbsp;|&nbsp; **Solved:** 2026-06-15
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) &nbsp;|&nbsp; **Solved:** 2025-12-16
 
 ---
 
@@ -39,16 +39,16 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 #         self.next = next
 class Solution:
     def deleteMiddle(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        if not head.next: return None
-
-        slow = head
-        fast = slow.next.next
-
+        if head is None or head.next is None:
+            return None
+        slow=head
+        fast=head
+        prev=None
         while fast and fast.next:
-            slow = slow.next
-            fast = fast.next.next
-
-        slow.next = slow.next.next
+            prev=slow
+            slow=slow.next
+            fast=fast.next.next
+        prev.next=slow.next
         return head
 ```
 
