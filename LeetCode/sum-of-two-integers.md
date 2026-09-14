@@ -22,7 +22,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 | Time | Space |
 |:--:|:--:|
-| `~O(n) (estimated)` | `~O(1) (estimated)` |
+| `O(1)–O(n) (estimated -- could not confidently infer)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
@@ -32,19 +32,10 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 <summary>💻 View solution</summary>
 
 ```python
-class Solution(object):
+class Solution:
     def getSum(self, a, b):
-        """
-        :type a: int
-        :type b: int
-        :rtype: int
-        """
-        MAX = 0x7FFFFFFF
-        MIN = 0x80000000
-        mask = 0xFFFFFFFF
-        while b != 0:
-            a, b = (a ^ b) & mask, ((a & b) << 1) & mask
-        return a if a <= MAX else ~(a ^ mask)
+        list=[a,b]
+        return sum(list)
 ```
 
 </details>
