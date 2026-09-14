@@ -22,7 +22,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 | Time | Space |
 |:--:|:--:|
-| `~O(n) (estimated)` | `~O(1) (estimated)` |
+| `~O(n^2) (estimated -- 2 nested loops)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
@@ -34,13 +34,18 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def rotatedDigits(self, n: int) -> int:
-        cnt=0
-        for i in range(1,n+1):
-            nu=str(i)
-            if '3' in nu or '4' in nu or '7' in nu :
-                continue
-            if '2' in nu or '5' in nu or '6' in nu or '9' in nu:
-                cnt+=1
+        cnt = 0
+        for i in range(1, n + 1):
+            isrot = False
+            valid = True
+            for j in str(i):
+                if j in "347":
+                    valid = False
+                    break
+                if j in "2569":
+                    isrot = True
+            if valid and isrot:
+                cnt += 1
         return cnt
 ```
 
