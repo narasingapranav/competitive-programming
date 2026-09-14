@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/climbing-stairs/) &nbsp;|&nbsp; **Solved:** 2026-05-14
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/climbing-stairs/) &nbsp;|&nbsp; **Solved:** 2025-08-14
 
 ---
 
@@ -16,17 +16,17 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ## ⚙️ Algorithm
 
-**Dynamic programming**
+**Direct simulation / brute force**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `~O(n²) (estimated -- DP table detected)` | `~O(n) (estimated)` |
+| `~O(n) (estimated)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
-`dp`
+`untagged`
 
 <details>
 <summary>💻 View solution</summary>
@@ -34,13 +34,12 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def climbStairs(self, n: int) -> int:
-        dp=[-1]*(n+1)
-        dp[0]=dp[1]=1
-        if n>=2:
-            dp[2]=2
+        if n<=2:
+            return n
+        a,b=1,2
         for i in range(3,n+1):
-            dp[i]=dp[i-1]+dp[i-2]
-        return dp[n]
+            a,b=b,a+b
+        return b
 ```
 
 </details>
