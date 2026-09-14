@@ -16,17 +16,17 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ## ⚙️ Algorithm
 
-**Direct simulation / brute force**
+**Hash map/set lookup**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `~O(n) (estimated)` | `~O(1) (estimated)` |
+| `~O(n) (estimated)` | `~O(n) (estimated)` |
 
 ## 🏷️ Tags
 
-`untagged`
+`hash-map`
 
 <details>
 <summary>💻 View solution</summary>
@@ -34,20 +34,13 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def getCommon(self, nums1: List[int], nums2: List[int]) -> int:
-        answer = -1
-        n = len(nums1)
-        m = len(nums2)
-        i, j = 0, 0
-        while i < n and j < m:
-            if nums1[i] == nums2[j]:
-                answer = nums1[i]
-                break
-            elif nums1[i] < nums2[j]:
-                i += 1
-            else:
-                j += 1
-        
-        return answer
+        s=set(nums1)
+        mi=None
+        for i in nums2:
+            if i in s:
+                if mi is None or i < mi:
+                    mi=i
+        return mi if mi is not None else -1
 ```
 
 </details>
