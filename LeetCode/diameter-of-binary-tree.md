@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/diameter-of-binary-tree/) &nbsp;|&nbsp; **Solved:** 2026-07-22
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/diameter-of-binary-tree/) &nbsp;|&nbsp; **Solved:** 2026-07-06
 
 ---
 
@@ -40,16 +40,16 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 #         self.right = right
 class Solution:
     def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
-        self.diameter=0
+        self.dia=0
         def height(root):
             if not root:
                 return 0
             left=height(root.left)
             right=height(root.right)
-            self.diameter=max(self.diameter,left+right)
+            self.dia=max(self.dia,left+right)
             return 1+max(left,right)
         height(root)
-        return self.diameter
+        return self.dia
 ```
 
 </details>
