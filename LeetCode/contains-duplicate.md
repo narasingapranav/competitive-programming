@@ -22,7 +22,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 | Time | Space |
 |:--:|:--:|
-| `O(1)–O(n) (estimated -- could not confidently infer)` | `~O(n) (estimated)` |
+| `~O(n) (estimated)` | `~O(n) (estimated)` |
 
 ## 🏷️ Tags
 
@@ -34,7 +34,12 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
-        return not len(set(nums)) == len(nums)
+        c=set()
+        for i in nums:
+            if i in c:
+                return True
+            c.add(i)
+        return False
 ```
 
 </details>
