@@ -2,31 +2,31 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/implement-trie-prefix-tree/) &nbsp;|&nbsp; **Solved:** 2026-08-06
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/implement-trie-prefix-tree/) &nbsp;|&nbsp; **Solved:** 2026-02-22
 
 ---
 
 ## 📝 Summary
 
-Implement a Trie (prefix tree) data structure that supports inserting words, searching for exact words, and checking if any previously inserted word starts with a given prefix.
+Accepted solution for Implement Trie (Prefix Tree) on LeetCode.
 
 ## 🔍 Key Observation
 
-A Trie structures words as paths in a tree where each node represents a character transition, enabling fast lookup of shared prefixes without re-scanning characters.
+Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set one in .env for LLM-authored insight, or edit this section manually.
 
 ## ⚙️ Algorithm
 
-**Trie (Prefix Tree)**
+**Direct simulation / brute force**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `O(m) per operation, where m is the length of the string/prefix` | `O(N * m) overall, where N is the total number of words inserted and m is the average word length` |
+| `~O(n) (estimated)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
-`trie` `design` `string` `hash-table`
+`untagged`
 
 <details>
 <summary>💻 View solution</summary>
@@ -35,32 +35,32 @@ A Trie structures words as paths in a tree where each node represents a characte
 class Trie:
 
     def __init__(self):
-        self.child={}
-        self.eow=False
+        self.children = {}
+        self.end_of_word = False
 
     def insert(self, word: str) -> None:
-        node=self
-        for i in word:
-            if i not in node.child:
-                node.child[i]=Trie()
-            node=node.child[i]
-        node.eow=True
+        node = self
+        for char in word:
+            if char not in node.children:
+                node.children[char] = Trie()
+            node = node.children[char]
+        node.end_of_word = True
 
     def search(self, word: str) -> bool:
-        node=self
-        for i in word:
-            if i not in node.child:
-                return False
-            node=node.child[i]
-        return node.eow
+        node = self._find(word)
+        return node is not None and node.end_of_word
 
     def startsWith(self, prefix: str) -> bool:
-        node=self
-        for i in prefix:
-            if i not in node.child:
-                return False
-            node=node.child[i]
-        return True
+        return self._find(prefix) is not None
+
+    def _find(self, prefix: str):
+        node = self
+        for char in prefix:
+            if char not in node.children:
+                return None
+            node = node.children[char]
+        return node
+        
 
 
 # Your Trie object will be instantiated and called as such:
