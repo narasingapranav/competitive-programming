@@ -5,7 +5,7 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-326-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-132-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-265-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-327-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-133-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-266-FFA116?style=flat-square)
 
 _Last updated: 2026-09-14 14:57 UTC_
 
@@ -18,16 +18,17 @@ _Last updated: 2026-09-14 14:57 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **61** |
-| 🟠 LeetCode | **265** |
+| 🟠 LeetCode | **266** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-287-3776AB?style=flat-square) ![Java](https://img.shields.io/badge/Java-20-007396?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-16-555555?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square)
+![Python](https://img.shields.io/badge/Python-288-3776AB?style=flat-square) ![Java](https://img.shields.io/badge/Java-20-007396?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-16-555555?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-09-14 | 🟠 LeetCode | [reverse-words-in-a-string-iii](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [`reverse-words-in-a-string-iii.py`](./LeetCode/reverse-words-in-a-string-iii.py) |
 | 2026-09-14 | 🟠 LeetCode | [to-lower-case](https://leetcode.com/problems/to-lower-case/) | [`to-lower-case.py`](./LeetCode/to-lower-case.py) |
 | 2026-09-14 | 🟠 LeetCode | [jewels-and-stones](https://leetcode.com/problems/jewels-and-stones/) | [`jewels-and-stones.py`](./LeetCode/jewels-and-stones.py) |
 | 2026-09-14 | 🟠 LeetCode | [n-queens-ii](https://leetcode.com/problems/n-queens-ii/) | [`n-queens-ii.py`](./LeetCode/n-queens-ii.py) |
@@ -37,6 +38,5 @@ _Last updated: 2026-09-14 14:57 UTC_
 | 2026-09-14 | 🟠 LeetCode | [rearrange-string-to-avoid-character-pair](https://leetcode.com/problems/rearrange-string-to-avoid-character-pair/) | [`rearrange-string-to-avoid-character-pair.py`](./LeetCode/rearrange-string-to-avoid-character-pair.py) |
 | 2026-09-14 | 🟠 LeetCode | [rearrange-string-to-avoid-character-pair](https://leetcode.com/problems/rearrange-string-to-avoid-character-pair/) | [`rearrange-string-to-avoid-character-pair.py`](./LeetCode/rearrange-string-to-avoid-character-pair.py) |
 | 2026-09-14 | 🟠 LeetCode | [minimum-adjacent-swaps-to-partition-array](https://leetcode.com/problems/minimum-adjacent-swaps-to-partition-array/) | [`minimum-adjacent-swaps-to-partition-array.py`](./LeetCode/minimum-adjacent-swaps-to-partition-array.py) |
-| 2026-09-14 | 🟠 LeetCode | [count-dominant-nodes-in-a-binary-tree](https://leetcode.com/problems/count-dominant-nodes-in-a-binary-tree/) | [`count-dominant-nodes-in-a-binary-tree.py`](./LeetCode/count-dominant-nodes-in-a-binary-tree.py) |
 
 <!-- CP-AGENT:END -->
