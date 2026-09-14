@@ -5,7 +5,7 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-965-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-771-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-904-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-966-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-772-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-905-FFA116?style=flat-square)
 
 _Last updated: 2026-09-14 15:52 UTC_
 
@@ -18,16 +18,17 @@ _Last updated: 2026-09-14 15:52 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **61** |
-| 🟠 LeetCode | **904** |
+| 🟠 LeetCode | **905** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-809-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-130-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-22-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
+![Python](https://img.shields.io/badge/Python-810-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-130-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-22-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-09-14 | 🟠 LeetCode | [permutation-sequence](https://leetcode.com/problems/permutation-sequence/) | [`permutation-sequence.py`](./LeetCode/permutation-sequence.py) |
 | 2026-09-14 | 🟠 LeetCode | [permutation-sequence](https://leetcode.com/problems/permutation-sequence/) | [`permutation-sequence.py`](./LeetCode/permutation-sequence.py) |
 | 2026-09-14 | 🟠 LeetCode | [intersection-of-two-linked-lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [`intersection-of-two-linked-lists.py`](./LeetCode/intersection-of-two-linked-lists.py) |
 | 2026-09-14 | 🟠 LeetCode | [edit-distance](https://leetcode.com/problems/edit-distance/) | [`edit-distance.py`](./LeetCode/edit-distance.py) |
@@ -36,7 +37,6 @@ _Last updated: 2026-09-14 15:52 UTC_
 | 2026-09-14 | 🟠 LeetCode | [palindrome-linked-list](https://leetcode.com/problems/palindrome-linked-list/) | [`palindrome-linked-list.py`](./LeetCode/palindrome-linked-list.py) |
 | 2026-09-14 | 🟠 LeetCode | [palindrome-linked-list](https://leetcode.com/problems/palindrome-linked-list/) | [`palindrome-linked-list.py`](./LeetCode/palindrome-linked-list.py) |
 | 2026-09-14 | 🟠 LeetCode | [number-of-islands](https://leetcode.com/problems/number-of-islands/) | [`number-of-islands.py`](./LeetCode/number-of-islands.py) |
-| 2026-09-14 | 🟠 LeetCode | [search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [`search-in-rotated-sorted-array.py`](./LeetCode/search-in-rotated-sorted-array.py) |
 | 2026-09-14 | 🟠 LeetCode | [search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [`search-in-rotated-sorted-array.py`](./LeetCode/search-in-rotated-sorted-array.py) |
 
 <!-- CP-AGENT:END -->
