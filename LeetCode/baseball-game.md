@@ -35,8 +35,14 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 class Solution:
     def calPoints(self, operations: List[str]) -> int:
         res=[]
+        def isi(num):
+            try :
+                int(num)
+                return True
+            except ValueError:
+                return False
         for i in operations:
-            if i.lstrip("-").isdigit():
+            if isi(i):
                     res.append(int(i))
             elif i=="C":
                 res.pop()
