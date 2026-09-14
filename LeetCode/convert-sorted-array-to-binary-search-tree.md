@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) &nbsp;|&nbsp; **Solved:** 2026-05-13
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) &nbsp;|&nbsp; **Solved:** 2025-12-20
 
 ---
 
@@ -39,16 +39,14 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 #         self.left = left
 #         self.right = right
 class Solution:
-    def sortedArrayToBST(self, l: List[int]) -> Optional[TreeNode]:
-        if not l:
+    def sortedArrayToBST(self, nums: List[int]) -> Optional[TreeNode]:
+        if not nums:
             return None
-        mid=len(l)//2
-        root=TreeNode(l[mid])
-        root.left=self.sortedArrayToBST(l[:mid])
-        root.right=self.sortedArrayToBST(l[mid+1:])
+        mid=len(nums)//2
+        root=TreeNode(nums[mid])
+        root.left=self.sortedArrayToBST(nums[:mid])
+        root.right=self.sortedArrayToBST(nums[mid+1:])
         return root
-        
-
 ```
 
 </details>
