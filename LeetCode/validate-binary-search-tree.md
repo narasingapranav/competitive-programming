@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/validate-binary-search-tree/) &nbsp;|&nbsp; **Solved:** 2026-07-22
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/validate-binary-search-tree/) &nbsp;|&nbsp; **Solved:** 2026-07-06
 
 ---
 
@@ -40,13 +40,16 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 #         self.right = right
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
-        def dfs(n,l,h):
-            if not n:
+        def dfs(node, low, high):
+            if not node:
                 return True
-            if not l<n.val<h:
+            if not (low < node.val < high):
                 return False
-            return dfs(n.left,l,n.val) and dfs(n.right,n.val,h)
-        return dfs(root,float('-inf'),float('inf'))
+            return (
+                dfs(node.left, low, node.val) and
+                dfs(node.right, node.val, high)
+            )
+        return dfs(root, float('-inf'), float('inf'))
 ```
 
 </details>
