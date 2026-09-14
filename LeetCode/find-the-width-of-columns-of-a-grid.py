@@ -8,7 +8,9 @@ class Solution:
                     maxlen = max(maxlen,1)
                 elif grid[i][j]<0:
                     maxlen = max(maxlen,math.floor(math.log10(-grid[i][j]))+2)
+                    print(maxlen)
                 else:
                     maxlen = max(maxlen,math.floor(math.log10(grid[i][j]))+1)
+                    print(maxlen)
             out.append(maxlen)
         return out
