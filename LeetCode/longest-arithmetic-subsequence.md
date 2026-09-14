@@ -8,25 +8,25 @@
 
 ## 📝 Summary
 
-Find the length of the longest arithmetic subsequence in a given array of integers.
+Accepted solution for Longest Arithmetic Subsequence on LeetCode.
 
 ## 🔍 Key Observation
 
-The longest arithmetic sequence ending at index i with a common difference d can be derived by adding 1 to the length of the sequence ending at index j (where j < i) with the exact same difference d.
+Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set one in .env for LLM-authored insight, or edit this section manually.
 
 ## ⚙️ Algorithm
 
-**Dynamic Programming**
+**Dynamic programming**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `O(n^2)` | `O(n^2)` |
+| `~O(n²) (estimated -- DP table detected)` | `~O(n) (estimated)` |
 
 ## 🏷️ Tags
 
-`dynamic-programming` `hash-table` `array`
+`dp`
 
 <details>
 <summary>💻 View solution</summary>
@@ -35,7 +35,7 @@ The longest arithmetic sequence ending at index i with a common difference d can
 class Solution:
     def longestArithSeqLength(self, nums: List[int]) -> int:
         n=len(nums)
-        dp=[dict() for _ in range(n)]
+        dp=[defaultdict() for _ in range(n)]
         res=0
         for i in range(n):
             for j in range(i):
