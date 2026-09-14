@@ -16,17 +16,17 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ## ⚙️ Algorithm
 
-**Hash map/set lookup**
+**Direct simulation / brute force**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `~O(n) (estimated)` | `~O(n) (estimated)` |
+| `~O(n) (estimated)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
-`hash-map`
+`untagged`
 
 <details>
 <summary>💻 View solution</summary>
@@ -34,15 +34,13 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def findMissingElements(self, nums: List[int]) -> List[int]:
-        x=[]
-        y=set(nums)
-        i=min(nums)
-        j=max(nums)+1
-        for k in range(i,j):
-            if k not in y:
-                x.append(k)
-        return x
-
+        mi=min(nums)
+        ma=max(nums)
+        a=[]
+        for i in range(mi,ma+1):
+            if i not in nums:
+                a.append(i)
+        return a
 ```
 
 </details>
