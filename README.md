@@ -5,7 +5,7 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-884-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-690-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-823-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-885-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-691-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-824-FFA116?style=flat-square)
 
 _Last updated: 2026-09-14 15:45 UTC_
 
@@ -18,16 +18,17 @@ _Last updated: 2026-09-14 15:45 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **61** |
-| 🟠 LeetCode | **823** |
+| 🟠 LeetCode | **824** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-730-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-128-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-22-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
+![Python](https://img.shields.io/badge/Python-731-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-128-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-22-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-09-14 | 🟠 LeetCode | [separate-squares-ii](https://leetcode.com/problems/separate-squares-ii/) | [`separate-squares-ii.py`](./LeetCode/separate-squares-ii.py) |
 | 2026-09-14 | 🟠 LeetCode | [maximize-area-of-square-hole-in-grid](https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/) | [`maximize-area-of-square-hole-in-grid.py`](./LeetCode/maximize-area-of-square-hole-in-grid.py) |
 | 2026-09-14 | 🟠 LeetCode | [find-the-largest-area-of-square-inside-two-rectangles](https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles/) | [`find-the-largest-area-of-square-inside-two-rectangles.py`](./LeetCode/find-the-largest-area-of-square-inside-two-rectangles.py) |
 | 2026-09-14 | 🟠 LeetCode | [maximum-square-area-by-removing-fences-from-a-field](https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field/) | [`maximum-square-area-by-removing-fences-from-a-field.py`](./LeetCode/maximum-square-area-by-removing-fences-from-a-field.py) |
@@ -36,7 +37,6 @@ _Last updated: 2026-09-14 15:45 UTC_
 | 2026-09-14 | 🟠 LeetCode | [construct-the-minimum-bitwise-array-ii](https://leetcode.com/problems/construct-the-minimum-bitwise-array-ii/) | [`construct-the-minimum-bitwise-array-ii.py`](./LeetCode/construct-the-minimum-bitwise-array-ii.py) |
 | 2026-09-14 | 🟠 LeetCode | [largest-magic-square](https://leetcode.com/problems/largest-magic-square/) | [`largest-magic-square.py`](./LeetCode/largest-magic-square.py) |
 | 2026-09-14 | 🟠 LeetCode | [minimum-pair-removal-to-sort-array-i](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/) | [`minimum-pair-removal-to-sort-array-i.py`](./LeetCode/minimum-pair-removal-to-sort-array-i.py) |
-| 2026-09-14 | 🟠 LeetCode | [minimize-maximum-pair-sum-in-array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/) | [`minimize-maximum-pair-sum-in-array.py`](./LeetCode/minimize-maximum-pair-sum-in-array.py) |
 | 2026-09-14 | 🟠 LeetCode | [minimize-maximum-pair-sum-in-array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/) | [`minimize-maximum-pair-sum-in-array.py`](./LeetCode/minimize-maximum-pair-sum-in-array.py) |
 
 <!-- CP-AGENT:END -->
