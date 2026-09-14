@@ -5,7 +5,7 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-689-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-495-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-628-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-690-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-496-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-629-FFA116?style=flat-square)
 
 _Last updated: 2026-09-14 15:28 UTC_
 
@@ -18,16 +18,17 @@ _Last updated: 2026-09-14 15:28 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **61** |
-| 🟠 LeetCode | **628** |
+| 🟠 LeetCode | **629** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-538-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-126-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-21-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
+![Python](https://img.shields.io/badge/Python-539-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-126-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-21-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-09-14 | 🟠 LeetCode | [find-minimum-in-rotated-sorted-array-ii](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | [`find-minimum-in-rotated-sorted-array-ii.py`](./LeetCode/find-minimum-in-rotated-sorted-array-ii.py) |
 | 2026-09-14 | 🟠 LeetCode | [permutations](https://leetcode.com/problems/permutations/) | [`permutations.py`](./LeetCode/permutations.py) |
 | 2026-09-14 | 🟠 LeetCode | [find-minimum-in-rotated-sorted-array-ii](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | [`find-minimum-in-rotated-sorted-array-ii.py`](./LeetCode/find-minimum-in-rotated-sorted-array-ii.py) |
 | 2026-09-14 | 🟠 LeetCode | [find-minimum-in-rotated-sorted-array-ii](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | [`find-minimum-in-rotated-sorted-array-ii.py`](./LeetCode/find-minimum-in-rotated-sorted-array-ii.py) |
@@ -37,6 +38,5 @@ _Last updated: 2026-09-14 15:28 UTC_
 | 2026-09-14 | 🟠 LeetCode | [word-search](https://leetcode.com/problems/word-search/) | [`word-search.py`](./LeetCode/word-search.py) |
 | 2026-09-14 | 🟠 LeetCode | [sudoku-solver](https://leetcode.com/problems/sudoku-solver/) | [`sudoku-solver.py`](./LeetCode/sudoku-solver.py) |
 | 2026-09-14 | 🟠 LeetCode | [jump-game-iii](https://leetcode.com/problems/jump-game-iii/) | [`jump-game-iii.py`](./LeetCode/jump-game-iii.py) |
-| 2026-09-14 | 🟠 LeetCode | [jump-game-iv](https://leetcode.com/problems/jump-game-iv/) | [`jump-game-iv.py`](./LeetCode/jump-game-iv.py) |
 
 <!-- CP-AGENT:END -->
