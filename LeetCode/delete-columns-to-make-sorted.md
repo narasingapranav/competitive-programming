@@ -16,17 +16,17 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ## ⚙️ Algorithm
 
-**Sorting**
+**Direct simulation / brute force**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `~O(n log n) (estimated -- sort detected)` | `~O(1) (estimated)` |
+| `~O(n^2) (estimated -- 2 nested loops)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
-`sorting`
+`untagged`
 
 <details>
 <summary>💻 View solution</summary>
@@ -34,7 +34,15 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def minDeletionSize(self, strs: List[str]) -> int:
-        return sum(col!=sorted(col) for col in map(list,zip(*strs)))
+        count = 0
+        rows = len(strs)
+        cols = len(strs[0])
+        for c in range(cols):
+            for r in range(rows - 1):
+                if strs[r][c] > strs[r + 1][c]:
+                    count += 1
+                    break
+        return count
 ```
 
 </details>
