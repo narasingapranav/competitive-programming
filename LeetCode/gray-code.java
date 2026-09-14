@@ -3,7 +3,8 @@ class Solution {
         List<Integer> l = new ArrayList<>();
         int s=1<<n;
         for (int i=0;i<s;i++){
-            l.add(i ^ (i>>1));
+            int g=i ^ (i>>1);
+            l.add(g);
         }
         return l;
     }
