@@ -34,12 +34,14 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
-        cnt = [0]* 101
-        for x in nums:
-            cnt[x] += 1
-        for v in range(1,101):
-            cnt[v] += cnt[v-1]
-        return [0 if x == 0 else cnt[x-1] for x in nums]
+        c=[]
+        for i in range(len(nums)):
+            cnt=0
+            for j in range(len(nums)):
+                if nums[i]>nums[j]:
+                    cnt+=1
+            c.append(cnt)
+        return c
 ```
 
 </details>
