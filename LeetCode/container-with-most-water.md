@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/container-with-most-water/) &nbsp;|&nbsp; **Solved:** 2025-12-10
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/container-with-most-water/) &nbsp;|&nbsp; **Solved:** 2025-08-16
 
 ---
 
@@ -16,7 +16,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ## ⚙️ Algorithm
 
-**Direct simulation / brute force**
+**Two pointers**
 
 ## ⏱️ Complexity
 
@@ -34,19 +34,21 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def maxArea(self, height: List[int]) -> int:
-        l=0
-        r=len(height)-1
-        a=0
-        m=0
-        while l<r:
-            a=min(height[l],height[r])*(r-l)
-            m=max(a,m)
-            if height[l]<height[r]:
-                l+=1
+        left = 0
+        right = len(height) - 1
+        max_water = 0
+        while left < right:
+            width = right - left
+            current_water = min(height[left], height[right]) * width
+            max_water = max(max_water, current_water)
+            if height[left] < height[right]:
+                left += 1
             else:
-                r-=1
-        return m
-                
+                right -= 1
+
+        return max_water
+
+
 
 ```
 
