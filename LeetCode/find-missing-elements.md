@@ -2,31 +2,31 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/find-missing-elements/) &nbsp;|&nbsp; **Solved:** 2026-08-04
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/find-missing-elements/) &nbsp;|&nbsp; **Solved:** 2025-12-10
 
 ---
 
 ## 📝 Summary
 
-Given an array of integers, find all missing integers within the inclusive range from the minimum to the maximum value of the array.
+Accepted solution for Find Missing Elements on LeetCode.
 
 ## 🔍 Key Observation
 
-The bounds of the full sequence are determined by the minimum and maximum elements in the input, so any missing values must lie strictly between these two values.
+Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set one in .env for LLM-authored insight, or edit this section manually.
 
 ## ⚙️ Algorithm
 
-**Range iteration**
+**Hash map/set lookup**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `O(N * (max - min))` | `O(max - min)` |
+| `~O(n) (estimated)` | `~O(n) (estimated)` |
 
 ## 🏷️ Tags
 
-`array` `search` `iteration`
+`hash-map`
 
 <details>
 <summary>💻 View solution</summary>
@@ -34,12 +34,15 @@ The bounds of the full sequence are determined by the minimum and maximum elemen
 ```python
 class Solution:
     def findMissingElements(self, nums: List[int]) -> List[int]:
-        mi,mx=min(nums),max(nums)
-        res=[]
-        for i in range(mi,mx+1):
-            if i not in nums:
-                res.append(i)
-        return res
+        x=[]
+        y=set(nums)
+        i=min(nums)
+        j=max(nums)+1
+        for k in range(i,j):
+            if k not in y:
+                x.append(k)
+        return x
+
 ```
 
 </details>
