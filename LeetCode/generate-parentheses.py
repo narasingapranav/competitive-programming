@@ -7,6 +7,9 @@ class Solution:
                 utility(op+1,cp,temp+'(',res,n)
             if cp<op:
                 utility(op,cp+1,temp+')',res,n)
+        op=0
+        cp=0
+        temp=""
         res=[]
-        utility(0,0,"",res,n)
+        utility(op,cp,temp,res,n)
         return res

@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/generate-parentheses/) &nbsp;|&nbsp; **Solved:** 2026-07-11
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/generate-parentheses/) &nbsp;|&nbsp; **Solved:** 2026-03-06
 
 ---
 
@@ -41,8 +41,11 @@ class Solution:
                 utility(op+1,cp,temp+'(',res,n)
             if cp<op:
                 utility(op,cp+1,temp+')',res,n)
+        op=0
+        cp=0
+        temp=""
         res=[]
-        utility(0,0,"",res,n)
+        utility(op,cp,temp,res,n)
         return res
 ```
 
