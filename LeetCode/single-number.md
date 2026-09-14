@@ -34,10 +34,9 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
-        result = 0
         for i in nums:
-            result ^= i
-        return result
+            if nums.count(i)==1:
+                return i
 ```
 
 </details>
