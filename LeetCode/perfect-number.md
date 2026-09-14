@@ -22,7 +22,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 | Time | Space |
 |:--:|:--:|
-| `O(1)–O(n) (estimated -- could not confidently infer)` | `~O(1) (estimated)` |
+| `~O(n) (estimated)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
@@ -34,7 +34,17 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def checkPerfectNumber(self, num: int) -> bool:
-        return num in {6, 28, 496, 8128, 33550336}
+        if num <= 1:
+            return False
+        s = 1
+        i = 2
+        while i * i <= num:
+            if num % i == 0:
+                s += i
+                if i != num // i:
+                    s += num // i
+            i += 1
+        return s == num
 ```
 
 </details>
