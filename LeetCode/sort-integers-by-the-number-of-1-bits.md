@@ -34,8 +34,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def sortByBits(self, arr: List[int]) -> List[int]:
-#        arr.sort(key=lambda a: (bin(a).count('1'),a))
-        arr.sort(key=lambda a: (a.bit_count(),a))
+        arr.sort(key=lambda a: (bin(a).count('1'),a))
         return arr
 ```
 
