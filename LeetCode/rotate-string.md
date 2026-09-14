@@ -34,7 +34,9 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def rotateString(self, s: str, goal: str) -> bool:
-        return goal in s+s and len(s)==len(goal)
+        if len(s) != len(goal):
+            return False
+        return goal in s+s
 ```
 
 </details>
