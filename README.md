@@ -5,7 +5,7 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-294-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-100-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-233-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-295-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-101-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-234-FFA116?style=flat-square)
 
 _Last updated: 2026-09-14 14:54 UTC_
 
@@ -18,16 +18,17 @@ _Last updated: 2026-09-14 14:54 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **61** |
-| 🟠 LeetCode | **233** |
+| 🟠 LeetCode | **234** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-255-3776AB?style=flat-square) ![Java](https://img.shields.io/badge/Java-20-007396?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-16-555555?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square)
+![Python](https://img.shields.io/badge/Python-256-3776AB?style=flat-square) ![Java](https://img.shields.io/badge/Java-20-007396?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-16-555555?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-09-14 | 🟠 LeetCode | [maximum-depth-of-binary-tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [`maximum-depth-of-binary-tree.py`](./LeetCode/maximum-depth-of-binary-tree.py) |
 | 2026-09-14 | 🟠 LeetCode | [invert-binary-tree](https://leetcode.com/problems/invert-binary-tree/) | [`invert-binary-tree.py`](./LeetCode/invert-binary-tree.py) |
 | 2026-09-14 | 🟠 LeetCode | [diameter-of-binary-tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [`diameter-of-binary-tree.py`](./LeetCode/diameter-of-binary-tree.py) |
 | 2026-09-14 | 🟠 LeetCode | [validate-binary-search-tree](https://leetcode.com/problems/validate-binary-search-tree/) | [`validate-binary-search-tree.py`](./LeetCode/validate-binary-search-tree.py) |
@@ -37,6 +38,5 @@ _Last updated: 2026-09-14 14:54 UTC_
 | 2026-09-14 | 🟠 LeetCode | [reverse-linked-list](https://leetcode.com/problems/reverse-linked-list/) | [`reverse-linked-list.py`](./LeetCode/reverse-linked-list.py) |
 | 2026-09-14 | 🟠 LeetCode | [powx-n](https://leetcode.com/problems/powx-n/) | [`powx-n.py`](./LeetCode/powx-n.py) |
 | 2026-09-14 | 🟠 LeetCode | [max-area-of-island](https://leetcode.com/problems/max-area-of-island/) | [`max-area-of-island.py`](./LeetCode/max-area-of-island.py) |
-| 2026-09-14 | 🟠 LeetCode | [combine-two-tables](https://leetcode.com/problems/combine-two-tables/) | [`combine-two-tables.txt`](./LeetCode/combine-two-tables.txt) |
 
 <!-- CP-AGENT:END -->
