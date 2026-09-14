@@ -16,7 +16,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ## ⚙️ Algorithm
 
-**Sorting**
+**Binary search + Sorting**
 
 ## ⏱️ Complexity
 
@@ -26,23 +26,23 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ## 🏷️ Tags
 
-`sorting`
+`binary-search` `sorting`
 
 <details>
 <summary>💻 View solution</summary>
 
 ```python
 class Solution:
-    def minimumEffort(self, tasks: List[List[int]]) -> int:
-        tasks.sort(key=lambda t: -(t[1] - t[0]))
-        curr = 0
-        ans  = 0
-        for actual, minimum in tasks:
-            if curr < minimum:
-                ans  += (minimum - curr)
-                curr  = minimum
-            curr -= actual
-        return ans
+    def minimumEffort(self, shop: list[list[int]]) -> int:
+        shop.sort(key=lambda x: x[1] - x[0], reverse=True)
+        def test(bal):
+            for cost, thresh in shop:
+                if bal < thresh:
+                    return False
+                bal -= cost
+            return True
+        return bisect.bisect_left(range(10**9 + 1), True, key=test)
+
 ```
 
 </details>
