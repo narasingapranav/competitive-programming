@@ -22,7 +22,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 | Time | Space |
 |:--:|:--:|
-| `~O(n^2) (estimated -- 2 nested loops)` | `~O(1) (estimated)` |
+| `~O(n) (estimated)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
@@ -38,14 +38,10 @@ class Solution:
         mo=0
         mr=0
         for i in range(len(mat)):
-            # ro=sum(mat[i])
-            c=0
-            for j in range(len(mat[0])):
-                if mat[i][j]==1:
-                    c+=1
-            if c>mo:
+            ro=sum(mat[i])
+            if ro>mo:
                 mr=i
-                mo=c
+                mo=ro
         return [mr,mo]
 ```
 
