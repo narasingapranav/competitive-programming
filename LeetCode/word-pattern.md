@@ -1,58 +1,52 @@
 # 🟠 word-pattern — Word Pattern
 
-![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-java-007396?style=flat-square)
+![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/word-pattern/) &nbsp;|&nbsp; **Solved:** 2026-08-10
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/word-pattern/) &nbsp;|&nbsp; **Solved:** 2026-02-15
 
 ---
 
 ## 📝 Summary
 
-Determine if a string of space-separated words follows a given character pattern, establishing a bijection between characters in the pattern and words in the string.
+Accepted solution for Word Pattern on LeetCode.
 
 ## 🔍 Key Observation
 
-A valid pattern match requires a two-way (bijective) mapping, meaning each character must map to a unique word, and each word must uniquely map back to the same character.
+Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set one in .env for LLM-authored insight, or edit this section manually.
 
 ## ⚙️ Algorithm
 
-**Two HashMaps / Hash Table Mapping**
+**Direct simulation / brute force**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `O(N + M)` | `O(N + M)` |
+| `~O(n) (estimated)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
-`hash-table` `string`
+`untagged`
 
 <details>
 <summary>💻 View solution</summary>
 
-```java
-class Solution {
-    public boolean wordPattern(String pattern, String s) {
-        String[] words= s.split(" ");
-        if(pattern.length()!=words.length){
-            return false;
-        }
-        HashMap<Character,String> c2w=new HashMap<>();
-        HashMap<String,Character> w2c=new HashMap<>();
-        for(int i=0;i<words.length;i++){
-            if (c2w.containsKey(pattern.charAt(i)) && !c2w.get(pattern.charAt(i)).equals(words[i])){
-                return false;
-            }
-            if (w2c.containsKey(words[i]) &&! w2c.get(words[i]).equals(pattern.charAt(i))){
-                return false;
-            }
-            c2w.put(pattern.charAt(i),words[i]);
-            w2c.put(words[i],pattern.charAt(i));
-        }
-        return true;
-    }
-}
+```python
+class Solution:
+    def wordPattern(self, pattern: str, s: str) -> bool:
+        words = s.split()
+        if len(pattern) != len(words):
+            return False
+        char_to_word = {}
+        word_to_char = {}
+        for c, w in zip(pattern, words):
+            if c in char_to_word and char_to_word[c] != w:
+                return False
+            if w in word_to_char and word_to_char[w] != c:
+                return False
+            char_to_word[c] = w
+            word_to_char[w] = c
+        return True
 ```
 
 </details>
