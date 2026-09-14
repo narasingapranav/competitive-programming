@@ -1,8 +1,11 @@
 class Solution:
     def removeZeros(self, n: int) -> int:
-        a=str(n)
-        x=''
-        for i in a:
-            if i !='0':
-                x+=i
-        return int(x)
+        k=1
+        s=0
+        while n>0:
+            rem=n%10
+            if rem !=0:
+                s+=rem*k
+                k*=10
+            n//=10
+        return s
