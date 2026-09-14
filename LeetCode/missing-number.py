@@ -1,3 +1,7 @@
 class Solution:
     def missingNumber(self, nums: List[int]) -> int:
-        return sum(range(len(nums)+1))-sum(nums)
+        xor=len(nums)
+        for i,num in enumerate(nums):
+            xor^=i
+            xor^=num
+        return xor

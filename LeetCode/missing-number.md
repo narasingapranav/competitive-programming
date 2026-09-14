@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/missing-number/) &nbsp;|&nbsp; **Solved:** 2026-06-01
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/missing-number/) &nbsp;|&nbsp; **Solved:** 2025-12-08
 
 ---
 
@@ -22,7 +22,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 | Time | Space |
 |:--:|:--:|
-| `O(1)–O(n) (estimated -- could not confidently infer)` | `~O(1) (estimated)` |
+| `~O(n) (estimated)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
@@ -34,7 +34,11 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def missingNumber(self, nums: List[int]) -> int:
-        return sum(range(len(nums)+1))-sum(nums)
+        xor=len(nums)
+        for i,num in enumerate(nums):
+            xor^=i
+            xor^=num
+        return xor
 ```
 
 </details>
