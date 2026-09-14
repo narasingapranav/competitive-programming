@@ -35,13 +35,15 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 from itertools import permutations
 class Solution:
     def rearrangeString(self, s: str, x: str, y: str) -> str:
-        f=m=""
+        f=m=l=""
         for i in s:
             if i==y:
                 f+=i
+            elif i==x:
+                l+=i
             else:
                 m+=i
-        return f+m
+        return f+l+m
 ```
 
 </details>
