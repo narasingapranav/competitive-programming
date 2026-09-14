@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) &nbsp;|&nbsp; **Solved:** 2026-07-10
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) &nbsp;|&nbsp; **Solved:** 2025-08-14
 
 ---
 
@@ -22,7 +22,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 | Time | Space |
 |:--:|:--:|
-| `~O(n) (estimated)` | `~O(1) (estimated)` |
+| `O(1)–O(n) (estimated -- could not confidently infer)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
@@ -34,11 +34,8 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
-        n=len(needle)
-        h=len(haystack)
-        for i in range(h-n+1):
-            if haystack[i:i+n]==needle:
-                return i
+        if needle in haystack:
+            return haystack.index(needle)
         return -1
 ```
 

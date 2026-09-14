@@ -5,9 +5,9 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-1164-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-970-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-1103-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-1165-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-971-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-1104-FFA116?style=flat-square)
 
-_Last updated: 2026-09-14 16:09 UTC_
+_Last updated: 2026-09-14 16:10 UTC_
 
 ---
 
@@ -18,16 +18,17 @@ _Last updated: 2026-09-14 16:09 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **61** |
-| 🟠 LeetCode | **1103** |
+| 🟠 LeetCode | **1104** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-993-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-136-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-31-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
+![Python](https://img.shields.io/badge/Python-994-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-136-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-31-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-09-14 | 🟠 LeetCode | [find-the-index-of-the-first-occurrence-in-a-string](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | [`find-the-index-of-the-first-occurrence-in-a-string.py`](./LeetCode/find-the-index-of-the-first-occurrence-in-a-string.py) |
 | 2026-09-14 | 🟠 LeetCode | [length-of-last-word](https://leetcode.com/problems/length-of-last-word/) | [`length-of-last-word.py`](./LeetCode/length-of-last-word.py) |
 | 2026-09-14 | 🟠 LeetCode | [plus-one](https://leetcode.com/problems/plus-one/) | [`plus-one.py`](./LeetCode/plus-one.py) |
 | 2026-09-14 | 🟠 LeetCode | [sqrtx](https://leetcode.com/problems/sqrtx/) | [`sqrtx.py`](./LeetCode/sqrtx.py) |
@@ -37,6 +38,5 @@ _Last updated: 2026-09-14 16:09 UTC_
 | 2026-09-14 | 🟠 LeetCode | [count-primes](https://leetcode.com/problems/count-primes/) | [`count-primes.py`](./LeetCode/count-primes.py) |
 | 2026-09-14 | 🟠 LeetCode | [single-number](https://leetcode.com/problems/single-number/) | [`single-number.py`](./LeetCode/single-number.py) |
 | 2026-09-14 | 🟠 LeetCode | [single-number](https://leetcode.com/problems/single-number/) | [`single-number.py`](./LeetCode/single-number.py) |
-| 2026-09-14 | 🟠 LeetCode | [find-the-difference](https://leetcode.com/problems/find-the-difference/) | [`find-the-difference.py`](./LeetCode/find-the-difference.py) |
 
 <!-- CP-AGENT:END -->
