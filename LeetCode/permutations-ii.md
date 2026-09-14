@@ -16,17 +16,17 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ## ⚙️ Algorithm
 
-**Direct simulation / brute force**
+**Hash map/set lookup**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `~O(n^2) (estimated -- 2 nested loops)` | `~O(1) (estimated)` |
+| `~O(n^2) (estimated -- 2 nested loops)` | `~O(n) (estimated)` |
 
 ## 🏷️ Tags
 
-`untagged`
+`hash-map`
 
 <details>
 <summary>💻 View solution</summary>
@@ -34,34 +34,14 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
-        counts = defaultdict(int)
-        res = []
-
-        for n in nums:
-            counts[n] += 1
-        
-        def helper(sub, counts):
-
-            if len(sub) == len(nums):
-                res.append(sub[::])
-                return
-
-            for n in counts:
-
-                if counts[n] == 0:
-                    continue
-                
-                counts[n] -= 1
-                sub.append(n)
-
-                helper(sub, counts)
-
-                sub.pop()
-                counts[n] += 1
-        
-        helper([], counts)
-        return res
-
+        l=permutations(nums)
+        a=set()
+        for i in l:
+            a.add(tuple(i))
+        b=[]
+        for i in a:
+            b.append(list(i))
+        return b
 ```
 
 </details>
