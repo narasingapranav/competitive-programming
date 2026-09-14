@@ -1,0 +1,12 @@
+class Solution:
+    def minBitwiseArray(self, nums: list[int]) -> list[int]:
+        ans = []
+        for x in nums:
+            if x == 2:
+                ans.append(-1)
+            else:
+                for i in range(1, 32):
+                    if ((x >> i) & 1) == 0:
+                        ans.append(x ^ (1 << (i - 1)))
+                        break
+        return ans
