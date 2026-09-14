@@ -35,8 +35,8 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 class Solution:
     def scoreOfString(self, s: str) -> int:
         tot=0
-        for i in range(1,len(s)):
-            tot+=abs(ord(s[i-1])-ord(s[i]))
+        for i in range(len(s)-1):
+            tot+=abs(ord(s[i])-ord(s[i+1]))
         return tot
 ```
 
