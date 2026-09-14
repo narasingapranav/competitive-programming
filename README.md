@@ -5,9 +5,9 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-890-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-696-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-829-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-891-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-697-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-830-FFA116?style=flat-square)
 
-_Last updated: 2026-09-14 15:45 UTC_
+_Last updated: 2026-09-14 15:46 UTC_
 
 ---
 
@@ -18,16 +18,17 @@ _Last updated: 2026-09-14 15:45 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **61** |
-| 🟠 LeetCode | **829** |
+| 🟠 LeetCode | **830** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-736-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-128-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-22-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
+![Python](https://img.shields.io/badge/Python-737-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-128-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-22-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-09-14 | 🟠 LeetCode | [max-dot-product-of-two-subsequences](https://leetcode.com/problems/max-dot-product-of-two-subsequences/) | [`max-dot-product-of-two-subsequences.py`](./LeetCode/max-dot-product-of-two-subsequences.py) |
 | 2026-09-14 | 🟠 LeetCode | [smallest-subtree-with-all-the-deepest-nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/) | [`smallest-subtree-with-all-the-deepest-nodes.py`](./LeetCode/smallest-subtree-with-all-the-deepest-nodes.py) |
 | 2026-09-14 | 🟠 LeetCode | [minimum-ascii-delete-sum-for-two-strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/) | [`minimum-ascii-delete-sum-for-two-strings.py`](./LeetCode/minimum-ascii-delete-sum-for-two-strings.py) |
 | 2026-09-14 | 🟠 LeetCode | [maximal-rectangle](https://leetcode.com/problems/maximal-rectangle/) | [`maximal-rectangle.py`](./LeetCode/maximal-rectangle.py) |
@@ -37,6 +38,5 @@ _Last updated: 2026-09-14 15:45 UTC_
 | 2026-09-14 | 🟠 LeetCode | [maximize-area-of-square-hole-in-grid](https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/) | [`maximize-area-of-square-hole-in-grid.py`](./LeetCode/maximize-area-of-square-hole-in-grid.py) |
 | 2026-09-14 | 🟠 LeetCode | [find-the-largest-area-of-square-inside-two-rectangles](https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles/) | [`find-the-largest-area-of-square-inside-two-rectangles.py`](./LeetCode/find-the-largest-area-of-square-inside-two-rectangles.py) |
 | 2026-09-14 | 🟠 LeetCode | [maximum-square-area-by-removing-fences-from-a-field](https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field/) | [`maximum-square-area-by-removing-fences-from-a-field.py`](./LeetCode/maximum-square-area-by-removing-fences-from-a-field.py) |
-| 2026-09-14 | 🟠 LeetCode | [maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/) | [`maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold.py`](./LeetCode/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold.py) |
 
 <!-- CP-AGENT:END -->
