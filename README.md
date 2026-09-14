@@ -5,7 +5,7 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-995-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-801-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-934-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-996-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-802-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-935-FFA116?style=flat-square)
 
 _Last updated: 2026-09-14 15:55 UTC_
 
@@ -18,16 +18,17 @@ _Last updated: 2026-09-14 15:55 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **61** |
-| 🟠 LeetCode | **934** |
+| 🟠 LeetCode | **935** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-838-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-130-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-23-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
+![Python](https://img.shields.io/badge/Python-839-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-130-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-23-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-09-14 | 🟠 LeetCode | [middle-of-the-linked-list](https://leetcode.com/problems/middle-of-the-linked-list/) | [`middle-of-the-linked-list.py`](./LeetCode/middle-of-the-linked-list.py) |
 | 2026-09-14 | 🟠 LeetCode | [sort-colors](https://leetcode.com/problems/sort-colors/) | [`sort-colors.py`](./LeetCode/sort-colors.py) |
 | 2026-09-14 | 🟠 LeetCode | [rearrange-array-elements-by-sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/) | [`rearrange-array-elements-by-sign.py`](./LeetCode/rearrange-array-elements-by-sign.py) |
 | 2026-09-14 | 🟠 LeetCode | [sort-array-by-parity-ii](https://leetcode.com/problems/sort-array-by-parity-ii/) | [`sort-array-by-parity-ii.py`](./LeetCode/sort-array-by-parity-ii.py) |
@@ -36,7 +37,6 @@ _Last updated: 2026-09-14 15:55 UTC_
 | 2026-09-14 | 🟠 LeetCode | [subarrays-with-k-different-integers](https://leetcode.com/problems/subarrays-with-k-different-integers/) | [`subarrays-with-k-different-integers.py`](./LeetCode/subarrays-with-k-different-integers.py) |
 | 2026-09-14 | 🟠 LeetCode | [subarrays-with-k-different-integers](https://leetcode.com/problems/subarrays-with-k-different-integers/) | [`subarrays-with-k-different-integers.py`](./LeetCode/subarrays-with-k-different-integers.py) |
 | 2026-09-14 | 🟠 LeetCode | [evaluate-reverse-polish-notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [`evaluate-reverse-polish-notation.java`](./LeetCode/evaluate-reverse-polish-notation.java) |
-| 2026-09-14 | 🟠 LeetCode | [evaluate-reverse-polish-notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [`evaluate-reverse-polish-notation.py`](./LeetCode/evaluate-reverse-polish-notation.py) |
 | 2026-09-14 | 🟠 LeetCode | [evaluate-reverse-polish-notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [`evaluate-reverse-polish-notation.py`](./LeetCode/evaluate-reverse-polish-notation.py) |
 
 <!-- CP-AGENT:END -->
