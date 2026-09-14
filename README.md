@@ -5,7 +5,7 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-242-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-48-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-181-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-243-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-49-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-182-FFA116?style=flat-square)
 
 _Last updated: 2026-09-14 14:50 UTC_
 
@@ -18,16 +18,17 @@ _Last updated: 2026-09-14 14:50 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **61** |
-| 🟠 LeetCode | **181** |
+| 🟠 LeetCode | **182** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-221-3776AB?style=flat-square) ![Java](https://img.shields.io/badge/Java-20-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-1-00599C?style=flat-square)
+![Python](https://img.shields.io/badge/Python-222-3776AB?style=flat-square) ![Java](https://img.shields.io/badge/Java-20-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-1-00599C?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-09-14 | 🟠 LeetCode | [valid-k-unique-subarrays-i](https://leetcode.com/problems/valid-k-unique-subarrays-i/) | [`valid-k-unique-subarrays-i.py`](./LeetCode/valid-k-unique-subarrays-i.py) |
 | 2026-09-14 | 🟠 LeetCode | [sum-game](https://leetcode.com/problems/sum-game/) | [`sum-game.py`](./LeetCode/sum-game.py) |
 | 2026-09-14 | 🟠 LeetCode | [valid-number](https://leetcode.com/problems/valid-number/) | [`valid-number.py`](./LeetCode/valid-number.py) |
 | 2026-09-14 | 🟠 LeetCode | [valid-k-unique-subarrays-i](https://leetcode.com/problems/valid-k-unique-subarrays-i/) | [`valid-k-unique-subarrays-i.py`](./LeetCode/valid-k-unique-subarrays-i.py) |
@@ -37,6 +38,5 @@ _Last updated: 2026-09-14 14:50 UTC_
 | 2026-09-14 | 🟠 LeetCode | [smallest-missing-multiple-of-k](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | [`smallest-missing-multiple-of-k.py`](./LeetCode/smallest-missing-multiple-of-k.py) |
 | 2026-09-14 | 🟠 LeetCode | [smallest-missing-multiple-of-k](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | [`smallest-missing-multiple-of-k.java`](./LeetCode/smallest-missing-multiple-of-k.java) |
 | 2026-09-14 | 🟠 LeetCode | [single-element-in-a-sorted-array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [`single-element-in-a-sorted-array.py`](./LeetCode/single-element-in-a-sorted-array.py) |
-| 2026-09-14 | 🟠 LeetCode | [shortest-and-lexicographically-smallest-beautiful-string](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/) | [`shortest-and-lexicographically-smallest-beautiful-string.py`](./LeetCode/shortest-and-lexicographically-smallest-beautiful-string.py) |
 
 <!-- CP-AGENT:END -->
