@@ -34,12 +34,16 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def constructTransformedArray(self, nums: List[int]) -> List[int]:
-        res = []
         n = len(nums)
-        for i in range(n):
-            target = (i + nums[i]) % n
-            res.append(nums[target])
-        return res
+        result = [0] * n
+        for i, x in enumerate(nums):
+            if x != 0:
+                new_idx = (i + (x % n) + n) % n
+                result[i] = nums[new_idx]
+            else:
+                result[i] = 0
+        return result
+   
 ```
 
 </details>
