@@ -22,7 +22,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 | Time | Space |
 |:--:|:--:|
-| `O(1)–O(n) (estimated -- could not confidently infer)` | `~O(1) (estimated)` |
+| `~O(n) (estimated)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
@@ -34,7 +34,9 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def gcdOfOddEvenSums(self, n: int) -> int:
-        return n
+        es=sum(i for i in range(2,2*n,2))
+        os=sum(i for i in range(1,2*n,2))
+        return gcd(os,es)
 ```
 
 </details>
