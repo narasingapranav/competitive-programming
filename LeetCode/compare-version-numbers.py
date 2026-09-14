@@ -1,8 +1,13 @@
 class Solution:
-    def compareVersion(self, v1: str, v2: str) -> int:
-        v1,v2=list(map(int,v1.split('.'))),list(map(int,v2.split('.')))
-        for rev1,rev2 in zip_longest(v1,v2,fillvalue=0):
-            if rev1==rev2:
-                continue
-            return -1 if rev1<rev2 else 1
+    def compareVersion(self, version1: str, version2: str) -> int:
+        v1 = version1.split('.')
+        v2 = version2.split('.')
+        n = max(len(v1), len(v2))
+        for i in range(n):
+            num1 = int(v1[i]) if i < len(v1) else 0
+            num2 = int(v2[i]) if i < len(v2) else 0
+            if num1 > num2:
+                return 1
+            elif num1 < num2:
+                return -1
         return 0
