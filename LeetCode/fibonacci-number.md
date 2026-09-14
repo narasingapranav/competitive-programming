@@ -16,7 +16,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ## ⚙️ Algorithm
 
-**Direct simulation / brute force**
+**Recursion**
 
 ## ⏱️ Complexity
 
@@ -26,7 +26,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ## 🏷️ Tags
 
-`untagged`
+`recursion`
 
 <details>
 <summary>💻 View solution</summary>
@@ -34,12 +34,11 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def fib(self, n: int) -> int:
-        if (n == 0): return 0
-        if (n == 1): return 1
-        a,b = 0,1
-        for i in range(2, n+1):
-            a, b = b, a+b
-        return b
+        if n==1:
+            return 1
+        elif n==0:
+            return 0
+        return self.fib(n-1)+ self.fib(n-2)
 ```
 
 </details>
