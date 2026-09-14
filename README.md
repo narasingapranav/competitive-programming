@@ -5,7 +5,7 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-784-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-590-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-723-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-785-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-591-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-724-FFA116?style=flat-square)
 
 _Last updated: 2026-09-14 15:36 UTC_
 
@@ -18,16 +18,17 @@ _Last updated: 2026-09-14 15:36 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **61** |
-| 🟠 LeetCode | **723** |
+| 🟠 LeetCode | **724** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-632-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-126-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-22-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
+![Python](https://img.shields.io/badge/Python-633-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-126-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-22-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-09-14 | 🟠 LeetCode | [special-positions-in-a-binary-matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/) | [`special-positions-in-a-binary-matrix.py`](./LeetCode/special-positions-in-a-binary-matrix.py) |
 | 2026-09-14 | 🟠 LeetCode | [find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/) | [`find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree.py`](./LeetCode/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree.py) |
 | 2026-09-14 | 🟠 LeetCode | [find-first-and-last-position-of-element-in-sorted-array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [`find-first-and-last-position-of-element-in-sorted-array.py`](./LeetCode/find-first-and-last-position-of-element-in-sorted-array.py) |
 | 2026-09-14 | 🟠 LeetCode | [minimum-number-of-days-to-disconnect-island](https://leetcode.com/problems/minimum-number-of-days-to-disconnect-island/) | [`minimum-number-of-days-to-disconnect-island.java`](./LeetCode/minimum-number-of-days-to-disconnect-island.java) |
@@ -37,6 +38,5 @@ _Last updated: 2026-09-14 15:36 UTC_
 | 2026-09-14 | 🟠 LeetCode | [check-if-binary-string-has-at-most-one-segment-of-ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) | [`check-if-binary-string-has-at-most-one-segment-of-ones.py`](./LeetCode/check-if-binary-string-has-at-most-one-segment-of-ones.py) |
 | 2026-09-14 | 🟠 LeetCode | [generate-parentheses](https://leetcode.com/problems/generate-parentheses/) | [`generate-parentheses.py`](./LeetCode/generate-parentheses.py) |
 | 2026-09-14 | 🟠 LeetCode | [generate-parentheses](https://leetcode.com/problems/generate-parentheses/) | [`generate-parentheses.py`](./LeetCode/generate-parentheses.py) |
-| 2026-09-14 | 🟠 LeetCode | [jump-game](https://leetcode.com/problems/jump-game/) | [`jump-game.py`](./LeetCode/jump-game.py) |
 
 <!-- CP-AGENT:END -->
