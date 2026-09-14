@@ -8,15 +8,15 @@
 
 ## 📝 Summary
 
-Count the number of nodes in a binary tree where the node's value equals the floor-divided average of all values in its subtree.
+Count the number of nodes in a binary tree whose value is equal to the average of the values in its subtree (rounded down).
 
 ## 🔍 Key Observation
 
-A post-order traversal allows each node to calculate its subtree's total sum and node count in O(1) time by aggregating results from its left and right children.
+Using a post-order traversal, each subtree can return its total sum, node count, and valid node count to its parent, enabling the parent to evaluate its condition in O(1) time.
 
 ## ⚙️ Algorithm
 
-**Post-order DFS**
+**Post-order Traversal (DFS)**
 
 ## ⏱️ Complexity
 
@@ -26,7 +26,7 @@ A post-order traversal allows each node to calculate its subtree's total sum and
 
 ## 🏷️ Tags
 
-`binary-tree` `dfs` `tree`
+`tree` `depth-first search` `binary tree`
 
 <details>
 <summary>💻 View solution</summary>
@@ -39,19 +39,23 @@ A post-order traversal allows each node to calculate its subtree's total sum and
 #         self.left = left
 #         self.right = right
 class Solution:
-    def averageOfSubtree(self, root: TreeNode) -> int:
-        def dfs(root):
-            if not root:
-                return (0,0,0)
-            left=dfs(root.left)
-            right=dfs(root.right)
+    def sumofsubtree(self,root):
+        if root:
+            c=0
+            t=0
+            ans=0
+            left=self.sumofsubtree(root.left)
+            right=self.sumofsubtree(root.right)
             t=root.val+left[0]+right[0]
-            c=1+left[1]+right[1]
             ans=left[2]+right[2]
+            c+=1+left[1]+right[1]
             if t//c==root.val:
                 ans+=1
             return (t,c,ans)
-        return dfs(root)[2]
+        return (0,0,0)
+    def averageOfSubtree(self, root: TreeNode) -> int:
+        total,count,ans=self.sumofsubtree(root)
+        return ans
 ```
 
 </details>

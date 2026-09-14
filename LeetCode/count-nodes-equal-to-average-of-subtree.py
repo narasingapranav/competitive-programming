@@ -5,16 +5,20 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def averageOfSubtree(self, root: TreeNode) -> int:
-        def dfs(root):
-            if not root:
-                return (0,0,0)
-            left=dfs(root.left)
-            right=dfs(root.right)
+    def sumofsubtree(self,root):
+        if root:
+            c=0
+            t=0
+            ans=0
+            left=self.sumofsubtree(root.left)
+            right=self.sumofsubtree(root.right)
             t=root.val+left[0]+right[0]
-            c=1+left[1]+right[1]
             ans=left[2]+right[2]
+            c+=1+left[1]+right[1]
             if t//c==root.val:
                 ans+=1
             return (t,c,ans)
-        return dfs(root)[2]
+        return (0,0,0)
+    def averageOfSubtree(self, root: TreeNode) -> int:
+        total,count,ans=self.sumofsubtree(root)
+        return ans
