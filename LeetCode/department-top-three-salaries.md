@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-unknown-555555?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/department-top-three-salaries/) &nbsp;|&nbsp; **Solved:** 2026-07-22
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/department-top-three-salaries/) &nbsp;|&nbsp; **Solved:** 2026-06-04
 
 ---
 
@@ -33,9 +33,19 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ```
 # Write your MySQL query statement below
-select department,employee,salary from (
-    select d.name as department,e.name as employee,e.salary as salary,dense_rank() over(partition by d.id  order by e.salary desc ) as rnk from Employee e join Department d on e.departmentid=d.id
-)t where t.rnk<4 order by Salary
+WITH new_table AS (
+    SELECT 
+        d.name AS Department,
+        e.name AS Employee,
+        e.salary AS Salary,
+        DENSE_RANK() OVER(PARTITION BY d.name ORDER BY e.salary DESC) AS ranking
+    FROM Employee e
+    LEFT JOIN Department d
+    ON e.departmentId = d.id
+)
+SELECT Department, Employee, Salary
+FROM new_table
+WHERE ranking <= 3;
 ```
 
 </details>
