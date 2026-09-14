@@ -16,17 +16,17 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ## ⚙️ Algorithm
 
-**Hash map/set lookup**
+**Sorting**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `~O(n) (estimated)` | `~O(n) (estimated)` |
+| `~O(n log n) (estimated -- sort detected)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
-`hash-map`
+`sorting`
 
 <details>
 <summary>💻 View solution</summary>
@@ -36,12 +36,8 @@ class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         if len(s) != len(t):
             return False
-        for i in set(s):
-            if t.count(i)!=s.count(i):
-                return False
-            if i not in t:
-                return False
-        return True
+            
+        return sorted(s) == sorted(t)
 ```
 
 </details>
