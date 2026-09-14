@@ -5,7 +5,7 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-930-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-736-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-869-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-931-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-737-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-870-FFA116?style=flat-square)
 
 _Last updated: 2026-09-14 15:49 UTC_
 
@@ -18,16 +18,17 @@ _Last updated: 2026-09-14 15:49 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **61** |
-| 🟠 LeetCode | **869** |
+| 🟠 LeetCode | **870** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-775-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-129-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-22-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
+![Python](https://img.shields.io/badge/Python-776-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-129-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-22-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-09-14 | 🟠 LeetCode | [perfect-squares](https://leetcode.com/problems/perfect-squares/) | [`perfect-squares.py`](./LeetCode/perfect-squares.py) |
 | 2026-09-14 | 🟠 LeetCode | [nim-game](https://leetcode.com/problems/nim-game/) | [`nim-game.py`](./LeetCode/nim-game.py) |
 | 2026-09-14 | 🟠 LeetCode | [base-7](https://leetcode.com/problems/base-7/) | [`base-7.py`](./LeetCode/base-7.py) |
 | 2026-09-14 | 🟠 LeetCode | [fizz-buzz](https://leetcode.com/problems/fizz-buzz/) | [`fizz-buzz.py`](./LeetCode/fizz-buzz.py) |
@@ -37,6 +38,5 @@ _Last updated: 2026-09-14 15:49 UTC_
 | 2026-09-14 | 🟠 LeetCode | [valid-boomerang](https://leetcode.com/problems/valid-boomerang/) | [`valid-boomerang.py`](./LeetCode/valid-boomerang.py) |
 | 2026-09-14 | 🟠 LeetCode | [concatenation-of-array](https://leetcode.com/problems/concatenation-of-array/) | [`concatenation-of-array.py`](./LeetCode/concatenation-of-array.py) |
 | 2026-09-14 | 🟠 LeetCode | [max-consecutive-ones](https://leetcode.com/problems/max-consecutive-ones/) | [`max-consecutive-ones.py`](./LeetCode/max-consecutive-ones.py) |
-| 2026-09-14 | 🟠 LeetCode | [shuffle-the-array](https://leetcode.com/problems/shuffle-the-array/) | [`shuffle-the-array.py`](./LeetCode/shuffle-the-array.py) |
 
 <!-- CP-AGENT:END -->
