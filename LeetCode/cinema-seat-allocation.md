@@ -8,25 +8,25 @@
 
 ## 📝 Summary
 
-Find the maximum number of 4-person families that can be seated in a cinema with n rows of 10 seats, given a list of reserved seats.
+Accepted solution for Cinema Seat Allocation on LeetCode.
 
 ## 🔍 Key Observation
 
-Rows without any reserved seats can always fit 2 families, so we only need to process rows containing reservations by checking availability in three specific 4-seat blocks (2-5, 4-7, and 6-9).
+Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set one in .env for LLM-authored insight, or edit this section manually.
 
 ## ⚙️ Algorithm
 
-**Hash Map / Greedy**
+**Sorting**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `O(k)` | `O(k)` |
+| `~O(n^2) (estimated -- 2 nested loops)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
-`hash-table` `greedy` `array`
+`sorting`
 
 <details>
 <summary>💻 View solution</summary>
@@ -34,32 +34,28 @@ Rows without any reserved seats can always fit 2 families, so we only need to pr
 ```python
 class Solution:
     def maxNumberOfFamilies(self, n: int, reservedSeats: List[List[int]]) -> int:
-        reserved = defaultdict(set)
-        for r, c in reservedSeats:
-            reserved[r].add(c)
-        possibilities = [
-            [2, 3, 4, 5],
-            [4, 5, 6, 7],
-            [6, 7, 8, 9]
-        ]
-        c = 2 * n
-        for r, seats in reserved.items():
-            used = [False] * 3
-            for k in range(3):
-                possible = True
-                for seat in possibilities[k]:
-                    if seat in seats:
-                        possible = False
-                        break
-                if possible:
-                    used[k] = True
-            if used[0] and used[2]:
-                continue
-            elif used[0] or used[1] or used[2]:
-                c -= 1
-            else:
-                c -= 2
-        return c
+        reservedSeats.sort(key=lambda x:(x[0],x[1]))
+        res=0
+        j=0
+        for i in range(1,n+1):
+            x=0
+            while j<len(reservedSeats) and  reservedSeats[j][0]==i:
+                x|= 1<<(10-reservedSeats[j][1])
+                j+=1
+            if x & 480 ==0 :
+                if x&30 ==0:
+                    res+=2
+                else:
+                    res+=1
+            elif x&120==0:
+                res+=1
+            elif x&30==0:
+                res+=1
+            if j==len(reservedSeats):
+                res+=(n-i)*2
+                break
+        return res
+
 ```
 
 </details>
