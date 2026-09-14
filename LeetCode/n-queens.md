@@ -16,17 +16,17 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ## ⚙️ Algorithm
 
-**Hash map/set lookup**
+**Direct simulation / brute force**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `~O(n) (estimated)` | `~O(n) (estimated)` |
+| `~O(n^3) (estimated -- 3 nested loops)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
-`hash-map`
+`untagged`
 
 <details>
 <summary>💻 View solution</summary>
@@ -36,9 +36,13 @@ class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
         board=[['.']*n for _ in range(n)]
         l=[]
-        d=set()
-        ad=set()
-        co=set()
+        def issafe(r,c,b):
+            for i in range(n):
+                for j in range(n):
+                    if b[i][j]=='Q':
+                        if abs(r-i)==abs(c-j) or r==i or c==j:
+                            return False
+            return True
         def place(r,c):
             board[r][c]='Q'
         def remove(r,c):
@@ -48,17 +52,10 @@ class Solution:
                 l.append(["".join(r) for r in board])
                 return
             for c in range(n):
-                if c in co or (r-c) in d or (r+c) in ad:
-                    continue
-                place(r,c)
-                co.add(c)
-                d.add(r-c)
-                ad.add(r+c)
-                solve(r+1)
-                remove(r,c)
-                co.remove(c)
-                d.remove(r-c)
-                ad.remove(r+c)
+                if issafe(r,c,board):
+                    place(r,c)
+                    solve(r+1)
+                    remove(r,c)
         solve(0)
         return l
 ```
