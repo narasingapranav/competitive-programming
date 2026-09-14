@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/plus-one/) &nbsp;|&nbsp; **Solved:** 2026-01-01
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/plus-one/) &nbsp;|&nbsp; **Solved:** 2025-08-14
 
 ---
 
@@ -34,13 +34,15 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
-        n = len(digits)
-        for i in range(n - 1, -1, -1):
-            if digits[i] < 9:
-                digits[i] += 1
+        n=len(digits)
+        for i in range (n-1,-1,-1):
+            if digits[i]<9:
+                digits[i]+=1
                 return digits
-            digits[i] = 0
-        return [1] + digits
+            else:
+                digits[i]=0
+        digits.insert(0,1)
+        return digits
 ```
 
 </details>
