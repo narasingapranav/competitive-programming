@@ -16,17 +16,17 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ## ⚙️ Algorithm
 
-**Sorting**
+**Two pointers**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `~O(n log n) (estimated -- sort detected)` | `~O(1) (estimated)` |
+| `~O(n) (estimated)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
-`sorting`
+`untagged`
 
 <details>
 <summary>💻 View solution</summary>
@@ -34,8 +34,20 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def targetIndices(self, nums: List[int], target: int) -> List[int]:
-        nums=sorted(nums)
-        ind=[i for i,n in enumerate(nums) if n==target]
+        def quick(arr):
+            if len(arr)<=1:
+                return arr
+            p=arr[len(arr)//2]
+            left=[i for i in arr if i<p]
+            middle=[i for i in arr if i==p]
+            right=[i for i in arr if i>p]
+            return quick(left)+middle+quick(right)
+
+        a=quick(nums)
+        ind=[]
+        for i in range(len(a)):
+            if a[i]==target:
+                ind.append(i)
         return ind
 ```
 
