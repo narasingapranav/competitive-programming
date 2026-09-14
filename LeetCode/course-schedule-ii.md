@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/course-schedule-ii/) &nbsp;|&nbsp; **Solved:** 2026-05-15
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/course-schedule-ii/) &nbsp;|&nbsp; **Solved:** 2026-02-27
 
 ---
 
@@ -16,7 +16,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ## ⚙️ Algorithm
 
-**Direct simulation / brute force**
+**Graph/tree traversal (BFS/DFS)**
 
 ## ⏱️ Complexity
 
@@ -26,7 +26,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ## 🏷️ Tags
 
-`untagged`
+`graph`
 
 <details>
 <summary>💻 View solution</summary>
@@ -34,27 +34,35 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
-        graph=defaultdict(list)
-        for u,v in prerequisites:
-            graph[v].append(u)
-        vis={}
-        st=[]
+        graph = defaultdict(list)
+        
+        for course, prereq in prerequisites:
+            graph[prereq].append(course)
+
+        visited = {}  
+        stack = []
+
         def dfs(node):
-            if node in vis:
-                if vis[node]==1:
-                    return False
-                return True
-            vis[node]=1
+            if node in visited:
+                if visited[node] == 1:
+                    return False  
+                return True      
+
+            visited[node] = 1 
+
             for nei in graph[node]:
                 if not dfs(nei):
                     return False
-            vis[node]=2
-            st.append(node)
+
+            visited[node] = 2 
+            stack.append(node)
             return True
+
         for i in range(numCourses):
             if not dfs(i):
                 return []
-        return st[::-1]
+
+        return stack[::-1]
 ```
 
 </details>
