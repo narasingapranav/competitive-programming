@@ -5,7 +5,7 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-1095-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-901-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-1034-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-1096-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-902-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-1035-FFA116?style=flat-square)
 
 _Last updated: 2026-09-14 16:03 UTC_
 
@@ -18,16 +18,17 @@ _Last updated: 2026-09-14 16:03 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **61** |
-| 🟠 LeetCode | **1034** |
+| 🟠 LeetCode | **1035** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-924-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-136-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-31-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
+![Python](https://img.shields.io/badge/Python-925-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-136-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-31-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-09-14 | 🟠 LeetCode | [same-tree](https://leetcode.com/problems/same-tree/) | [`same-tree.py`](./LeetCode/same-tree.py) |
 | 2026-09-14 | 🟠 LeetCode | [symmetric-tree](https://leetcode.com/problems/symmetric-tree/) | [`symmetric-tree.py`](./LeetCode/symmetric-tree.py) |
 | 2026-09-14 | 🟠 LeetCode | [maximum-depth-of-binary-tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [`maximum-depth-of-binary-tree.py`](./LeetCode/maximum-depth-of-binary-tree.py) |
 | 2026-09-14 | 🟠 LeetCode | [best-time-to-buy-and-sell-stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [`best-time-to-buy-and-sell-stock.py`](./LeetCode/best-time-to-buy-and-sell-stock.py) |
@@ -37,6 +38,5 @@ _Last updated: 2026-09-14 16:03 UTC_
 | 2026-09-14 | 🟠 LeetCode | [linked-list-cycle](https://leetcode.com/problems/linked-list-cycle/) | [`linked-list-cycle.py`](./LeetCode/linked-list-cycle.py) |
 | 2026-09-14 | 🟠 LeetCode | [binary-tree-preorder-traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [`binary-tree-preorder-traversal.py`](./LeetCode/binary-tree-preorder-traversal.py) |
 | 2026-09-14 | 🟠 LeetCode | [binary-tree-postorder-traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [`binary-tree-postorder-traversal.py`](./LeetCode/binary-tree-postorder-traversal.py) |
-| 2026-09-14 | 🟠 LeetCode | [coin-change](https://leetcode.com/problems/coin-change/) | [`coin-change.py`](./LeetCode/coin-change.py) |
 
 <!-- CP-AGENT:END -->
