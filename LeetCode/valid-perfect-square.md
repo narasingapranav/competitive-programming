@@ -2,31 +2,31 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/valid-perfect-square/) &nbsp;|&nbsp; **Solved:** 2026-08-07
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/valid-perfect-square/) &nbsp;|&nbsp; **Solved:** 2026-07-07
 
 ---
 
 ## 📝 Summary
 
-Determine whether a given positive integer is a perfect square without using built-in square root functions.
+Accepted solution for Valid Perfect Square on LeetCode.
 
 ## 🔍 Key Observation
 
-Since the square function is strictly monotonically increasing for positive integers, binary search can be applied on the range [1, num] to locate the integer square root if it exists.
+Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set one in .env for LLM-authored insight, or edit this section manually.
 
 ## ⚙️ Algorithm
 
-**Binary search**
+**Direct simulation / brute force**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `O(log n)` | `O(1)` |
+| `O(1)–O(n) (estimated -- could not confidently infer)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
-`binary-search` `math`
+`untagged`
 
 <details>
 <summary>💻 View solution</summary>
@@ -34,17 +34,8 @@ Since the square function is strictly monotonically increasing for positive inte
 ```python
 class Solution:
     def isPerfectSquare(self, num: int) -> bool:
-        l=1
-        h=num
-        while l<=h:
-            mid=l+(h-l)//2
-            if mid*mid==num:
-                return True
-            if mid*mid <num:
-                l=mid+1
-            else:
-                h=mid-1
-        return False
+        r=int(math.sqrt(num))
+        return r*r==num
 ```
 
 </details>
