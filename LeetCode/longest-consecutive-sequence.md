@@ -2,31 +2,31 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/longest-consecutive-sequence/) &nbsp;|&nbsp; **Solved:** 2026-08-10
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/longest-consecutive-sequence/) &nbsp;|&nbsp; **Solved:** 2026-06-01
 
 ---
 
 ## 📝 Summary
 
-Find the length of the longest sequence of consecutive elements in an unsorted array of integers.
+Accepted solution for Longest Consecutive Sequence on LeetCode.
 
 ## 🔍 Key Observation
 
-Sorting the array brings consecutive numbers next to each other, allowing a single linear scan to track and measure sequence lengths while skipping duplicate values.
+Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set one in .env for LLM-authored insight, or edit this section manually.
 
 ## ⚙️ Algorithm
 
-**Sorting**
+**Hash map/set lookup**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `O(n log n)` | `O(n)` |
+| `~O(n^2) (estimated -- 2 nested loops)` | `~O(n) (estimated)` |
 
 ## 🏷️ Tags
 
-`array` `sorting`
+`hash-map`
 
 <details>
 <summary>💻 View solution</summary>
@@ -34,19 +34,15 @@ Sorting the array brings consecutive numbers next to each other, allowing a sing
 ```python
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
-        if not nums:return 0
-        nums.sort()
-        m=c=1
-        for i in range(len(nums)-1):
-            if nums[i]==nums[i+1]:
-                m=max(m,c)
-            elif nums[i+1]==nums[i]+1:
-                c+=1
-            else:
-                m=max(m,c)
-                c=1
-        m=max(m,c)     
-        return m
+        s=set(nums)
+        maxlen=0
+        for i in s:
+            if i-1 not in s:
+                j=i
+                while j in s:
+                    j+=1
+                    maxlen=max(maxlen,j-i)
+        return maxlen
 ```
 
 </details>
