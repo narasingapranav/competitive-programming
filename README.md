@@ -5,7 +5,7 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-589-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-395-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-528-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-590-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-396-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-529-FFA116?style=flat-square)
 
 _Last updated: 2026-09-14 15:20 UTC_
 
@@ -18,16 +18,17 @@ _Last updated: 2026-09-14 15:20 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **61** |
-| 🟠 LeetCode | **528** |
+| 🟠 LeetCode | **529** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-497-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-67-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-21-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
+![Python](https://img.shields.io/badge/Python-498-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-67-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-21-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-09-14 | 🟠 LeetCode | [number-of-pairs-after-increment](https://leetcode.com/problems/number-of-pairs-after-increment/) | [`number-of-pairs-after-increment.py`](./LeetCode/number-of-pairs-after-increment.py) |
 | 2026-09-14 | 🟠 LeetCode | [number-of-pairs-after-increment](https://leetcode.com/problems/number-of-pairs-after-increment/) | [`number-of-pairs-after-increment.py`](./LeetCode/number-of-pairs-after-increment.py) |
 | 2026-09-14 | 🟠 LeetCode | [combine-two-tables](https://leetcode.com/problems/combine-two-tables/) | [`combine-two-tables.txt`](./LeetCode/combine-two-tables.txt) |
 | 2026-09-14 | 🟠 LeetCode | [employees-earning-more-than-their-managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/) | [`employees-earning-more-than-their-managers.txt`](./LeetCode/employees-earning-more-than-their-managers.txt) |
@@ -37,6 +38,5 @@ _Last updated: 2026-09-14 15:20 UTC_
 | 2026-09-14 | 🟠 LeetCode | [classes-with-at-least-5-students](https://leetcode.com/problems/classes-with-at-least-5-students/) | [`classes-with-at-least-5-students.txt`](./LeetCode/classes-with-at-least-5-students.txt) |
 | 2026-09-14 | 🟠 LeetCode | [user-activity-for-the-past-30-days-i](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/) | [`user-activity-for-the-past-30-days-i.txt`](./LeetCode/user-activity-for-the-past-30-days-i.txt) |
 | 2026-09-14 | 🟠 LeetCode | [monthly-transactions-i](https://leetcode.com/problems/monthly-transactions-i/) | [`monthly-transactions-i.txt`](./LeetCode/monthly-transactions-i.txt) |
-| 2026-09-14 | 🟠 LeetCode | [students-and-examinations](https://leetcode.com/problems/students-and-examinations/) | [`students-and-examinations.txt`](./LeetCode/students-and-examinations.txt) |
 
 <!-- CP-AGENT:END -->
