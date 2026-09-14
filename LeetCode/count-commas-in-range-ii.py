@@ -1,11 +1,14 @@
 class Solution:
     def countCommas(self, n: int) -> int:
-        ans = 0
-        start = 1000
-        commas = 1
-        while start <= n:
-            end = min(n, start * 1000 - 1)
-            ans += (end - start + 1) * commas
-            start *= 1000
-            commas += 1
-        return ans
+        if n < 1000:
+            return 0
+        if 1000 <= n <= 999999:
+            return 1 + (n - 1000)
+        if 1000000 <= n <= 999999999:
+            return 2 + 999000 + (n - 1000000) * 2
+        if 1000000000 <= n <= 999999999999:
+            return 3 + 999000 + 1998000000 + (n - 1000000000) * 3
+        if 1000000000000 <= n <= 999999999999999:
+            return 4 + 999000 + 1998000000 + 2997000000000 + (n - 1000000000000) * 4
+        if n == 1000000000000000:
+            return 5 + 999000 + 1998000000 + 2997000000000 + 3996000000000000 
