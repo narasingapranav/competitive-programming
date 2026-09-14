@@ -5,7 +5,7 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-415-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-221-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-354-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-416-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-222-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-355-FFA116?style=flat-square)
 
 _Last updated: 2026-09-14 15:05 UTC_
 
@@ -18,16 +18,17 @@ _Last updated: 2026-09-14 15:05 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **61** |
-| 🟠 LeetCode | **354** |
+| 🟠 LeetCode | **355** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-375-3776AB?style=flat-square) ![Java](https://img.shields.io/badge/Java-21-007396?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-16-555555?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square)
+![Python](https://img.shields.io/badge/Python-376-3776AB?style=flat-square) ![Java](https://img.shields.io/badge/Java-21-007396?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-16-555555?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-09-14 | 🟠 LeetCode | [binary-search-tree-iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | [`binary-search-tree-iterator.py`](./LeetCode/binary-search-tree-iterator.py) |
 | 2026-09-14 | 🟠 LeetCode | [kth-largest-element-in-a-stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | [`kth-largest-element-in-a-stream.py`](./LeetCode/kth-largest-element-in-a-stream.py) |
 | 2026-09-14 | 🟠 LeetCode | [merge-k-sorted-lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [`merge-k-sorted-lists.py`](./LeetCode/merge-k-sorted-lists.py) |
 | 2026-09-14 | 🟠 LeetCode | [concatenate-non-zero-digits-and-multiply-by-sum-i](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/) | [`concatenate-non-zero-digits-and-multiply-by-sum-i.py`](./LeetCode/concatenate-non-zero-digits-and-multiply-by-sum-i.py) |
@@ -36,7 +37,6 @@ _Last updated: 2026-09-14 15:05 UTC_
 | 2026-09-14 | 🟠 LeetCode | [lemonade-change](https://leetcode.com/problems/lemonade-change/) | [`lemonade-change.py`](./LeetCode/lemonade-change.py) |
 | 2026-09-14 | 🟠 LeetCode | [assign-cookies](https://leetcode.com/problems/assign-cookies/) | [`assign-cookies.py`](./LeetCode/assign-cookies.py) |
 | 2026-09-14 | 🟠 LeetCode | [daily-temperatures](https://leetcode.com/problems/daily-temperatures/) | [`daily-temperatures.py`](./LeetCode/daily-temperatures.py) |
-| 2026-09-14 | 🟠 LeetCode | [next-greater-element-ii](https://leetcode.com/problems/next-greater-element-ii/) | [`next-greater-element-ii.py`](./LeetCode/next-greater-element-ii.py) |
 | 2026-09-14 | 🟠 LeetCode | [next-greater-element-ii](https://leetcode.com/problems/next-greater-element-ii/) | [`next-greater-element-ii.py`](./LeetCode/next-greater-element-ii.py) |
 
 <!-- CP-AGENT:END -->
