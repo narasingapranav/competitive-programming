@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/palindrome-number/) &nbsp;|&nbsp; **Solved:** 2026-05-27
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/palindrome-number/) &nbsp;|&nbsp; **Solved:** 2025-08-14
 
 ---
 
@@ -34,7 +34,10 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def isPalindrome(self, x: int) -> bool:
-        return str(x)==str(x)[::-1]
+        a=str(x)
+        if a== a[::-1]:
+            return True
+        return False
 ```
 
 </details>
