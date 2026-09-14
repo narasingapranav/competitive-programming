@@ -34,9 +34,12 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def repeatedNTimes(self, nums: List[int]) -> int:
+        d={}
         for i in nums:
-            if nums.count(i)>1:
+            if i in d:
                 return i
+            d[i]=1
+            
 ```
 
 </details>
