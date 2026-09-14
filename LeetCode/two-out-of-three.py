@@ -3,4 +3,5 @@ class Solution:
         a=set(nums1)
         b=set(nums2)
         c=set(nums3)
-        return list((a&b) | (b&c) | (a&c))
+        r=(a&b) | (b&c) | (a&c)
+        return list(r)
