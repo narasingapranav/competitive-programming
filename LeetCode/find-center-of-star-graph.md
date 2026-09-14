@@ -16,17 +16,17 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ## ⚙️ Algorithm
 
-**Hash map/set lookup**
+**Direct simulation / brute force**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `O(1)–O(n) (estimated -- could not confidently infer)` | `~O(n) (estimated)` |
+| `~O(n) (estimated)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
-`hash-map`
+`untagged`
 
 <details>
 <summary>💻 View solution</summary>
@@ -34,9 +34,14 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def findCenter(self, edges: List[List[int]]) -> int:
-        nf=set(edges[0])
-        ns=set(edges[1])
-        return nf.intersection(ns).pop()
+        c,e=edges[0]
+        cf=ef=True
+        for i in range(1,len(edges)):
+            if c not in edges[i]:
+                cf=False
+            if e not in edges[i]:
+                ef=False
+        return c if cf else e
 ```
 
 </details>
