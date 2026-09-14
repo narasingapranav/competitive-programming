@@ -5,7 +5,7 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-963-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-769-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-902-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-964-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-770-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-903-FFA116?style=flat-square)
 
 _Last updated: 2026-09-14 15:52 UTC_
 
@@ -18,16 +18,17 @@ _Last updated: 2026-09-14 15:52 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **61** |
-| 🟠 LeetCode | **902** |
+| 🟠 LeetCode | **903** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-807-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-130-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-22-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
+![Python](https://img.shields.io/badge/Python-808-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-130-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-22-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-09-14 | 🟠 LeetCode | [intersection-of-two-linked-lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [`intersection-of-two-linked-lists.py`](./LeetCode/intersection-of-two-linked-lists.py) |
 | 2026-09-14 | 🟠 LeetCode | [edit-distance](https://leetcode.com/problems/edit-distance/) | [`edit-distance.py`](./LeetCode/edit-distance.py) |
 | 2026-09-14 | 🟠 LeetCode | [edit-distance](https://leetcode.com/problems/edit-distance/) | [`edit-distance.py`](./LeetCode/edit-distance.py) |
 | 2026-09-14 | 🟠 LeetCode | [linked-list-cycle-ii](https://leetcode.com/problems/linked-list-cycle-ii/) | [`linked-list-cycle-ii.py`](./LeetCode/linked-list-cycle-ii.py) |
@@ -37,6 +38,5 @@ _Last updated: 2026-09-14 15:52 UTC_
 | 2026-09-14 | 🟠 LeetCode | [search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [`search-in-rotated-sorted-array.py`](./LeetCode/search-in-rotated-sorted-array.py) |
 | 2026-09-14 | 🟠 LeetCode | [search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [`search-in-rotated-sorted-array.py`](./LeetCode/search-in-rotated-sorted-array.py) |
 | 2026-09-14 | 🟠 LeetCode | [sort-an-array](https://leetcode.com/problems/sort-an-array/) | [`sort-an-array.py`](./LeetCode/sort-an-array.py) |
-| 2026-09-14 | 🟠 LeetCode | [diameter-of-binary-tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [`diameter-of-binary-tree.py`](./LeetCode/diameter-of-binary-tree.py) |
 
 <!-- CP-AGENT:END -->
