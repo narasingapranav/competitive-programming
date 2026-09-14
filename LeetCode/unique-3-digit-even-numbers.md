@@ -2,60 +2,53 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/unique-3-digit-even-numbers/) &nbsp;|&nbsp; **Solved:** 2026-09-11
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/unique-3-digit-even-numbers/) &nbsp;|&nbsp; **Solved:** 2025-12-14
 
 ---
 
 ## 📝 Summary
 
-Given an array of digits, count how many unique 3-digit even numbers can be formed without leading zeros.
+Accepted solution for Unique 3-Digit Even Numbers on LeetCode.
 
 ## 🔍 Key Observation
 
-Instead of generating all numbers, we can fix valid choices for the last digit (even) and first digit (1-9) using digit frequency counts, and then count the remaining unique digits available for the middle position.
+Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set one in .env for LLM-authored insight, or edit this section manually.
 
 ## ⚙️ Algorithm
 
-**Frequency counting / Brute force**
+**Hash map/set lookup**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `O(n)` | `O(1)` |
+| `~O(n^3) (estimated -- 3 nested loops)` | `~O(n) (estimated)` |
 
 ## 🏷️ Tags
 
-`counting` `hash table` `brute force`
+`hash-map`
 
 <details>
 <summary>💻 View solution</summary>
 
 ```python
 class Solution:
-    def totalNumbers(self, a: List[int]) -> int:
-        from collections import Counter
-
-        c = Counter(a)
-        ans = 0
-
-        for last in [0, 2, 4, 6, 8]:
-            if c[last] == 0:
+    def totalNumbers(self, digits: List[int]) -> int:
+        s=set()
+        n=len(digits)
+        for i in range(n):
+            if digits[i]==0:
                 continue
-
-            c[last] -= 1
-
-            for first in range(1, 10):
-                if c[first] == 0:
-                    continue
-
-                c[first] -= 1
-                ans += sum(1 for x in c if c[x] > 0)
-                c[first] += 1
-
-            c[last] += 1
-
-        return ans
+            for j in range(n):
+                if i==j:
+                    continue 
+                for k in range(n):
+                    if k==i or k==j:
+                        continue 
+                    if digits[k]%2==0:
+                        a=digits[i]*100+digits[j]*10+digits[k]
+                        s.add(a)
+        return len(s)
 ```
 
 </details>
