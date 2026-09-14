@@ -12,10 +12,10 @@ class Solution:
             return total
         l=max(weights)
         h=sum(weights)
-        while l<=h:
+        while l<h:
             mid=l+(h-l)//2
             if solve(mid)>days:
                 l=mid+1
             else:
-                h=mid-1
+                h=mid
         return l

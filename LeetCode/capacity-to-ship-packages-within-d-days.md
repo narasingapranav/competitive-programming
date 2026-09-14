@@ -8,25 +8,25 @@
 
 ## 📝 Summary
 
-Determine the minimum weight capacity of a ship required to convey all packages in their given order within a specified number of days.
+Accepted solution for Capacity To Ship Packages Within D Days on LeetCode.
 
 ## 🔍 Key Observation
 
-The feasibility of shipping packages within $D$ days is monotonic with respect to ship capacity, allowing binary search over the search space bounded by the maximum package weight and the total sum of weights.
+Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set one in .env for LLM-authored insight, or edit this section manually.
 
 ## ⚙️ Algorithm
 
-**Binary Search on Answer + Greedy Validation**
+**Direct simulation / brute force**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `O(n * log(sum(weights) - max(weights)))` | `O(1)` |
+| `~O(n^2) (estimated -- 2 nested loops)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
-`binary-search` `greedy` `array`
+`untagged`
 
 <details>
 <summary>💻 View solution</summary>
@@ -46,12 +46,12 @@ class Solution:
             return total
         l=max(weights)
         h=sum(weights)
-        while l<=h:
+        while l<h:
             mid=l+(h-l)//2
             if solve(mid)>days:
                 l=mid+1
             else:
-                h=mid-1
+                h=mid
         return l
 ```
 
