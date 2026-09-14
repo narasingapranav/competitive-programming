@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-unknown-555555?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/second-highest-salary/) &nbsp;|&nbsp; **Solved:** 2026-07-22
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/second-highest-salary/) &nbsp;|&nbsp; **Solved:** 2026-05-22
 
 ---
 
@@ -33,7 +33,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ```
 # Write your MySQL query statement below
-select max(salary) as SecondHighestSalary from Employee where salary<(select max(salary) from Employee)
+select max(salary) as SecondHighestSalary from Employee where salary<(select max(salary) from Employee);
 ```
 
 </details>
