@@ -1,37 +1,3 @@
-# 🟠 valid-k-unique-subarrays-i — Valid K-Unique Subarrays I
-
-![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-cpp-00599C?style=flat-square)
-
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/valid-k-unique-subarrays-i/) &nbsp;|&nbsp; **Solved:** 2026-08-23
-
----
-
-## 📝 Summary
-
-Accepted solution for Valid K-Unique Subarrays I on LeetCode.
-
-## 🔍 Key Observation
-
-Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set one in .env for LLM-authored insight, or edit this section manually.
-
-## ⚙️ Algorithm
-
-**Direct simulation / brute force**
-
-## ⏱️ Complexity
-
-| Time | Space |
-|:--:|:--:|
-| `~O(n) (estimated)` | `~O(1) (estimated)` |
-
-## 🏷️ Tags
-
-`untagged`
-
-<details>
-<summary>💻 View solution</summary>
-
-```cpp
 mt19937 rng((int)chrono::steady_clock::now().time_since_epoch().count());
 using ll = long long;
 class Solution {
@@ -105,6 +71,3 @@ public:
         return ret;
     }
 };
-```
-
-</details>
