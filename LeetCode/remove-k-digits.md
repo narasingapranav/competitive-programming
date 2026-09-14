@@ -2,31 +2,31 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/remove-k-digits/) &nbsp;|&nbsp; **Solved:** 2026-08-13
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/remove-k-digits/) &nbsp;|&nbsp; **Solved:** 2026-02-26
 
 ---
 
 ## 📝 Summary
 
-Given a string representing a non-negative integer num and an integer k, remove k digits from the string to form the smallest possible number.
+Accepted solution for Remove K Digits on LeetCode.
 
 ## 🔍 Key Observation
 
-To minimize the value of a number, smaller digits should appear at higher place values (leftmost); thus, we greedily pop larger preceding digits whenever a smaller digit is encountered.
+Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set one in .env for LLM-authored insight, or edit this section manually.
 
 ## ⚙️ Algorithm
 
-**Monotonic stack + greedy**
+**Direct simulation / brute force**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `O(n)` | `O(n)` |
+| `~O(n^3) (estimated -- 3 nested loops)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
-`monotonic-stack` `greedy` `string`
+`untagged`
 
 <details>
 <summary>💻 View solution</summary>
