@@ -34,7 +34,9 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def furthestDistanceFromOrigin(self, m: str) -> int:
-        return (d:=Counter(m)) and (abs(d['L']-d['R'])+d['_'])
+        d=Counter(m)
+        maxdist=abs(d['L']-d['R'])+d['_']
+        return maxdist
 ```
 
 </details>
