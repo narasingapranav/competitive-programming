@@ -50,7 +50,6 @@ class Solution:
         def solve(r):
             if r==n:
                 l.append(["".join(r) for r in board])
-                return
             for c in range(n):
                 if issafe(r,c,board):
                     place(r,c)
