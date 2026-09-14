@@ -22,7 +22,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 | Time | Space |
 |:--:|:--:|
-| `~O(n log n) (estimated -- sort detected)` | `~O(1) (estimated)` |
+| `~O(n^2) (estimated -- 2 nested loops)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
@@ -35,9 +35,12 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 class Solution:
     def arrayPairSum(self, nums: List[int]) -> int:
         nums.sort()
-        s=0
+        a=[]
         for i in range(0,len(nums),2):
-            s+=nums[i]
+            a.append((nums[i],nums[i+1]))
+        s=0
+        for i in a:
+            s+=min(i)
         return s
 ```
 
