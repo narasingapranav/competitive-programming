@@ -5,7 +5,7 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-1079-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-885-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-1018-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-1080-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-886-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-1019-FFA116?style=flat-square)
 
 _Last updated: 2026-09-14 16:02 UTC_
 
@@ -18,16 +18,17 @@ _Last updated: 2026-09-14 16:02 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **61** |
-| 🟠 LeetCode | **1018** |
+| 🟠 LeetCode | **1019** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-908-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-136-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-31-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
+![Python](https://img.shields.io/badge/Python-909-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-136-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-31-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-09-14 | 🟠 LeetCode | [minimum-path-sum](https://leetcode.com/problems/minimum-path-sum/) | [`minimum-path-sum.py`](./LeetCode/minimum-path-sum.py) |
 | 2026-09-14 | 🟠 LeetCode | [rotting-oranges](https://leetcode.com/problems/rotting-oranges/) | [`rotting-oranges.py`](./LeetCode/rotting-oranges.py) |
 | 2026-09-14 | 🟠 LeetCode | [rotate-string](https://leetcode.com/problems/rotate-string/) | [`rotate-string.py`](./LeetCode/rotate-string.py) |
 | 2026-09-14 | 🟠 LeetCode | [counting-words-with-a-given-prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | [`counting-words-with-a-given-prefix.py`](./LeetCode/counting-words-with-a-given-prefix.py) |
@@ -37,6 +38,5 @@ _Last updated: 2026-09-14 16:02 UTC_
 | 2026-09-14 | 🟠 LeetCode | [find-greatest-common-divisor-of-array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) | [`find-greatest-common-divisor-of-array.py`](./LeetCode/find-greatest-common-divisor-of-array.py) |
 | 2026-09-14 | 🟠 LeetCode | [x-of-a-kind-in-a-deck-of-cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/) | [`x-of-a-kind-in-a-deck-of-cards.py`](./LeetCode/x-of-a-kind-in-a-deck-of-cards.py) |
 | 2026-09-14 | 🟠 LeetCode | [spiral-matrix](https://leetcode.com/problems/spiral-matrix/) | [`spiral-matrix.py`](./LeetCode/spiral-matrix.py) |
-| 2026-09-14 | 🟠 LeetCode | [wildcard-matching](https://leetcode.com/problems/wildcard-matching/) | [`wildcard-matching.py`](./LeetCode/wildcard-matching.py) |
 
 <!-- CP-AGENT:END -->
