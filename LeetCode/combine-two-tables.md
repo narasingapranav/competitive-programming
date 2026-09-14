@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-unknown-555555?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/combine-two-tables/) &nbsp;|&nbsp; **Solved:** 2026-05-24
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/combine-two-tables/) &nbsp;|&nbsp; **Solved:** 2025-11-20
 
 ---
 
@@ -32,8 +32,11 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 <summary>💻 View solution</summary>
 
 ```
-# Write your MySQL query statement below
-select p.firstName,p.lastName,a.city,a.state from Person p left outer join Address a on p.personId=a.personId
+import pandas as pd
+
+def combine_two_tables(person: pd.DataFrame, address: pd.DataFrame) -> pd.DataFrame:
+    a=person.merge(address,on="personId",how="left")
+    return a[["firstName","lastName","city","state"]]
 ```
 
 </details>
