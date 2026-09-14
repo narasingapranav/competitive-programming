@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/valid-parentheses/) &nbsp;|&nbsp; **Solved:** 2026-07-06
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/valid-parentheses/) &nbsp;|&nbsp; **Solved:** 2025-09-02
 
 ---
 
@@ -39,13 +39,14 @@ class Solution:
 
         for char in s:
             if char in mapping:
-                top_element = stack.pop() if stack else '!'
+                top_element = stack.pop() if stack else '#'
                 if mapping[char] != top_element:
                     return False
             else:
                 stack.append(char)
 
         return not stack
+
 ```
 
 </details>
