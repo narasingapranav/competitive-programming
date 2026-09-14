@@ -8,25 +8,25 @@
 
 ## 📝 Summary
 
-Given a positive integer n, break it into the sum of at least two positive integers such that the product of those integers is maximized.
+Accepted solution for Integer Break on LeetCode.
 
 ## 🔍 Key Observation
 
-To maximize the product, the sum should be decomposed into as many 3s as possible; a remainder of 1 is combined with a 3 to form 2 * 2 = 4, and a remainder of 2 is multiplied as a 2.
+Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set one in .env for LLM-authored insight, or edit this section manually.
 
 ## ⚙️ Algorithm
 
-**Math / Greedy**
+**Direct simulation / brute force**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `O(log n)` | `O(1)` |
+| `O(1)–O(n) (estimated -- could not confidently infer)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
-`math` `greedy` `dynamic-programming`
+`untagged`
 
 <details>
 <summary>💻 View solution</summary>
@@ -38,8 +38,12 @@ class Solution:
         if n==3: return 2
         q=n//3
         r=n%3
-        return 3**q if r==0 else 3**(q-1) * 4 if r==1 else (3**q) * 2
-
+        if r==0:
+            return 3**q
+        if r==1:
+            return 3**(q-1) * 4
+        if r==2:
+            return (3**q) * 2
 ```
 
 </details>
