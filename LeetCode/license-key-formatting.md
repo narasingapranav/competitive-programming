@@ -1,0 +1,41 @@
+# 🟠 license-key-formatting — License Key Formatting
+
+![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
+
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/license-key-formatting/) &nbsp;|&nbsp; **Solved:** 2026-05-26
+
+---
+
+## 📝 Summary
+
+Accepted solution for License Key Formatting on LeetCode.
+
+## 🔍 Key Observation
+
+Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set one in .env for LLM-authored insight, or edit this section manually.
+
+## ⚙️ Algorithm
+
+**Direct simulation / brute force**
+
+## ⏱️ Complexity
+
+| Time | Space |
+|:--:|:--:|
+| `~O(n) (estimated)` | `~O(1) (estimated)` |
+
+## 🏷️ Tags
+
+`untagged`
+
+<details>
+<summary>💻 View solution</summary>
+
+```python
+class Solution:
+    def licenseKeyFormatting(self, S: str, K: int) -> str:
+        S = S.replace("-", "").upper()[::-1]
+        return '-'.join(S[i:i+K] for i in range(0, len(S), K))[::-1]
+```
+
+</details>
