@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-unknown-555555?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/duplicate-emails/) &nbsp;|&nbsp; **Solved:** 2026-06-03
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/duplicate-emails/) &nbsp;|&nbsp; **Solved:** 2025-12-03
 
 ---
 
@@ -33,8 +33,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ```
 # Write your MySQL query statement below
-select email as Email from 
-(select email, row_number() over (partition by email order by email) as d from Person) e where e.d=2
+select email from Person group by email having count(email)>1
 ```
 
 </details>
