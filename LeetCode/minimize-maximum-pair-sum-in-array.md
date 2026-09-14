@@ -35,16 +35,11 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 class Solution:
     def minPairSum(self, nums: List[int]) -> int:
         nums.sort()
-        ans = 0
+        res = 0
+        for i in range(len(nums) // 2):
+            res = max(res, nums[i] + nums[-1 - i])
+        return res
 
-        l = 0
-        r = len(nums)-1
-
-        while l<r:
-            ans = max(ans, nums[l]+nums[r])
-            l+=1
-            r-=1
-        return ans
 ```
 
 </details>
