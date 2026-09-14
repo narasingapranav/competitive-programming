@@ -16,17 +16,17 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ## ⚙️ Algorithm
 
-**Hash map/set lookup**
+**Direct simulation / brute force**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `~O(n) (estimated)` | `~O(n) (estimated)` |
+| `~O(n^3) (estimated -- 3 nested loops)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
-`hash-map`
+`untagged`
 
 <details>
 <summary>💻 View solution</summary>
@@ -34,12 +34,18 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def firstMissingPositive(self, nums: List[int]) -> int:
-        n = len(nums)
-        set_nums = set(nums)
-        for i in range(1, n+2):
-            if i not in set_nums:
-                return i
-        
+        n=len(nums)
+        for i in range(n):
+            if nums[i]<=0 or nums[i]>n:
+                nums[i]=n+1
+        for i in range(n):
+            num=abs(nums[i])
+            if 1<=num<=n:
+                nums[num-1]=-abs(nums[num-1])
+        for i in range(n):
+            if nums[i] >0:
+                return i+1
+        return n+1
 ```
 
 </details>
