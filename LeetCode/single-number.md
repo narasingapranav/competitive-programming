@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/single-number/) &nbsp;|&nbsp; **Solved:** 2026-02-27
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/single-number/) &nbsp;|&nbsp; **Solved:** 2025-08-14
 
 ---
 
@@ -34,10 +34,10 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
-        xor=0
+        result = 0
         for i in nums:
-            xor=xor^i
-        return xor
+            result ^= i
+        return result
 ```
 
 </details>
