@@ -1,14 +1,8 @@
 class Solution:
-    def twoSum(self,arr,k):
-        l=[(arr[i],i) for i in range(len(arr))]
-        l.sort()
-        i=0
-        j=len(arr)-1
-        while i<j:
-            if l[i][0]+l[j][0] > k:
-                j-=1
-            elif l[i][0]+l[j][0] < k:
-                i+=1
-            else:
-                return [l[i][1],l[j][1]]
-        return [-1,-1]
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        a=[]
+        for i in range(0,len(nums)):
+            for j in range(i+1,len(nums)):
+                if nums[i]+nums[j]==target:
+                    a=[i,j]
+        return a
