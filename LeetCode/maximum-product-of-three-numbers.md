@@ -1,24 +1,43 @@
-# maximum-product-of-three-numbers — Maximum Product of Three Numbers
+# 🟠 maximum-product-of-three-numbers — Maximum Product of Three Numbers
 
-**Platform:** LeetCode
-**Problem link:** https://leetcode.com/problems/maximum-product-of-three-numbers/
-**Language:** python
-**Tags:** untagged
+![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-## Summary
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/maximum-product-of-three-numbers/) &nbsp;|&nbsp; **Solved:** 2026-05-05
+
+---
+
+## 📝 Summary
 
 Accepted solution for Maximum Product of Three Numbers on LeetCode.
 
-## Key Observation
+## 🔍 Key Observation
 
-Not generated (no OPENAI_API_KEY configured) -- add one to enable LLM-authored insights, or edit this file manually.
+Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set one in .env for LLM-authored insight, or edit this section manually.
 
-## Algorithm
+## ⚙️ Algorithm
 
-Unspecified (offline mode)
+**Sorting**
 
-## Complexity
+## ⏱️ Complexity
 
 | Time | Space |
-|------|-------|
-| N/A | N/A |
+|:--:|:--:|
+| `~O(n log n) (estimated -- sort detected)` | `~O(1) (estimated)` |
+
+## 🏷️ Tags
+
+`sorting`
+
+<details>
+<summary>💻 View solution</summary>
+
+```python
+class Solution:
+    def maximumProduct(self, nums: List[int]) -> int:
+        nums.sort()
+        s1=nums[0]*nums[1]*nums[-1]
+        s2=nums[-1]*nums[-2]*nums[-3]
+        return max(s1,s2)
+```
+
+</details>
