@@ -2,31 +2,31 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/non-overlapping-intervals/) &nbsp;|&nbsp; **Solved:** 2026-08-08
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/non-overlapping-intervals/) &nbsp;|&nbsp; **Solved:** 2026-02-26
 
 ---
 
 ## 📝 Summary
 
-Find the minimum number of intervals to remove from a list so that the remaining intervals do not overlap.
+Accepted solution for Non-overlapping Intervals on LeetCode.
 
 ## 🔍 Key Observation
 
-Maximizing the number of kept non-overlapping intervals is equivalent to the classic Activity Selection Problem, which can be solved by greedily picking intervals that end earliest.
+Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set one in .env for LLM-authored insight, or edit this section manually.
 
 ## ⚙️ Algorithm
 
-**Greedy (Interval Scheduling)**
+**Sorting**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `O(n log n)` | `O(n)` |
+| `~O(n log n) (estimated -- sort detected)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
-`greedy` `intervals` `sorting`
+`sorting`
 
 <details>
 <summary>💻 View solution</summary>
@@ -42,6 +42,7 @@ class Solution:
                 count+=1
                 end=e
         return len(intervals)-count
+
 ```
 
 </details>
