@@ -1,64 +1,34 @@
 class Solution:
-    def minDays(self, grid: List[List[int]]) -> int:
-        rows, cols = len(grid), len(grid[0])
-        time = 0
-        disc = [[-1] * cols for _ in range(rows)]
-        low = [[-1] * cols for _ in range(rows)]
-        parent = [[-1] * cols for _ in range(rows)]
-        directions = [(1, 0), (-1, 0), (0, 1), (0, -1)]
-        islands = 0
-        island_size = 0
-        articulation_points = 0
-
-        def dfs(row, col):
-            nonlocal time, island_size, articulation_points
-
-            disc[row][col] = low[row][col] = time
-            time += 1
-            island_size += 1
-            children = 0
-
-            for dr, dc in directions:
-                new_row, new_col = row + dr, col + dc
-
-                if not (0 <= new_row < rows and 0 <= new_col < cols):
-                    continue
-
-                if grid[new_row][new_col] == 0:
-                    continue
-
-                if disc[new_row][new_col] == -1:
-                    parent[new_row][new_col] = row * cols + col
-                    children += 1
-                    dfs(new_row, new_col)
-                    low[row][col] = min(low[new_row][new_col], low[row][col])
-
-                    if parent[row][col] != -1 and low[new_row][new_col] >= disc[row][col]:
-                        articulation_points += 1
-
-                elif parent[row][col] != new_row * cols + new_col:
-                    low[row][col] = min(low[new_row][new_col], low[row][col])
-
-            if parent[row][col] == -1 and children > 1:
-                articulation_points += 1
-
-
-        for row in range(rows):
-            for col in range(cols):
-                if grid[row][col] == 1 and disc[row][col] == -1:
-                    if islands == 1:
-                        return 0
-
-                    dfs(row, col)
-                    islands += 1
-
-        if islands == 0:
+    rowdir=[-1,0,1,0]
+    coldir=[0,1,0,-1]
+    def isvalidcell(self,r,c,rows,cols):
+        return r>=0 and c>=0 and r<rows and c<cols
+    def dfs(self,r,c,matrix,visited):
+        visited[r][c]=True
+        for d in range(4):
+            newrow=r+self.rowdir[d]
+            newcol=c+self.coldir[d]
+            if self.isvalidcell(newrow,newcol,len(matrix),len(matrix[0])) and matrix[newrow][newcol]==1 and not visited[newrow][newcol] :
+                self.dfs(newrow,newcol,matrix,visited)
+    def countcomponent(self,matrix):
+        rows=len(matrix)
+        cols=len(matrix[0])
+        islandcount=0
+        visited=[[False]*cols for _ in range(rows)]
+        for r in range(rows):
+            for c in range(cols):
+                if matrix[r][c]==1 and not visited[r][c]:
+                    islandcount+=1
+                    self.dfs(r,c,matrix,visited)
+        return islandcount
+    def minDays(self,grid):
+        if self.countcomponent(grid) !=1:
             return 0
-
-        if island_size <= 2:
-            return island_size
-
-        if articulation_points > 0:
-            return 1
-
+        for r in range(len(grid)):
+            for c in range(len(grid[0])):
+                if grid[r][c]==1:
+                    grid[r][c]=0
+                    if self.countcomponent(grid) !=1:
+                        return 1
+                    grid[r][c]=1
         return 2
