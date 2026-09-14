@@ -1,6 +1,6 @@
 # 🟠 find-the-lexicographically-smallest-valid-sequence — Find the Lexicographically Smallest Valid Sequence
 
-![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-java-007396?style=flat-square)
+![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
 **Problem link:** [View on LeetCode](https://leetcode.com/problems/find-the-lexicographically-smallest-valid-sequence/) &nbsp;|&nbsp; **Solved:** 2026-08-08
 
@@ -8,64 +8,57 @@
 
 ## 📝 Summary
 
-Find the lexicographically smallest sequence of indices in word1 that can form word2 with at most one character mismatch.
+Accepted solution for Find the Lexicographically Smallest Valid Sequence on LeetCode.
 
 ## 🔍 Key Observation
 
-Precomputing the latest valid matching positions for every suffix of word2 allows us to greedily pick the smallest index for each character of word2, utilizing our single allowed mismatch at the earliest possible opportunity.
+Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set one in .env for LLM-authored insight, or edit this section manually.
 
 ## ⚙️ Algorithm
 
-**Greedy with Suffix Match Precomputation**
+**Direct simulation / brute force**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `O(n + m)` | `O(m)` |
+| `~O(n^2) (estimated -- 2 nested loops)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
-`greedy` `two pointers` `string` `suffix array`
+`untagged`
 
 <details>
 <summary>💻 View solution</summary>
 
-```java
-class Solution {
-    public int[] validSequence(String word1, String word2) {
-        int n=word1.length();
-        int m=word2.length();
-        int[] last = new int[m];
-        Arrays.fill(last,-1);
-        int i=n-1;
-        int j=m-1;
-        while(i>=0 && j>=0){
-            if (word1.charAt(i)==word2.charAt(j)){
-                last[j--]=i;
-            }
-            i--;
-        }
-        int[] ans=new int[m];
-        boolean canchange=true;
-        i=0;
-        j=0;
-        while (i<n && j<m){
-            if (word1.charAt(i)==word2.charAt(j)){
-                ans[j++]=i;
-            }
-            else if(canchange && (j==m-1 || i<last[j+1])){
-                ans[j++]=i;
-                canchange=false;
-            }
-            if (j==m){
-                return ans;
-            }
-            i++;
-        }
-        return new int[0];
-    }
-}
+```python
+class Solution:
+    def validSequence(self, word1: str, word2: str) -> List[int]:
+        n,m=len(word1),len(word2)
+        last=[-1]*m
+        i=n-1
+        j=m-1
+        while i>=0 and j>=0:
+            if word1[i]==word2[j]:
+                last[j]=i
+                j-=1
+            i-=1
+        ans=[0]*m
+        canchange=True
+        j=0
+        i=0
+        while i<n and j<m:
+            if word1[i]==word2[j]:
+                ans[j]=i
+                j+=1
+            elif canchange and (j==m-1 or i<last[j+1]):
+                ans[j]=i
+                j+=1
+                canchange=False
+            if j==m:
+                return ans
+            i+=1
+        return []
 ```
 
 </details>
