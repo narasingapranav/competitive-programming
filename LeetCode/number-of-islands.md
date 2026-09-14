@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/number-of-islands/) &nbsp;|&nbsp; **Solved:** 2026-07-22
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/number-of-islands/) &nbsp;|&nbsp; **Solved:** 2026-05-15
 
 ---
 
@@ -16,7 +16,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ## ⚙️ Algorithm
 
-**Direct simulation / brute force**
+**Graph/tree traversal (BFS/DFS)**
 
 ## ⏱️ Complexity
 
@@ -26,7 +26,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ## 🏷️ Tags
 
-`untagged`
+`graph`
 
 <details>
 <summary>💻 View solution</summary>
@@ -34,23 +34,23 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
+        visited=[[False]*(len(grid[0])+1) for _ in range(len(grid)+1)]
+        def dfs(r,c):
+            dirs=[[0,1],[0,-1],[1,0],[-1,0]]
+            if r<0 or c<0 or r>=len(grid) or c>=len(grid[0]):
+                return
+            if visited[r][c] or grid[r][c]=='0':
+                return
+            visited[r][c]=True
+            for dr,dc in dirs:
+                nr,nc=r+dr,c+dc
+                dfs(nr,nc)
         count=0
-        m=len(grid)
-        n=len(grid[0])
-        vis=[[False]*n for _ in range(m)]
-        def dfs(i,j):
-            if i>=m or j>=n or i <0 or j<0 or vis[i][j] or grid[i][j]=='0':
-                return 
-            vis[i][j]=True
-            dirs=[(0,-1),(0,1),(-1,0),(1,0)]
-            for di,dj in dirs:
-                ni,nj=i+di,j+dj
-                dfs(ni,nj)
-        for i in range(m):
-            for j in range(n):
-                if grid[i][j]=='1' and not vis[i][j]:
-                    dfs(i,j)
+        for i in range(len(grid)):
+            for j in range(len(grid[0])):
+                if grid[i][j]=='1' and not visited[i][j]:
                     count+=1
+                    dfs(i,j)
         return count
 ```
 
