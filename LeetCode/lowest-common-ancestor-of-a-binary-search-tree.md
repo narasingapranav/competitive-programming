@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) &nbsp;|&nbsp; **Solved:** 2026-07-22
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) &nbsp;|&nbsp; **Solved:** 2026-07-06
 
 ---
 
@@ -41,12 +41,15 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
-        if p.val>root.val and q.val>root.val:
-            return self.lowestCommonAncestor(root.right,p,q)
-        elif p.val<root.val and q.val<root.val:
-            return self.lowestCommonAncestor(root.left,p,q)
-        else:
-            return root
+        curr=root
+        while curr:
+            if p.val>curr.val and q.val>curr.val:
+                curr=curr.right
+            elif p.val<curr.val and q.val<curr.val:
+                curr=curr.left
+            else:
+                return curr
+        return curr
 ```
 
 </details>
