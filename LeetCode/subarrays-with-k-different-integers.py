@@ -1,17 +1,27 @@
 class Solution:
     def subarraysWithKDistinct(self, nums: List[int], k: int) -> int:
-        def atmost(k):
-            d={}
-            i=0
-            ans=0
-            n=len(nums)
-            for j in range(n):
-                d[nums[j]]=d.get(nums[j],0)+1
-                while len(d)>k:
-                    d[nums[i]]-=1
-                    if d[nums[i]]==0:
-                        del d[nums[i]]
-                    i+=1
-                ans+=j-i+1
-            return ans
-        return atmost(k)-atmost(k-1)
+        return self.atMost(nums, k) - self.atMost(nums, k-1)
+
+    def atMost(self, nums, k):
+        freq = defaultdict(int)
+        left = 0
+        count = 0
+        distinct = 0
+
+        for right in range(len(nums)):
+            # include nums[right]
+            if freq[nums[right]] == 0:
+                distinct += 1
+            freq[nums[right]] += 1
+
+            # shrink window if too many distinct
+            while distinct > k:
+                freq[nums[left]] -= 1
+                if freq[nums[left]] == 0:
+                    distinct -= 1
+                left += 1
+
+            # all subarrays ending at 'right'
+            count += right - left + 1
+
+        return count
