@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/) &nbsp;|&nbsp; **Solved:** 2026-02-25
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/) &nbsp;|&nbsp; **Solved:** 2025-09-24
 
 ---
 
@@ -34,16 +34,18 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
-        left=0
-        maxlen=0
-        se=set()
-        for i in range(len(s)):
-            while s[i] in se:
-                se.remove(s[left])
-                left+=1
-            se.add(s[i])
-            maxlen=max(i-left+1,maxlen)
-        return maxlen
+        char_set = set()
+        left = 0
+        max_len = 0
+        
+        for right in range(len(s)):
+            while s[right] in char_set:
+                char_set.remove(s[left])
+                left += 1
+            char_set.add(s[right])
+            max_len = max(max_len, right - left + 1)
+        
+        return max_len
 ```
 
 </details>
