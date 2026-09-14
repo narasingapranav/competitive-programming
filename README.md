@@ -5,7 +5,7 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-239-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-45-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-178-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-240-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-46-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-179-FFA116?style=flat-square)
 
 _Last updated: 2026-09-14 14:50 UTC_
 
@@ -18,16 +18,17 @@ _Last updated: 2026-09-14 14:50 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **61** |
-| 🟠 LeetCode | **178** |
+| 🟠 LeetCode | **179** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-218-3776AB?style=flat-square) ![Java](https://img.shields.io/badge/Java-20-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-1-00599C?style=flat-square)
+![Python](https://img.shields.io/badge/Python-219-3776AB?style=flat-square) ![Java](https://img.shields.io/badge/Java-20-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-1-00599C?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-09-14 | 🟠 LeetCode | [valid-k-unique-subarrays-i](https://leetcode.com/problems/valid-k-unique-subarrays-i/) | [`valid-k-unique-subarrays-i.py`](./LeetCode/valid-k-unique-subarrays-i.py) |
 | 2026-09-14 | 🟠 LeetCode | [game-of-life](https://leetcode.com/problems/game-of-life/) | [`game-of-life.py`](./LeetCode/game-of-life.py) |
 | 2026-09-14 | 🟠 LeetCode | [game-of-life](https://leetcode.com/problems/game-of-life/) | [`game-of-life.java`](./LeetCode/game-of-life.java) |
 | 2026-09-14 | 🟠 LeetCode | [stone-game-viii](https://leetcode.com/problems/stone-game-viii/) | [`stone-game-viii.py`](./LeetCode/stone-game-viii.py) |
@@ -37,6 +38,5 @@ _Last updated: 2026-09-14 14:50 UTC_
 | 2026-09-14 | 🟠 LeetCode | [shortest-and-lexicographically-smallest-beautiful-string](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/) | [`shortest-and-lexicographically-smallest-beautiful-string.py`](./LeetCode/shortest-and-lexicographically-smallest-beautiful-string.py) |
 | 2026-09-14 | 🟠 LeetCode | [lexicographically-smallest-permutation-greater-than-target](https://leetcode.com/problems/lexicographically-smallest-permutation-greater-than-target/) | [`lexicographically-smallest-permutation-greater-than-target.py`](./LeetCode/lexicographically-smallest-permutation-greater-than-target.py) |
 | 2026-09-14 | 🟠 LeetCode | [lexicographically-smallest-palindromic-permutation-greater-than-target](https://leetcode.com/problems/lexicographically-smallest-palindromic-permutation-greater-than-target/) | [`lexicographically-smallest-palindromic-permutation-greater-than-target.py`](./LeetCode/lexicographically-smallest-palindromic-permutation-greater-than-target.py) |
-| 2026-09-14 | 🟠 LeetCode | [make-lexicographically-smallest-array-by-swapping-elements](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/) | [`make-lexicographically-smallest-array-by-swapping-elements.py`](./LeetCode/make-lexicographically-smallest-array-by-swapping-elements.py) |
 
 <!-- CP-AGENT:END -->
