@@ -5,7 +5,7 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-296-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-102-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-235-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-297-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-103-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-236-FFA116?style=flat-square)
 
 _Last updated: 2026-09-14 14:55 UTC_
 
@@ -18,16 +18,17 @@ _Last updated: 2026-09-14 14:55 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **61** |
-| 🟠 LeetCode | **235** |
+| 🟠 LeetCode | **236** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-257-3776AB?style=flat-square) ![Java](https://img.shields.io/badge/Java-20-007396?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-16-555555?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square)
+![Python](https://img.shields.io/badge/Python-258-3776AB?style=flat-square) ![Java](https://img.shields.io/badge/Java-20-007396?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-16-555555?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-09-14 | 🟠 LeetCode | [permutation-in-string](https://leetcode.com/problems/permutation-in-string/) | [`permutation-in-string.py`](./LeetCode/permutation-in-string.py) |
 | 2026-09-14 | 🟠 LeetCode | [binary-tree-level-order-traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [`binary-tree-level-order-traversal.py`](./LeetCode/binary-tree-level-order-traversal.py) |
 | 2026-09-14 | 🟠 LeetCode | [maximum-depth-of-binary-tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [`maximum-depth-of-binary-tree.py`](./LeetCode/maximum-depth-of-binary-tree.py) |
 | 2026-09-14 | 🟠 LeetCode | [invert-binary-tree](https://leetcode.com/problems/invert-binary-tree/) | [`invert-binary-tree.py`](./LeetCode/invert-binary-tree.py) |
@@ -37,6 +38,5 @@ _Last updated: 2026-09-14 14:55 UTC_
 | 2026-09-14 | 🟠 LeetCode | [lowest-common-ancestor-of-a-binary-tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [`lowest-common-ancestor-of-a-binary-tree.py`](./LeetCode/lowest-common-ancestor-of-a-binary-tree.py) |
 | 2026-09-14 | 🟠 LeetCode | [number-of-islands](https://leetcode.com/problems/number-of-islands/) | [`number-of-islands.py`](./LeetCode/number-of-islands.py) |
 | 2026-09-14 | 🟠 LeetCode | [reverse-linked-list](https://leetcode.com/problems/reverse-linked-list/) | [`reverse-linked-list.py`](./LeetCode/reverse-linked-list.py) |
-| 2026-09-14 | 🟠 LeetCode | [powx-n](https://leetcode.com/problems/powx-n/) | [`powx-n.py`](./LeetCode/powx-n.py) |
 
 <!-- CP-AGENT:END -->
