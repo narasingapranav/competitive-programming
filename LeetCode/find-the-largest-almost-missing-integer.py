@@ -1,9 +1,14 @@
 class Solution:
     def largestInteger(self, nums: List[int], k: int) -> int:
-        if k == len(nums):
-            return max(nums)
-        if k == 1:
-            arr = [x for x in nums if nums.count(x) == 1]
-        else:
-            arr = [x for x in (nums[0], nums[-1]) if nums.count(x) == 1]
-        return max(arr) if arr else -1
+        subarrays=[]
+        for i in range(0,len(nums)-k+1):
+            subarrays.append(nums[i:i+k])
+        c={}
+        for i in subarrays:
+            for j in (set(i)):
+                c[j]=c.get(j,0)+1
+        res=[]
+        for i in c:
+            if c[i]==1:
+                res.append(i)
+        return max(res) if res else -1
