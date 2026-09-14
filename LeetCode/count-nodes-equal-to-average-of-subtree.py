@@ -23,5 +23,8 @@ class Solution:
                 ans+=1
             left=self.averageOfSubtree(root.left)
             right=self.averageOfSubtree(root.right)
-            ans+=left+right
-        return ans
+            if left:
+                ans+=left
+            if right:
+                ans+=right
+            return ans

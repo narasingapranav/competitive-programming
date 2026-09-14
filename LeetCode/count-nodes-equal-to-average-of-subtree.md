@@ -8,15 +8,15 @@
 
 ## 📝 Summary
 
-Count the number of nodes in a binary tree whose value is equal to the average of all values in their subtree, rounded down.
+Given the root of a binary tree, count how many nodes have a value equal to the integer average of all node values in their respective subtrees.
 
 ## 🔍 Key Observation
 
-A subtree's sum and node count can be computed recursively from the sum and node count of its left and right subtrees.
+A post-order traversal allows a node to combine the total value sum and node count from its left and right subtrees to evaluate its own subtree average.
 
 ## ⚙️ Algorithm
 
-**Depth-first search (DFS)**
+**Depth-First Search (DFS)**
 
 ## ⏱️ Complexity
 
@@ -26,7 +26,7 @@ A subtree's sum and node count can be computed recursively from the sum and node
 
 ## 🏷️ Tags
 
-`tree` `depth-first-search` `binary-tree`
+`binary-tree` `depth-first-search` `tree` `recursion`
 
 <details>
 <summary>💻 View solution</summary>
@@ -57,8 +57,11 @@ class Solution:
                 ans+=1
             left=self.averageOfSubtree(root.left)
             right=self.averageOfSubtree(root.right)
-            ans+=left+right
-        return ans
+            if left:
+                ans+=left
+            if right:
+                ans+=right
+            return ans
 ```
 
 </details>
