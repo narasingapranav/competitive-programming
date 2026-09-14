@@ -14,6 +14,7 @@ class Solution:
         while queue:
             level_length = len(queue)
             curr_level = []
+
             for i in range(level_length):
                 node = queue.popleft()
 
