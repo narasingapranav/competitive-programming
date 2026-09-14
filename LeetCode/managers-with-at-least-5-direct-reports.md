@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-unknown-555555?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/managers-with-at-least-5-direct-reports/) &nbsp;|&nbsp; **Solved:** 2026-07-22
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/managers-with-at-least-5-direct-reports/) &nbsp;|&nbsp; **Solved:** 2026-05-20
 
 ---
 
@@ -33,12 +33,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ```
 # Write your MySQL query statement below
-SELECT e1.name
-FROM Employee e1
-JOIN Employee e2
-ON e1.id = e2.managerId
-GROUP BY e1.id, e1.name
-HAVING COUNT(*) >= 5;
+select name from Employee where id in (select managerId from Employee group by managerId having count(*)>=5)
 ```
 
 </details>
