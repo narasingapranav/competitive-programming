@@ -8,25 +8,25 @@
 
 ## 📝 Summary
 
-Given an array representing the weights of people and a weight limit for each boat, find the minimum number of boats needed to rescue everyone, where each boat carries at most two people whose combined weight does not exceed the limit.
+Accepted solution for Boats to Save People on LeetCode.
 
 ## 🔍 Key Observation
 
-To minimize the total boats, always pair the heaviest remaining person with the lightest remaining person if their combined weight allows it; otherwise, the heaviest person must take a boat alone.
+Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set one in .env for LLM-authored insight, or edit this section manually.
 
 ## ⚙️ Algorithm
 
-**Two pointers + greedy**
+**Sorting**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `O(n log n)` | `O(n)` |
+| `~O(n log n) (estimated -- sort detected)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
-`two-pointers` `greedy` `sorting`
+`sorting`
 
 <details>
 <summary>💻 View solution</summary>
@@ -34,6 +34,21 @@ To minimize the total boats, always pair the heaviest remaining person with the 
 ```python
 class Solution:
     def numRescueBoats(self, people: List[int], limit: int) -> int:
+        # l=0
+        # n=len(people)
+        # boats=[]
+        # r=1
+        # while r<n:
+        #     w=people[l:r]
+        #     if sum(w)>limit:
+        #         boats.append(w)
+        #         l+=1
+        #         r+=1
+        #     else:
+        #         boats.append(w)
+        #         l+=2
+        #         r+=2
+        # return boats
         people.sort()
         l,r=0,len(people)-1
         boats=0
