@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/remove-element/) &nbsp;|&nbsp; **Solved:** 2025-09-17
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/remove-element/) &nbsp;|&nbsp; **Solved:** 2025-08-14
 
 ---
 
@@ -34,8 +34,12 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
-       k=nums
-       k[::]=[i for i in k if i !=val]
+        a=0
+        for i in range(len(nums)):
+              if nums[i] != val:
+                nums[a] = nums[i]
+                a+=1
+        return a
 ```
 
 </details>
