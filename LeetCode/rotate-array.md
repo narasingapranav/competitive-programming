@@ -8,25 +8,25 @@
 
 ## 📝 Summary
 
-Given an array of integers, rotate the array to the right by k steps in-place.
+Accepted solution for Rotate Array on LeetCode.
 
 ## 🔍 Key Observation
 
-Reversing the entire array, followed by reversing the first k elements and then the remaining n-k elements, achieves the right-rotation in-place.
+Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set one in .env for LLM-authored insight, or edit this section manually.
 
 ## ⚙️ Algorithm
 
-**Three-step reversal**
+**Direct simulation / brute force**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `O(n)` | `O(1)` |
+| `O(1)–O(n) (estimated -- could not confidently infer)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
-`array` `two-pointers` `math` `in-place`
+`untagged`
 
 <details>
 <summary>💻 View solution</summary>
@@ -36,7 +36,7 @@ class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
         int n=nums.size();
-        k%=n;
+        k=k%n;
         reverse(nums.begin(),nums.end());
         reverse(nums.begin(),nums.begin()+k);
         reverse(nums.begin()+k,nums.end());
