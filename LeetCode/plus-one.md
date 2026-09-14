@@ -22,7 +22,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 | Time | Space |
 |:--:|:--:|
-| `~O(n^2) (estimated -- 2 nested loops)` | `~O(1) (estimated)` |
+| `~O(n) (estimated)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
@@ -34,15 +34,13 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
-        a = ''
-        for i in digits:
-            a += str(i)
-
-        n = str(int(a) + 1)
-        g = []
-        for i in n:
-            g.append(int(i))
-        return g
+        n = len(digits)
+        for i in range(n - 1, -1, -1):
+            if digits[i] < 9:
+                digits[i] += 1
+                return digits
+            digits[i] = 0
+        return [1] + digits
 ```
 
 </details>
