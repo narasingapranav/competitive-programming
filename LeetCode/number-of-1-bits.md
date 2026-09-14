@@ -2,31 +2,31 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/number-of-1-bits/) &nbsp;|&nbsp; **Solved:** 2026-08-06
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/number-of-1-bits/) &nbsp;|&nbsp; **Solved:** 2025-08-14
 
 ---
 
 ## 📝 Summary
 
-Given an unsigned integer, count and return the number of set bits ('1's) in its binary representation.
+Accepted solution for Number of 1 Bits on LeetCode.
 
 ## 🔍 Key Observation
 
-The least significant bit can be isolated using the bitwise AND operator (`n & 1`), and shifting right by one bit (`n >>= 1`) processes each bit sequentially until the number becomes zero.
+Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set one in .env for LLM-authored insight, or edit this section manually.
 
 ## ⚙️ Algorithm
 
-**Bit manipulation**
+**Direct simulation / brute force**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `O(1)` | `O(1)` |
+| `O(1)–O(n) (estimated -- could not confidently infer)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
-`bit-manipulation` `bitwise`
+`untagged`
 
 <details>
 <summary>💻 View solution</summary>
@@ -34,11 +34,8 @@ The least significant bit can be isolated using the bitwise AND operator (`n & 1
 ```python
 class Solution:
     def hammingWeight(self, n: int) -> int:
-        c=0
-        while n:
-            c+=n&1
-            n>>=1
-        return c
+        x=bin(n)
+        return x.count('1')
 ```
 
 </details>
