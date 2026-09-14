@@ -16,17 +16,17 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ## ⚙️ Algorithm
 
-**Dynamic programming**
+**Direct simulation / brute force**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `~O(n²) (estimated -- DP table detected)` | `~O(n) (estimated)` |
+| `~O(n^2) (estimated -- 2 nested loops)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
-`dp`
+`untagged`
 
 <details>
 <summary>💻 View solution</summary>
@@ -34,19 +34,15 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, k: int) -> int:
-        # as we want min initialize all to max
-        dp=[float("inf")]*n
-        # src -> src cost =0
-        dp[src]=0
-        # k stops
+        dist=[float('inf')]*n
+        dist[src]=0
         for _ in range(k+1):
-            temp=dp.copy()
-            for st,en,cos in flights:
-                # if min go to min path
-                if dp[st]!=float("inf"):
-                    temp[en]=min(temp[en],dp[st]+cos)
-            dp=temp
-        return dp[dst] if dp[dst] !=float("inf") else -1
+            temp=dist.copy()
+            for u,v,w in flights:
+                if dist[u] != float('inf'):
+                    temp[v]=min(temp[v],dist[u]+w)
+            dist=temp
+        return dist[dst] if dist[dst] != float('inf') else -1
 ```
 
 </details>
