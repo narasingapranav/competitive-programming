@@ -5,7 +5,7 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-315-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-121-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-254-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-316-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-122-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-255-FFA116?style=flat-square)
 
 _Last updated: 2026-09-14 14:56 UTC_
 
@@ -18,16 +18,17 @@ _Last updated: 2026-09-14 14:56 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **61** |
-| 🟠 LeetCode | **254** |
+| 🟠 LeetCode | **255** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-276-3776AB?style=flat-square) ![Java](https://img.shields.io/badge/Java-20-007396?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-16-555555?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square)
+![Python](https://img.shields.io/badge/Python-277-3776AB?style=flat-square) ![Java](https://img.shields.io/badge/Java-20-007396?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-16-555555?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-09-14 | 🟠 LeetCode | [even-number-of-knight-moves](https://leetcode.com/problems/even-number-of-knight-moves/) | [`even-number-of-knight-moves.py`](./LeetCode/even-number-of-knight-moves.py) |
 | 2026-09-14 | 🟠 LeetCode | [smallest-subsequence-of-distinct-characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/) | [`smallest-subsequence-of-distinct-characters.py`](./LeetCode/smallest-subsequence-of-distinct-characters.py) |
 | 2026-09-14 | 🟠 LeetCode | [remove-duplicate-letters](https://leetcode.com/problems/remove-duplicate-letters/) | [`remove-duplicate-letters.py`](./LeetCode/remove-duplicate-letters.py) |
 | 2026-09-14 | 🟠 LeetCode | [next-greater-element-i](https://leetcode.com/problems/next-greater-element-i/) | [`next-greater-element-i.py`](./LeetCode/next-greater-element-i.py) |
@@ -37,6 +38,5 @@ _Last updated: 2026-09-14 14:56 UTC_
 | 2026-09-14 | 🟠 LeetCode | [maximize-active-section-with-trade-i](https://leetcode.com/problems/maximize-active-section-with-trade-i/) | [`maximize-active-section-with-trade-i.py`](./LeetCode/maximize-active-section-with-trade-i.py) |
 | 2026-09-14 | 🟠 LeetCode | [binary-search](https://leetcode.com/problems/binary-search/) | [`binary-search.py`](./LeetCode/binary-search.py) |
 | 2026-09-14 | 🟠 LeetCode | [search-insert-position](https://leetcode.com/problems/search-insert-position/) | [`search-insert-position.py`](./LeetCode/search-insert-position.py) |
-| 2026-09-14 | 🟠 LeetCode | [find-first-and-last-position-of-element-in-sorted-array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [`find-first-and-last-position-of-element-in-sorted-array.py`](./LeetCode/find-first-and-last-position-of-element-in-sorted-array.py) |
 
 <!-- CP-AGENT:END -->
