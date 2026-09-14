@@ -22,7 +22,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 | Time | Space |
 |:--:|:--:|
-| `O(1)–O(n) (estimated -- could not confidently infer)` | `~O(1) (estimated)` |
+| `~O(n) (estimated)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
@@ -36,11 +36,20 @@ class Solution:
     def maximumValue(self, n: int, s: int, m: int) -> int:
         if n==1:
             return s
-        # s , s+m , s+m-1 , s+2m-1 , s+2m-2 , ......
-        # max values are at 0,2,4,6 ....
-        # so max val is at last even index n//2
-        maxval=n//2
-        return s+maxval*m-(maxval-1)
+        # res=[s]
+        # if n>1:
+        #     ans=s+m
+        #     res.append(ans)
+        #     i=2
+        #     while i<n:
+        #         if i&1:
+        #             res.append(res[i-1]+m)
+        #         else:
+        #             res.append(res[i-1]-1)
+        #         i+=1
+        #     return max(res)
+        pk=n//2
+        return s+pk*m-(pk-1)
 ```
 
 </details>
