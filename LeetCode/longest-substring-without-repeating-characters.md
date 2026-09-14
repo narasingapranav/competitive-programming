@@ -16,17 +16,17 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ## ⚙️ Algorithm
 
-**Direct simulation / brute force**
+**Hash map/set lookup**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `~O(n^2) (estimated -- 2 nested loops)` | `~O(1) (estimated)` |
+| `~O(n^2) (estimated -- 2 nested loops)` | `~O(n) (estimated)` |
 
 ## 🏷️ Tags
 
-`untagged`
+`hash-map`
 
 <details>
 <summary>💻 View solution</summary>
@@ -34,16 +34,16 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
-        ans = 0
-        cnt = defaultdict(int)
-        left = 0
-        for i, ch in enumerate(s):
-            cnt[ch] += 1
-            while cnt[ch] > 1:
-                cnt[s[left]] -= 1
-                left += 1
-            ans = max(ans, i - left + 1)
-        return ans
+        left=0
+        maxlen=0
+        se=set()
+        for i in range(len(s)):
+            while s[i] in se:
+                se.remove(s[left])
+                left+=1
+            se.add(s[i])
+            maxlen=max(i-left+1,maxlen)
+        return maxlen
 ```
 
 </details>
