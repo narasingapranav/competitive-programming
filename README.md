@@ -5,7 +5,7 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-1013-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-819-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-952-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-1014-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-820-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-953-FFA116?style=flat-square)
 
 _Last updated: 2026-09-14 15:56 UTC_
 
@@ -18,16 +18,17 @@ _Last updated: 2026-09-14 15:56 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **61** |
-| 🟠 LeetCode | **952** |
+| 🟠 LeetCode | **953** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-855-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-130-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-24-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
+![Python](https://img.shields.io/badge/Python-856-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-130-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-24-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-09-14 | 🟠 LeetCode | [move-zeroes](https://leetcode.com/problems/move-zeroes/) | [`move-zeroes.py`](./LeetCode/move-zeroes.py) |
 | 2026-09-14 | 🟠 LeetCode | [guess-number-higher-or-lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | [`guess-number-higher-or-lower.py`](./LeetCode/guess-number-higher-or-lower.py) |
 | 2026-09-14 | 🟠 LeetCode | [maximum-product-subarray](https://leetcode.com/problems/maximum-product-subarray/) | [`maximum-product-subarray.java`](./LeetCode/maximum-product-subarray.java) |
 | 2026-09-14 | 🟠 LeetCode | [two-sum-ii-input-array-is-sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [`two-sum-ii-input-array-is-sorted.py`](./LeetCode/two-sum-ii-input-array-is-sorted.py) |
@@ -37,6 +38,5 @@ _Last updated: 2026-09-14 15:56 UTC_
 | 2026-09-14 | 🟠 LeetCode | [remove-zeros-in-decimal-representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation/) | [`remove-zeros-in-decimal-representation.py`](./LeetCode/remove-zeros-in-decimal-representation.py) |
 | 2026-09-14 | 🟠 LeetCode | [remove-zeros-in-decimal-representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation/) | [`remove-zeros-in-decimal-representation.py`](./LeetCode/remove-zeros-in-decimal-representation.py) |
 | 2026-09-14 | 🟠 LeetCode | [strong-password-checker-ii](https://leetcode.com/problems/strong-password-checker-ii/) | [`strong-password-checker-ii.py`](./LeetCode/strong-password-checker-ii.py) |
-| 2026-09-14 | 🟠 LeetCode | [contains-duplicate-ii](https://leetcode.com/problems/contains-duplicate-ii/) | [`contains-duplicate-ii.py`](./LeetCode/contains-duplicate-ii.py) |
 
 <!-- CP-AGENT:END -->

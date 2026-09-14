@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/move-zeroes/) &nbsp;|&nbsp; **Solved:** 2026-06-01
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/move-zeroes/) &nbsp;|&nbsp; **Solved:** 2025-12-09
 
 ---
 
@@ -34,14 +34,14 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
-        l=0
-        for i in range(len(nums)):
-            if nums[i]!=0:
-                nums[l]=nums[i]
-                l+=1
-        while l<len(nums):
-            nums[l]=0
-            l+=1
+        l = len(nums)
+        j = 0
+        for i in range(l):
+            if nums[i] != 0:
+                nums[j] = nums[i]
+                j+=1
+        for i in range(j,l):
+            nums[i] = 0
                 
         """
         Do not return anything, modify nums in-place instead.
