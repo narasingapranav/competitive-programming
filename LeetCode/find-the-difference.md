@@ -22,7 +22,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 | Time | Space |
 |:--:|:--:|
-| `~O(n^2) (estimated -- 2 nested loops)` | `~O(1) (estimated)` |
+| `~O(n) (estimated)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
@@ -34,14 +34,12 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def findTheDifference(self, s: str, t: str) -> str:
-        ans = 0
-        for c in t:
-            ans = ans+ ord(c)
-
-        for c in s:
-            ans =ans- ord(c) 
-                    
-        return chr(ans)
+        s=list(s)
+        t=list(t)
+        for i in s:
+            if i in t:
+                t.remove(i)
+        return t[0]
 ```
 
 </details>
