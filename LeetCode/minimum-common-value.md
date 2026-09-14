@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/minimum-common-value/) &nbsp;|&nbsp; **Solved:** 2026-05-19
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/minimum-common-value/) &nbsp;|&nbsp; **Solved:** 2025-12-12
 
 ---
 
