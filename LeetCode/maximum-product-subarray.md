@@ -2,31 +2,31 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-java-007396?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/maximum-product-subarray/) &nbsp;|&nbsp; **Solved:** 2026-08-07
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/maximum-product-subarray/) &nbsp;|&nbsp; **Solved:** 2025-12-10
 
 ---
 
 ## 📝 Summary
 
-Find the contiguous subarray within a given integer array that has the largest product and return that maximum product.
+Accepted solution for Maximum Product Subarray on LeetCode.
 
 ## 🔍 Key Observation
 
-The product of any contiguous subarray starting at index i and ending at index j can be computed iteratively by multiplying the accumulated product by nums[j].
+Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set one in .env for LLM-authored insight, or edit this section manually.
 
 ## ⚙️ Algorithm
 
-**Brute force enumeration**
+**Direct simulation / brute force**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `O(n^2)` | `O(1)` |
+| `~O(n) (estimated)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
-`array` `math`
+`untagged`
 
 <details>
 <summary>💻 View solution</summary>
@@ -34,16 +34,31 @@ The product of any contiguous subarray starting at index i and ending at index j
 ```java
 class Solution {
     public int maxProduct(int[] nums) {
-        int m=0;
-        if (nums.length==1) return nums[0];
-        for(int i=0;i<nums.length;i++){
-            int p=1;
-            for (int j=i;j<nums.length;j++){
-                p*=nums[j];
-                m=Math.max(p,m);
+        int l=1;
+        int r=1;
+        int ans=Integer.MIN_VALUE;
+        int n=nums.length;
+        for (int i=0;i<n;i++){
+            if (l==0){
+                l=nums[i];
             }
+            else{
+                l*=nums[i];
+            }
+            ans=Math.max(ans,l);
         }
-        return m;
+        for (int i=n-1;i>=0;i--){
+            if (r==0){
+                r=nums[i];
+            }
+            else{
+                r*=nums[i];
+            }
+            ans=Math.max(ans,r);
+        }
+        ans=Math.max(ans,r);
+        ans=Math.max(ans,l);
+        return ans;
     }
 }
 ```
