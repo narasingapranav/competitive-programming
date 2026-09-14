@@ -1,37 +1,3 @@
-# 🟠 minimum-number-of-days-to-disconnect-island — Minimum Number of Days to Disconnect Island
-
-![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-java-007396?style=flat-square)
-
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/minimum-number-of-days-to-disconnect-island/) &nbsp;|&nbsp; **Solved:** 2026-03-05
-
----
-
-## 📝 Summary
-
-Accepted solution for Minimum Number of Days to Disconnect Island on LeetCode.
-
-## 🔍 Key Observation
-
-Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set one in .env for LLM-authored insight, or edit this section manually.
-
-## ⚙️ Algorithm
-
-**Graph/tree traversal (BFS/DFS) + Recursion**
-
-## ⏱️ Complexity
-
-| Time | Space |
-|:--:|:--:|
-| `~O(n) (estimated)` | `~O(1) (estimated)` |
-
-## 🏷️ Tags
-
-`graph` `recursion`
-
-<details>
-<summary>💻 View solution</summary>
-
-```java
 class Solution {
     private int[] rowDir = {-1, 0, 1, 0};
     private int[] colDir = {0, 1, 0, -1};
@@ -86,6 +52,3 @@ class Solution {
         return 2;
     }
 }
-```
-
-</details>
