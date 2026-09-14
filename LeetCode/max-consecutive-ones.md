@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/max-consecutive-ones/) &nbsp;|&nbsp; **Solved:** 2026-02-27
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/max-consecutive-ones/) &nbsp;|&nbsp; **Solved:** 2025-12-20
 
 ---
 
@@ -34,16 +34,15 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def findMaxConsecutiveOnes(self, nums: List[int]) -> int:
-        pc=0
-        mc=0
+        m=0
+        c=0
         for i in nums:
-            if i==0:
-                mc=max(mc,pc)
-                pc=0
+            if i==1:
+                c+=1
+                m=max(m,c)
             else:
-                pc+=1
-        mc=max(mc,pc)
-        return mc
+                c=0
+        return m    
 ```
 
 </details>
