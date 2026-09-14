@@ -1,0 +1,49 @@
+# 🟠 generate-parentheses — Generate Parentheses
+
+![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
+
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/generate-parentheses/) &nbsp;|&nbsp; **Solved:** 2026-07-11
+
+---
+
+## 📝 Summary
+
+Accepted solution for Generate Parentheses on LeetCode.
+
+## 🔍 Key Observation
+
+Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set one in .env for LLM-authored insight, or edit this section manually.
+
+## ⚙️ Algorithm
+
+**Direct simulation / brute force**
+
+## ⏱️ Complexity
+
+| Time | Space |
+|:--:|:--:|
+| `O(1)–O(n) (estimated -- could not confidently infer)` | `~O(1) (estimated)` |
+
+## 🏷️ Tags
+
+`untagged`
+
+<details>
+<summary>💻 View solution</summary>
+
+```python
+class Solution:
+    def generateParenthesis(self, n: int) -> List[str]:
+        def utility(op,cp,temp,res,n):
+            if op+cp== 2*n:
+                res.append(temp)
+            if op<n:
+                utility(op+1,cp,temp+'(',res,n)
+            if cp<op:
+                utility(op,cp+1,temp+')',res,n)
+        res=[]
+        utility(0,0,"",res,n)
+        return res
+```
+
+</details>
