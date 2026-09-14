@@ -5,7 +5,7 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-373-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-179-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-312-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-374-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-180-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-313-FFA116?style=flat-square)
 
 _Last updated: 2026-09-14 15:01 UTC_
 
@@ -18,16 +18,17 @@ _Last updated: 2026-09-14 15:01 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **61** |
-| 🟠 LeetCode | **312** |
+| 🟠 LeetCode | **313** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-333-3776AB?style=flat-square) ![Java](https://img.shields.io/badge/Java-21-007396?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-16-555555?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square)
+![Python](https://img.shields.io/badge/Python-334-3776AB?style=flat-square) ![Java](https://img.shields.io/badge/Java-21-007396?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-16-555555?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-09-14 | 🟠 LeetCode | [coin-change](https://leetcode.com/problems/coin-change/) | [`coin-change.py`](./LeetCode/coin-change.py) |
 | 2026-09-14 | 🟠 LeetCode | [partition-equal-subset-sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [`partition-equal-subset-sum.py`](./LeetCode/partition-equal-subset-sum.py) |
 | 2026-09-14 | 🟠 LeetCode | [edit-distance](https://leetcode.com/problems/edit-distance/) | [`edit-distance.py`](./LeetCode/edit-distance.py) |
 | 2026-09-14 | 🟠 LeetCode | [subsets](https://leetcode.com/problems/subsets/) | [`subsets.java`](./LeetCode/subsets.java) |
@@ -37,6 +38,5 @@ _Last updated: 2026-09-14 15:01 UTC_
 | 2026-09-14 | 🟠 LeetCode | [path-with-maximum-gold](https://leetcode.com/problems/path-with-maximum-gold/) | [`path-with-maximum-gold.py`](./LeetCode/path-with-maximum-gold.py) |
 | 2026-09-14 | 🟠 LeetCode | [basic-calculator](https://leetcode.com/problems/basic-calculator/) | [`basic-calculator.py`](./LeetCode/basic-calculator.py) |
 | 2026-09-14 | 🟠 LeetCode | [path-with-maximum-gold](https://leetcode.com/problems/path-with-maximum-gold/) | [`path-with-maximum-gold.py`](./LeetCode/path-with-maximum-gold.py) |
-| 2026-09-14 | 🟠 LeetCode | [cheapest-flights-within-k-stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | [`cheapest-flights-within-k-stops.py`](./LeetCode/cheapest-flights-within-k-stops.py) |
 
 <!-- CP-AGENT:END -->
