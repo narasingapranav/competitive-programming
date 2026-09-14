@@ -2,31 +2,31 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/sort-colors/) &nbsp;|&nbsp; **Solved:** 2026-08-12
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/sort-colors/) &nbsp;|&nbsp; **Solved:** 2025-12-12
 
 ---
 
 ## 📝 Summary
 
-Given an array of objects colored red, white, or blue (represented as integers 0, 1, and 2), sort them in-place so that objects of the same color are adjacent in the order 0, 1, and 2.
+Accepted solution for Sort Colors on LeetCode.
 
 ## 🔍 Key Observation
 
-Maintaining three pointers (low, mid, and high) allows partitioning the array into three regions in a single pass by moving 0s to the left and 2s to the right.
+Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set one in .env for LLM-authored insight, or edit this section manually.
 
 ## ⚙️ Algorithm
 
-**Dutch National Flag Algorithm**
+**Direct simulation / brute force**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `O(n)` | `O(1)` |
+| `~O(n) (estimated)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
-`array` `two-pointers` `sorting`
+`untagged`
 
 <details>
 <summary>💻 View solution</summary>
