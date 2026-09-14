@@ -5,7 +5,7 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-273-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-79-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-212-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-274-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-80-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-213-FFA116?style=flat-square)
 
 _Last updated: 2026-09-14 14:53 UTC_
 
@@ -18,16 +18,17 @@ _Last updated: 2026-09-14 14:53 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **61** |
-| 🟠 LeetCode | **212** |
+| 🟠 LeetCode | **213** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-246-3776AB?style=flat-square) ![Java](https://img.shields.io/badge/Java-20-007396?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-4-555555?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square)
+![Python](https://img.shields.io/badge/Python-246-3776AB?style=flat-square) ![Java](https://img.shields.io/badge/Java-20-007396?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-5-555555?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-09-14 | 🟠 LeetCode | [managers-with-at-least-5-direct-reports](https://leetcode.com/problems/managers-with-at-least-5-direct-reports/) | [`managers-with-at-least-5-direct-reports.txt`](./LeetCode/managers-with-at-least-5-direct-reports.txt) |
 | 2026-09-14 | 🟠 LeetCode | [employee-bonus](https://leetcode.com/problems/employee-bonus/) | [`employee-bonus.txt`](./LeetCode/employee-bonus.txt) |
 | 2026-09-14 | 🟠 LeetCode | [find-customer-referee](https://leetcode.com/problems/find-customer-referee/) | [`find-customer-referee.txt`](./LeetCode/find-customer-referee.txt) |
 | 2026-09-14 | 🟠 LeetCode | [customer-placing-the-largest-number-of-orders](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/) | [`customer-placing-the-largest-number-of-orders.txt`](./LeetCode/customer-placing-the-largest-number-of-orders.txt) |
@@ -37,6 +38,5 @@ _Last updated: 2026-09-14 14:53 UTC_
 | 2026-09-14 | 🟠 LeetCode | [find-the-safest-path-in-a-grid](https://leetcode.com/problems/find-the-safest-path-in-a-grid/) | [`find-the-safest-path-in-a-grid.py`](./LeetCode/find-the-safest-path-in-a-grid.py) |
 | 2026-09-14 | 🟠 LeetCode | [magnetic-force-between-two-balls](https://leetcode.com/problems/magnetic-force-between-two-balls/) | [`magnetic-force-between-two-balls.py`](./LeetCode/magnetic-force-between-two-balls.py) |
 | 2026-09-14 | 🟠 LeetCode | [find-the-lexicographically-smallest-valid-sequence](https://leetcode.com/problems/find-the-lexicographically-smallest-valid-sequence/) | [`find-the-lexicographically-smallest-valid-sequence.py`](./LeetCode/find-the-lexicographically-smallest-valid-sequence.py) |
-| 2026-09-14 | 🟠 LeetCode | [group-anagrams](https://leetcode.com/problems/group-anagrams/) | [`group-anagrams.py`](./LeetCode/group-anagrams.py) |
 
 <!-- CP-AGENT:END -->
