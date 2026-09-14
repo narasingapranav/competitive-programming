@@ -1,6 +1,6 @@
 # 🟠 evaluate-reverse-polish-notation — Evaluate Reverse Polish Notation
 
-![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
+![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-java-007396?style=flat-square)
 
 **Problem link:** [View on LeetCode](https://leetcode.com/problems/evaluate-reverse-polish-notation/) &nbsp;|&nbsp; **Solved:** 2025-12-13
 
@@ -16,7 +16,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ## ⚙️ Algorithm
 
-**Direct simulation / brute force**
+**Graph/tree traversal (BFS/DFS)**
 
 ## ⏱️ Complexity
 
@@ -26,30 +26,31 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ## 🏷️ Tags
 
-`untagged`
+`graph`
 
 <details>
 <summary>💻 View solution</summary>
 
-```python
-class Solution:
-    def evalRPN(self, tokens: List[str]) -> int:
-        r=[]
-        for i in tokens:
-            if i not in '+*/-':
-                r.append(int(i))
-            else:
-                b=r.pop()
-                a=r.pop()
-                if i=='+':
-                    r.append(a+b)
-                elif i=='-':
-                    r.append(a-b)
-                elif i=='*':
-                    r.append(a*b)
-                elif i=='/':
-                    r.append(int(a/b))
-        return r.pop()
+```java
+class Solution {
+    public int evalRPN(String[] tokens) {
+        Stack<Integer> op =new Stack<>();  
+        for(String s:tokens){
+            if("+/-*".contains(s)){
+                int b=op.pop();
+                int a=op.pop();
+                if(s.equals("+")) op.push(a+b);
+                else if(s.equals("-")) op.push(a-b);
+                else if(s.equals("/")) op.push(a/b);
+                else if(s.equals("*")) op.push(a*b);
+            }
+            else{
+                op.push(Integer.parseInt(s));
+            }
+        } 
+        return(op.peek());
+    }
+}
 ```
 
 </details>
