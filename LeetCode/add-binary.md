@@ -22,7 +22,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 | Time | Space |
 |:--:|:--:|
-| `~O(n) (estimated)` | `~O(1) (estimated)` |
+| `O(1)–O(n) (estimated -- could not confidently infer)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
@@ -34,22 +34,10 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def addBinary(self, a: str, b: str) -> str:
-        i = len(a) - 1
-        j = len(b) - 1
-        carry = 0
-        result = []
-        while i >= 0 or j >= 0 or carry:
-            total = carry
-            if i >= 0:
-                total += int(a[i])
-                i -= 1
-            if j >= 0:
-                total += int(b[j])
-                j -= 1
-
-            result.append(str(total % 2))
-            carry = total // 2
-        return ''.join(result[::-1])
+        num_a = int(a, 2)
+        num_b = int(b, 2)
+        total = num_a + num_b
+        return bin(total)[2:]
 ```
 
 </details>
