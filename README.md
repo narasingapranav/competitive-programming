@@ -5,7 +5,7 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-249-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-55-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-188-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-250-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-56-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-189-FFA116?style=flat-square)
 
 _Last updated: 2026-09-14 14:51 UTC_
 
@@ -18,16 +18,17 @@ _Last updated: 2026-09-14 14:51 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **61** |
-| 🟠 LeetCode | **188** |
+| 🟠 LeetCode | **189** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-227-3776AB?style=flat-square) ![Java](https://img.shields.io/badge/Java-20-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-2-00599C?style=flat-square)
+![Python](https://img.shields.io/badge/Python-228-3776AB?style=flat-square) ![Java](https://img.shields.io/badge/Java-20-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-2-00599C?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-09-14 | 🟠 LeetCode | [distribute-elements-into-two-arrays-i](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | [`distribute-elements-into-two-arrays-i.py`](./LeetCode/distribute-elements-into-two-arrays-i.py) |
 | 2026-09-14 | 🟠 LeetCode | [distribute-elements-into-two-arrays-i](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | [`distribute-elements-into-two-arrays-i.py`](./LeetCode/distribute-elements-into-two-arrays-i.py) |
 | 2026-09-14 | 🟠 LeetCode | [check-divisibility-by-digit-sum-and-product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/) | [`check-divisibility-by-digit-sum-and-product.py`](./LeetCode/check-divisibility-by-digit-sum-and-product.py) |
 | 2026-09-14 | 🟠 LeetCode | [check-ascii-palindromic](https://leetcode.com/problems/check-ascii-palindromic/) | [`check-ascii-palindromic.py`](./LeetCode/check-ascii-palindromic.py) |
@@ -37,6 +38,5 @@ _Last updated: 2026-09-14 14:51 UTC_
 | 2026-09-14 | 🟠 LeetCode | [valid-k-unique-subarrays-i](https://leetcode.com/problems/valid-k-unique-subarrays-i/) | [`valid-k-unique-subarrays-i.py`](./LeetCode/valid-k-unique-subarrays-i.py) |
 | 2026-09-14 | 🟠 LeetCode | [sum-game](https://leetcode.com/problems/sum-game/) | [`sum-game.py`](./LeetCode/sum-game.py) |
 | 2026-09-14 | 🟠 LeetCode | [valid-number](https://leetcode.com/problems/valid-number/) | [`valid-number.py`](./LeetCode/valid-number.py) |
-| 2026-09-14 | 🟠 LeetCode | [valid-k-unique-subarrays-i](https://leetcode.com/problems/valid-k-unique-subarrays-i/) | [`valid-k-unique-subarrays-i.py`](./LeetCode/valid-k-unique-subarrays-i.py) |
 
 <!-- CP-AGENT:END -->
