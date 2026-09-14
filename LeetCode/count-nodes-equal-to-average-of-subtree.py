@@ -9,16 +9,19 @@ class Solution:
         if root:
             c=0
             t=0
-            ans=0
             left=self.sumofsubtree(root.left)
             right=self.sumofsubtree(root.right)
             t=root.val+left[0]+right[0]
-            ans=left[2]+right[2]
             c+=1+left[1]+right[1]
-            if t//c==root.val:
-                ans+=1
-            return (t,c,ans)
-        return (0,0,0)
+            return (t,c)
+        return (0,0)
     def averageOfSubtree(self, root: TreeNode) -> int:
-        total,count,ans=self.sumofsubtree(root)
+        ans=0
+        if root:
+            total,count=self.sumofsubtree(root)
+            if total//count==root.val:
+                ans+=1
+            left=self.averageOfSubtree(root.left)
+            right=self.averageOfSubtree(root.right)
+            ans+=left+right
         return ans

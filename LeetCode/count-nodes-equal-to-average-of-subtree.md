@@ -8,25 +8,25 @@
 
 ## 📝 Summary
 
-Count the number of nodes in a binary tree whose value is equal to the average of the values in its subtree (rounded down).
+Count the number of nodes in a binary tree whose value is equal to the average of all values in their subtree, rounded down.
 
 ## 🔍 Key Observation
 
-Using a post-order traversal, each subtree can return its total sum, node count, and valid node count to its parent, enabling the parent to evaluate its condition in O(1) time.
+A subtree's sum and node count can be computed recursively from the sum and node count of its left and right subtrees.
 
 ## ⚙️ Algorithm
 
-**Post-order Traversal (DFS)**
+**Depth-first search (DFS)**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `O(n)` | `O(h)` |
+| `O(n^2)` | `O(n)` |
 
 ## 🏷️ Tags
 
-`tree` `depth-first search` `binary tree`
+`tree` `depth-first-search` `binary-tree`
 
 <details>
 <summary>💻 View solution</summary>
@@ -43,18 +43,21 @@ class Solution:
         if root:
             c=0
             t=0
-            ans=0
             left=self.sumofsubtree(root.left)
             right=self.sumofsubtree(root.right)
             t=root.val+left[0]+right[0]
-            ans=left[2]+right[2]
             c+=1+left[1]+right[1]
-            if t//c==root.val:
-                ans+=1
-            return (t,c,ans)
-        return (0,0,0)
+            return (t,c)
+        return (0,0)
     def averageOfSubtree(self, root: TreeNode) -> int:
-        total,count,ans=self.sumofsubtree(root)
+        ans=0
+        if root:
+            total,count=self.sumofsubtree(root)
+            if total//count==root.val:
+                ans+=1
+            left=self.averageOfSubtree(root.left)
+            right=self.averageOfSubtree(root.right)
+            ans+=left+right
         return ans
 ```
 
