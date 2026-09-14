@@ -1,53 +1,59 @@
 class Solution:
-    def maximumScore(self, grid: list[list[int]]) -> int:
-        n = len(grid)
-        pref = [[0] * (n + 1) for _ in range(n)]
-        for j in range(n):
-            for i in range(n):
-                pref[j][i + 1] = pref[j][i] + grid[i][j]
+    def maximumScore(self, grid: List[List[int]]) -> int:
+        n = len(grid[0])
+        if n == 1:
+            return 0
 
-        dp = [[-float('inf')] * (n + 1) for _ in range(2)]
-        for h in range(n + 1):
-            dp[0][h] = 0
+        dp = [[[0] * (n + 1) for _ in range(n + 1)] for _ in range(n)]
+        prev_max = [[0] * (n + 1) for _ in range(n + 1)]
+        prev_suffix_max = [[0] * (n + 1) for _ in range(n + 1)]
+        col_sum = [[0] * (n + 1) for _ in range(n)]
 
-        for j in range(1, n):
-            new_dp = [[-float('inf')] * (n + 1) for _ in range(2)]
-            
-            p_max = -float('inf')
-            for h in range(n + 1):
-                p_max = max(p_max, dp[0][h] - pref[j-1][h])
-                new_dp[0][h] = max(new_dp[0][h], p_max + pref[j-1][h])
-            
-            p_max = -float('inf')
-            for h in range(n, -1, -1):
-                p_max = max(p_max, dp[0][h], dp[1][h])
-                new_dp[1][h] = max(new_dp[1][h], p_max + pref[j][h] - pref[j][h]) 
+        for c in range(n):
+            for r in range(1, n + 1):
+                col_sum[c][r] = col_sum[c][r - 1] + grid[r - 1][c]
 
-            p_max = -float('inf')
-            for h in range(n, -1, -1):
-                p_max = max(p_max, dp[0][h], dp[1][h])
-                if h < n + 1:
-                    new_dp[0][0] = max(new_dp[0][0], p_max)
+        for i in range(1, n):
+            for curr_h in range(n + 1):
+                for prev_h in range(n + 1):
+                    if curr_h <= prev_h:
+                        extra_score = col_sum[i][prev_h] - col_sum[i][curr_h]
+                        dp[i][curr_h][prev_h] = max(
+                            dp[i][curr_h][prev_h],
+                            prev_suffix_max[prev_h][0] + extra_score,
+                        )
+                    else:
+                        extra_score = (
+                            col_sum[i - 1][curr_h] - col_sum[i - 1][prev_h]
+                        )
+                        dp[i][curr_h][prev_h] = max(
+                            dp[i][curr_h][prev_h],
+                            prev_suffix_max[prev_h][curr_h],
+                            prev_max[prev_h][curr_h] + extra_score,
+                        )
 
-            p_max = -float('inf')
-            for h in range(n, -1, -1):
-                p_max = max(p_max, dp[0][h] + pref[j][h], dp[1][h] + pref[j][h])
-                new_dp[1][h] = max(new_dp[1][h], p_max - pref[j][h])
-            
-            p_max = -float('inf')
-            for h in range(n + 1):
-                p_max = max(p_max, dp[1][h])
-                new_dp[1][h] = max(new_dp[1][h], p_max)
+            for curr_h in range(n + 1):
+                prev_max[curr_h][0] = dp[i][curr_h][0]
+                for prev_h in range(1, n + 1):
+                    penalty = (
+                        col_sum[i][prev_h] - col_sum[i][curr_h]
+                        if prev_h > curr_h
+                        else 0
+                    )
+                    prev_max[curr_h][prev_h] = max(
+                        prev_max[curr_h][prev_h - 1],
+                        dp[i][curr_h][prev_h] - penalty,
+                    )
 
-            p_max = -float('inf')
-            for h in range(n + 1):
-                p_max = max(p_max, dp[0][h], dp[1][h])
-                new_dp[0][h] = max(new_dp[0][h], p_max)
-                
-            dp = new_dp
+                prev_suffix_max[curr_h][n] = dp[i][curr_h][n]
+                for prev_h in range(n - 1, -1, -1):
+                    prev_suffix_max[curr_h][prev_h] = max(
+                        prev_suffix_max[curr_h][prev_h + 1],
+                        dp[i][curr_h][prev_h],
+                    )
 
-        res = 0
-        for state in range(2):
-            for h in range(n + 1):
-                res = max(res, dp[state][h])
-        return res
+        ans = 0
+        for k in range(n + 1):
+            ans = max(ans, dp[n - 1][n][k], dp[n - 1][0][k])
+
+        return ans
