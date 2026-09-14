@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-unknown-555555?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/) &nbsp;|&nbsp; **Solved:** 2026-07-22
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/) &nbsp;|&nbsp; **Solved:** 2026-05-24
 
 ---
 
@@ -33,7 +33,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 
 ```
 # Write your MySQL query statement below
-select customer_number from Orders group by customer_number order by count(*) desc limit 1
+select customer_number from (select customer_number,count(*) as c from Orders group by customer_number) e where c=(select max(c) from (select count(*) as c from Orders group by customer_number)t)
 ```
 
 </details>
