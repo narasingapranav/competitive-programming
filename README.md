@@ -5,7 +5,7 @@ problems and committing here is fully hands-off.
 
 <!-- CP-AGENT:START -->
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-610-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-416-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-549-FFA116?style=flat-square)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-611-2E8B57?style=flat-square) ![Solved Today](https://img.shields.io/badge/Solved%20Today-417-4C8BF5?style=flat-square) ![Streak](https://img.shields.io/badge/Streak-1%20days%20%E2%9C%A8-E25822?style=flat-square) ![Codeforces](https://img.shields.io/badge/Codeforces-61-1F8ACB?style=flat-square) ![LeetCode](https://img.shields.io/badge/LeetCode-550-FFA116?style=flat-square)
 
 _Last updated: 2026-09-14 15:21 UTC_
 
@@ -18,16 +18,17 @@ _Last updated: 2026-09-14 15:21 UTC_
 | Platform | Solved |
 |:--|--:|
 | 🔵 Codeforces | **61** |
-| 🟠 LeetCode | **549** |
+| 🟠 LeetCode | **550** |
 
 ### By language
 
-![Python](https://img.shields.io/badge/Python-513-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-72-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-21-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
+![Python](https://img.shields.io/badge/Python-513-3776AB?style=flat-square) ![TXT](https://img.shields.io/badge/TXT-73-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-21-007396?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square) ![C](https://img.shields.io/badge/C-1-A8B9CC?style=flat-square)
 
 ### 🕓 Recent submissions
 
 | Date | Platform | Problem | Solution |
 |:--|:--|:--|:--|
+| 2026-09-14 | 🟠 LeetCode | [triangle-judgement](https://leetcode.com/problems/triangle-judgement/) | [`triangle-judgement.txt`](./LeetCode/triangle-judgement.txt) |
 | 2026-09-14 | 🟠 LeetCode | [fix-names-in-a-table](https://leetcode.com/problems/fix-names-in-a-table/) | [`fix-names-in-a-table.txt`](./LeetCode/fix-names-in-a-table.txt) |
 | 2026-09-14 | 🟠 LeetCode | [patients-with-a-condition](https://leetcode.com/problems/patients-with-a-condition/) | [`patients-with-a-condition.txt`](./LeetCode/patients-with-a-condition.txt) |
 | 2026-09-14 | 🟠 LeetCode | [group-sold-products-by-the-date](https://leetcode.com/problems/group-sold-products-by-the-date/) | [`group-sold-products-by-the-date.txt`](./LeetCode/group-sold-products-by-the-date.txt) |
@@ -37,6 +38,5 @@ _Last updated: 2026-09-14 15:21 UTC_
 | 2026-09-14 | 🟠 LeetCode | [minimum-swaps-to-move-zeros-to-end](https://leetcode.com/problems/minimum-swaps-to-move-zeros-to-end/) | [`minimum-swaps-to-move-zeros-to-end.py`](./LeetCode/minimum-swaps-to-move-zeros-to-end.py) |
 | 2026-09-14 | 🟠 LeetCode | [count-non-adjacent-subsets-in-a-rooted-tree](https://leetcode.com/problems/count-non-adjacent-subsets-in-a-rooted-tree/) | [`count-non-adjacent-subsets-in-a-rooted-tree.py`](./LeetCode/count-non-adjacent-subsets-in-a-rooted-tree.py) |
 | 2026-09-14 | 🟠 LeetCode | [minimum-swaps-to-move-zeros-to-end](https://leetcode.com/problems/minimum-swaps-to-move-zeros-to-end/) | [`minimum-swaps-to-move-zeros-to-end.py`](./LeetCode/minimum-swaps-to-move-zeros-to-end.py) |
-| 2026-09-14 | 🟠 LeetCode | [minimum-operations-to-make-array-modulo-alternating-i](https://leetcode.com/problems/minimum-operations-to-make-array-modulo-alternating-i/) | [`minimum-operations-to-make-array-modulo-alternating-i.py`](./LeetCode/minimum-operations-to-make-array-modulo-alternating-i.py) |
 
 <!-- CP-AGENT:END -->
