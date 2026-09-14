@@ -2,31 +2,31 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/happy-number/) &nbsp;|&nbsp; **Solved:** 2026-08-08
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/happy-number/) &nbsp;|&nbsp; **Solved:** 2025-08-15
 
 ---
 
 ## 📝 Summary
 
-Determine if repeatedly replacing a number with the sum of the squares of its digits eventually leads to 1.
+Accepted solution for Happy Number on LeetCode.
 
 ## 🔍 Key Observation
 
-The sequence of digit square sums is bounded and will either terminate at 1 or enter a repeating cycle, which can be detected by storing seen values.
+Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set one in .env for LLM-authored insight, or edit this section manually.
 
 ## ⚙️ Algorithm
 
-**Hash set cycle detection**
+**Hash map/set lookup**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `O(log n)` | `O(log n)` |
+| `~O(n^2) (estimated -- 2 nested loops)` | `~O(n) (estimated)` |
 
 ## 🏷️ Tags
 
-`hash-table` `math` `cycle-detection`
+`hash-map`
 
 <details>
 <summary>💻 View solution</summary>
@@ -34,14 +34,16 @@ The sequence of digit square sums is bounded and will either terminate at 1 or e
 ```python
 class Solution:
     def isHappy(self, n: int) -> bool:
-        s = set()
-        while n not in s:
+        s=set()
+        while n!=1 and n not in s:
             s.add(n)
-            su = 0
-            for i in str(n):
-                su += int(i) ** 2
-            n = su
-        return n == 1
+            sum=0
+            while n>0:
+                rem=n%10
+                sum+=rem**2
+                n//=10
+            n=sum
+        return n==1
 ```
 
 </details>
