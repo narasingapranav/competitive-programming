@@ -43,7 +43,7 @@ class Solution:
                 l+=i
             else:
                 m+=i
-        return f+l+m
+        return f+m+l
 ```
 
 </details>
