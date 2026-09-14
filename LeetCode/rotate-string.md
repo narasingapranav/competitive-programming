@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/rotate-string/) &nbsp;|&nbsp; **Solved:** 2026-05-03
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/rotate-string/) &nbsp;|&nbsp; **Solved:** 2025-10-11
 
 ---
 
@@ -34,7 +34,7 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 ```python
 class Solution:
     def rotateString(self, s: str, goal: str) -> bool:
-        if len(s) != len(goal):
+        if len(s)!=len(goal):
             return False
         return goal in s+s
 ```
