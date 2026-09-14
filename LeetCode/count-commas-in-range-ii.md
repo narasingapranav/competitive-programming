@@ -2,21 +2,21 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/count-commas-in-range-ii/) &nbsp;|&nbsp; **Solved:** 2026-09-09
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/count-commas-in-range-ii/) &nbsp;|&nbsp; **Solved:** 2026-09-08
 
 ---
 
 ## 📝 Summary
 
-Calculate the total number of commas required to write all integers from 1 to n (inclusive) using standard thousands separators.
+Calculate the total number of commas used when formatting all integers from 1 to n with thousand separators.
 
 ## 🔍 Key Observation
 
-The number of commas per integer is constant within intervals defined by powers of 1000 (e.g., 10^3 to 10^6-1 has 1 comma, 10^6 to 10^9-1 has 2 commas), allowing direct constant-time computation for each interval.
+Numbers within specific digit count ranges (e.g., 4 to 6 digits, 7 to 9 digits) each contain a constant number of commas, allowing direct O(1) mathematical computation based on magnitude ranges.
 
 ## ⚙️ Algorithm
 
-**Math / Range decomposition**
+**Math / Case Analysis**
 
 ## ⏱️ Complexity
 
@@ -46,6 +46,7 @@ class Solution:
             return 4 + 999000 + 1998000000 + 2997000000000 + (n - 1000000000000) * 4
         if n == 1000000000000000:
             return 5 + 999000 + 1998000000 + 2997000000000 + 3996000000000000 
+
 ```
 
 </details>
