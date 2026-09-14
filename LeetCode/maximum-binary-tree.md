@@ -8,25 +8,25 @@
 
 ## 📝 Summary
 
-Given an integer array with unique values, construct a maximum binary tree where the root is the maximum value, and its left and right subtrees are built recursively from the prefix and suffix subarrays.
+Accepted solution for Maximum Binary Tree on LeetCode.
 
 ## 🔍 Key Observation
 
-A monotonic decreasing stack can construct the tree in linear time: each new node pops smaller nodes from the stack to set as its left subtree, and then attaches itself as the right child of the nearest larger element remaining on the stack.
+Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set one in .env for LLM-authored insight, or edit this section manually.
 
 ## ⚙️ Algorithm
 
-**Monotonic stack**
+**Two pointers**
 
 ## ⏱️ Complexity
 
 | Time | Space |
 |:--:|:--:|
-| `O(n)` | `O(n)` |
+| `~O(n) (estimated)` | `~O(1) (estimated)` |
 
 ## 🏷️ Tags
 
-`tree` `binary-tree` `stack` `monotonic-stack`
+`untagged`
 
 <details>
 <summary>💻 View solution</summary>
@@ -40,15 +40,13 @@ A monotonic decreasing stack can construct the tree in linear time: each new nod
 #         self.right = right
 class Solution:
     def constructMaximumBinaryTree(self, nums: List[int]) -> Optional[TreeNode]:
-        stack = []
-        for num in nums:
-            curr = TreeNode(num)
-            while stack and stack[-1].val < num:
-                curr.left = stack.pop()
-            if stack:
-                stack[-1].right = curr
-            stack.append(curr)
-        return stack[0]
+        if not nums:
+            return None
+        mi=nums.index(max(nums))
+        root=TreeNode(nums[mi])
+        root.left=self.constructMaximumBinaryTree(nums[:mi])
+        root.right=self.constructMaximumBinaryTree(nums[mi+1:])
+        return root
 ```
 
 </details>
