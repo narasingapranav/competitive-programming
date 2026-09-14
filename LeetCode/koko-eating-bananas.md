@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square) ![Language](https://img.shields.io/badge/Language-python-3776AB?style=flat-square)
 
-**Problem link:** [View on LeetCode](https://leetcode.com/problems/koko-eating-bananas/) &nbsp;|&nbsp; **Solved:** 2026-07-22
+**Problem link:** [View on LeetCode](https://leetcode.com/problems/koko-eating-bananas/) &nbsp;|&nbsp; **Solved:** 2026-07-04
 
 ---
 
@@ -32,21 +32,23 @@ Auto-generated from source-code heuristics (no GEMINI_API_KEY configured) -- set
 <summary>💻 View solution</summary>
 
 ```python
+import math
 class Solution:
     def minEatingSpeed(self, piles: List[int], h: int) -> int:
+        if len(piles)==h:
+            return max(piles)
         low=1
         high=max(piles)
-        while low<=high:
-            mid=(low+high)//2
-            hrs=0
+        while low<high:
+            mid= low +(high-low)//2
+            a=0
             for i in piles:
-                hrs+=math.ceil(i/mid)
-            if hrs>h:
-                low=mid+1
+                a+=math.ceil(i/mid)
+            if a<=h:
+                high=mid
             else:
-                high=mid-1
+                low=mid+1
         return low
-
 ```
 
 </details>
